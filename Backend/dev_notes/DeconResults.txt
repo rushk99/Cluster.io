@@ -1,0 +1,37 @@
+8/3 After fixing indexing errors and zeroing all arrays before hand
+
+Distribution #0
+Mean 19.04487225791855
+St. Dev. 3.3885914845320437
+Fraction 0.5940860215053764
+-------------------
+Distribution #1
+Mean 32.480483659090915
+St. Dev. 3.9986207645374723
+Fraction 0.3548387096774194
+-------------------
+Distribution #2
+Mean 44.188723624999994
+St. Dev. 1.999387041348169
+Fraction 0.043010752688172046
+-------------------
+
+
+8/3 Proper labels and colors
+
+Distribution #0
+Mean 19.19059593362832
+St. Dev. 3.4881744886072577
+Fraction 0.6075268817204301
+-------------------
+Distribution #1
+Mean 32.55269213709678
+St. Dev. 3.6710244669233973
+Fraction 0.3333333333333333
+-------------------
+Distribution #2
+Mean 43.71823336842105
+St. Dev. 2.134131563628097
+Fraction 0.051075268817204304
+-------------------
+

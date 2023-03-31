@@ -1,0 +1,2535 @@
+C:\Users\Christopher\AppData\Local\Programs\Python\Python37\python.exe "D:\Materials Science Project\PyCharm\PyCharm 2020.1.2\plugins\python\helpers\pydev\pydevconsole.py" --mode=client --port=51927
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['D:\\Materials Science Project\\NanomechanicalMappingBackend', 'D:\\Materials Science Project\\NanomechanicalMappingBackend\\Backend', 'D:/Materials Science Project/NanomechanicalMappingBackend'])
+PyDev console: starting.
+Python 3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)] on win32
+>>> runfile('D:/Materials Science Project/NanomechanicalMappingBackend/Backend/testing/PerformClusteringRandIndexSetDetails_Chris_Efficient.py', wdir='D:/Materials Science Project/NanomechanicalMappingBackend/Backend/testing')
+../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx format_2
+K Means 1
+Clustering Method: K Means
+	Clustering Details:
+		num_clusters: 2
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Means 2
+Clustering Method: K Means
+	Clustering Details:
+		num_clusters: 3
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Means 3
+Clustering Method: K Means
+	Clustering Details:
+		num_clusters: 4
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Means 4
+Clustering Method: K Means
+	Clustering Details:
+		num_clusters: 5
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Means 5
+Clustering Method: K Means
+	Clustering Details:
+		num_clusters: 6
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Deconvolution 1
+Clustering Method: Deconvolution
+	Clustering Details:
+		m_val: 3
+		max_iter: 1500
+		limit: 0.000001
+		label: Hardness
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Deconvolution 2
+Clustering Method: Deconvolution
+	Clustering Details:
+		m_val: 3
+		max_iter: 5000
+		limit: 0.000001
+		label: Hardness
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Deconvolution 3
+Clustering Method: Deconvolution
+	Clustering Details:
+		m_val: 3
+		max_iter: 1500
+		limit: 0.000000001
+		label: Hardness
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Deconvolution 4
+Clustering Method: Deconvolution
+	Clustering Details:
+		m_val: 3
+		max_iter: 100
+		limit: 0.000001
+		label: Hardness
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 1
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 2
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 2
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 3
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 3
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 4
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 4
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 5
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 5
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 6
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 6
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 7
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 7
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 3
+		init: random
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 8
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 3
+		init: heuristic
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+K Medoids 9
+Clustering Method: K Medoids
+	Clustering Details:
+		num_clusters: 3
+		init: k-medoids++
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 1
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 2
+		linkage: ward
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 2
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 2
+		linkage: complete
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 3
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 2
+		linkage: average
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 4
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 2
+		linkage: single
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 5
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 3
+		linkage: ward
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 6
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 3
+		linkage: complete
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 7
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 3
+		linkage: average
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 8
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 3
+		linkage: single
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 9
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 4
+		linkage: ward
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 10
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 4
+		linkage: complete
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 11
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 4
+		linkage: average
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Agglomerative 12
+Clustering Method: Agglomerative
+	Clustering Details:
+		num_clusters: 4
+		linkage: single
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 1
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 2
+		assign_labels: discretize
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 2
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 3
+		assign_labels: discretize
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 3
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 4
+		assign_labels: discretize
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 4
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 5
+		assign_labels: discretize
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 5
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 6
+		assign_labels: discretize
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 6
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 2
+		assign_labels: kmeans
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 7
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 3
+		assign_labels: kmeans
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 8
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 4
+		assign_labels: kmeans
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 9
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 5
+		assign_labels: kmeans
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Spectral 10
+Clustering Method: Spectral
+	Clustering Details:
+		num_clusters: 6
+		assign_labels: kmeans
+		affinity: rbf
+		random_state: 0
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Birch 1
+Clustering Method: Birch
+	Clustering Details:
+		num_clusters: 2
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Birch 2
+Clustering Method: Birch
+	Clustering Details:
+		num_clusters: 3
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Birch 3
+Clustering Method: Birch
+	Clustering Details:
+		num_clusters: 4
+	File Name: ../data/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx
+	File Format: format_2
+	Clustering Column: Hardness
+	Show Raw Data: False
+	Show Clustered Contour Plot: False
+	Show Bar Graph: False
+	Remove Outliers: True
+Reading Data...
+PreProcessing Data...
+Clustering Data...
+Clustering Data with clustering method: K Means 1
+Clustering Data with clustering method: K Means 2
+Clustering Data with clustering method: K Means 3
+Clustering Data with clustering method: K Means 4
+Clustering Data with clustering method: K Means 5
+Clustering Data with clustering method: Deconvolution 1
+The interval between bins is 0.2373046875
+Distribution #0
+Mean 7.8225330636790105
+St. Dev. 0.3219296168605179
+Fraction 0.3202
+-------------------
+The sum of the p2 list is 0.3201999999999013
+Distribution #1
+Mean 9.927688462844023
+St. Dev. 0.8842614132403386
+Fraction 0.6793
+-------------------
+The sum of the p2 list is 0.6790523949010873
+Distribution #2
+Mean 12.831977367401123
+St. Dev. 0.02812814712524414
+Fraction 0.0002
+-------------------
+The sum of the p2 list is 0.0001955455846075218
+Clustering Data with clustering method: Deconvolution 2
+The interval between bins is 0.2373046875
+Distribution #0
+Mean 7.77338655020619
+St. Dev. 0.2967416091989577
+Fraction 0.2905
+-------------------
+The sum of the p2 list is 0.2905000000000128
+Distribution #1
+Mean 8.386200406210763
+St. Dev. 0.08401957150640514
+Fraction 0.07
+-------------------
+The sum of the p2 list is 0.05875060916267821
+Distribution #2
+Mean 10.022594582867356
+St. Dev. 0.828913257933047
+Fraction 0.6392
+-------------------
+The sum of the p2 list is 0.6390461194308984
+Clustering Data with clustering method: Deconvolution 3
+The interval between bins is 0.2373046875
+Distribution #0
+Mean 7.816280139952162
+St. Dev. 0.3185377672406876
+Fraction 0.3165
+-------------------
+The sum of the p2 list is 0.31649999999993683
+Distribution #1
+Mean 9.919586754987167
+St. Dev. 0.8899166763983989
+Fraction 0.6831
+-------------------
+The sum of the p2 list is 0.6828394350311363
+Distribution #2
+Mean 0.0
+St. Dev. 0.0
+Fraction 0.0001
+-------------------
+C:\Users\Christopher\AppData\Local\Programs\Python\Python37\lib\site-packages\scipy\stats\_distn_infrastructure.py:1740: RuntimeWarning: divide by zero encountered in true_divide
+  x = np.asarray((x - loc)/scale, dtype=dtyp)
+The sum of the p2 list is 0.0
+Clustering Data with clustering method: Deconvolution 4
+The interval between bins is 0.2373046875
+Distribution #0
+Mean 0.0
+St. Dev. 0.0
+Fraction 0.0
+-------------------
+C:\Users\Christopher\AppData\Local\Programs\Python\Python37\lib\site-packages\scipy\stats\_distn_infrastructure.py:1740: RuntimeWarning: divide by zero encountered in true_divide
+  x = np.asarray((x - loc)/scale, dtype=dtyp)
+The sum of the p2 list is 0.0
+Distribution #1
+Mean 7.816280139952162
+St. Dev. 0.3185377672406876
+Fraction 0.3165
+-------------------
+The sum of the p2 list is 0.31649999999993683
+Distribution #2
+Mean 9.920439203578537
+St. Dev. 0.8911801484952948
+Fraction 0.6833
+-------------------
+The sum of the p2 list is 0.6830338600763456
+Clustering Data with clustering method: K Medoids 1
+Clustering Data with clustering method: K Medoids 2
+Clustering Data with clustering method: K Medoids 3
+Clustering Data with clustering method: K Medoids 4
+Clustering Data with clustering method: K Medoids 5
+Clustering Data with clustering method: K Medoids 6
+Clustering Data with clustering method: K Medoids 7
+Clustering Data with clustering method: K Medoids 8
+Clustering Data with clustering method: K Medoids 9
+Clustering Data with clustering method: Agglomerative 1
+Clustering Data with clustering method: Agglomerative 2
+Clustering Data with clustering method: Agglomerative 3
+Clustering Data with clustering method: Agglomerative 4
+Clustering Data with clustering method: Agglomerative 5
+Clustering Data with clustering method: Agglomerative 6
+Clustering Data with clustering method: Agglomerative 7
+Clustering Data with clustering method: Agglomerative 8
+Clustering Data with clustering method: Agglomerative 9
+Clustering Data with clustering method: Agglomerative 10
+Clustering Data with clustering method: Agglomerative 11
+Clustering Data with clustering method: Agglomerative 12
+Clustering Data with clustering method: Spectral 1
+Clustering Data with clustering method: Spectral 2
+Clustering Data with clustering method: Spectral 3
+Clustering Data with clustering method: Spectral 4
+Clustering Data with clustering method: Spectral 5
+Clustering Data with clustering method: Spectral 6
+Clustering Data with clustering method: Spectral 7
+Clustering Data with clustering method: Spectral 8
+Clustering Data with clustering method: Spectral 9
+Clustering Data with clustering method: Spectral 10
+Clustering Data with clustering method: Birch 1
+Clustering Data with clustering method: Birch 2
+Clustering Data with clustering method: Birch 3
+1.0 is the rand index between clusters K Means 1 and K Means 1
+0.5165165022381504 is the rand index between clusters K Means 1 and K Means 2
+0.45374556625686 is the rand index between clusters K Means 1 and K Means 3
+0.35909838134296734 is the rand index between clusters K Means 1 and K Means 4
+0.3075364631778398 is the rand index between clusters K Means 1 and K Means 5
+0.5267255248406872 is the rand index between clusters K Means 1 and Deconvolution 1
+0.48161462843657354 is the rand index between clusters K Means 1 and Deconvolution 2
+0.5189212216249656 is the rand index between clusters K Means 1 and Deconvolution 3
+0.5189212216249656 is the rand index between clusters K Means 1 and Deconvolution 4
+0.9416703081011281 is the rand index between clusters K Means 1 and K Medoids 1
+0.5256731140529253 is the rand index between clusters K Means 1 and K Medoids 2
+0.4793438046290549 is the rand index between clusters K Means 1 and K Medoids 3
+0.3492528078490241 is the rand index between clusters K Means 1 and K Medoids 4
+0.33003258658683104 is the rand index between clusters K Means 1 and K Medoids 5
+0.26994147513730965 is the rand index between clusters K Means 1 and K Medoids 6
+0.5256731140529253 is the rand index between clusters K Means 1 and K Medoids 7
+0.5256731140529253 is the rand index between clusters K Means 1 and K Medoids 8
+0.5258616398700454 is the rand index between clusters K Means 1 and K Medoids 9
+0.566961955795852 is the rand index between clusters K Means 1 and Agglomerative 1
+0.905533050795328 is the rand index between clusters K Means 1 and Agglomerative 2
+-3.108339739737143e-05 is the rand index between clusters K Means 1 and Agglomerative 3
+1.3253415507817035e-05 is the rand index between clusters K Means 1 and Agglomerative 4
+0.4669104714135234 is the rand index between clusters K Means 1 and Agglomerative 5
+0.8137229794629547 is the rand index between clusters K Means 1 and Agglomerative 6
+0.538835405999613 is the rand index between clusters K Means 1 and Agglomerative 7
+1.9920125962368793e-05 is the rand index between clusters K Means 1 and Agglomerative 8
+0.31987871000808726 is the rand index between clusters K Means 1 and Agglomerative 9
+0.6607675095080625 is the rand index between clusters K Means 1 and Agglomerative 10
+0.5384047097744048 is the rand index between clusters K Means 1 and Agglomerative 11
+7.006638567541514e-06 is the rand index between clusters K Means 1 and Agglomerative 12
+0.9506200491901253 is the rand index between clusters K Means 1 and Spectral 1
+0.4718436711475345 is the rand index between clusters K Means 1 and Spectral 2
+0.4424212175503118 is the rand index between clusters K Means 1 and Spectral 3
+0.3937233152192519 is the rand index between clusters K Means 1 and Spectral 4
+0.3332927707360955 is the rand index between clusters K Means 1 and Spectral 5
+0.9584368350147625 is the rand index between clusters K Means 1 and Spectral 6
+0.4278578179741447 is the rand index between clusters K Means 1 and Spectral 7
+0.42917880378300827 is the rand index between clusters K Means 1 and Spectral 8
+0.4627595961808742 is the rand index between clusters K Means 1 and Spectral 9
+0.5083924575687638 is the rand index between clusters K Means 1 and Spectral 10
+0.8419737103526361 is the rand index between clusters K Means 1 and Birch 1
+0.6262497281277916 is the rand index between clusters K Means 1 and Birch 2
+0.4237180083697095 is the rand index between clusters K Means 1 and Birch 3
+0.5165165022381504 is the rand index between clusters K Means 2 and K Means 1
+1.0 is the rand index between clusters K Means 2 and K Means 2
+0.550020932000963 is the rand index between clusters K Means 2 and K Means 3
+0.5021845194022733 is the rand index between clusters K Means 2 and K Means 4
+0.5311450805356621 is the rand index between clusters K Means 2 and K Means 5
+0.48652621143115626 is the rand index between clusters K Means 2 and Deconvolution 1
+0.43458947894600686 is the rand index between clusters K Means 2 and Deconvolution 2
+0.4771610932921978 is the rand index between clusters K Means 2 and Deconvolution 3
+0.4771610932921978 is the rand index between clusters K Means 2 and Deconvolution 4
+0.5312968874332135 is the rand index between clusters K Means 2 and K Medoids 1
+0.8912167477037994 is the rand index between clusters K Means 2 and K Medoids 2
+0.5749836287842844 is the rand index between clusters K Means 2 and K Medoids 3
+0.502487091591769 is the rand index between clusters K Means 2 and K Medoids 4
+0.45867843588722323 is the rand index between clusters K Means 2 and K Medoids 5
+0.39736789745712187 is the rand index between clusters K Means 2 and K Medoids 6
+0.8912167477037994 is the rand index between clusters K Means 2 and K Medoids 7
+0.8912167477037994 is the rand index between clusters K Means 2 and K Medoids 8
+0.8915123305406282 is the rand index between clusters K Means 2 and K Medoids 9
+0.4727613988183349 is the rand index between clusters K Means 2 and Agglomerative 1
+0.5417180221675841 is the rand index between clusters K Means 2 and Agglomerative 2
+0.00014846647243625324 is the rand index between clusters K Means 2 and Agglomerative 3
+-7.05574504467786e-05 is the rand index between clusters K Means 2 and Agglomerative 4
+0.5235799619214903 is the rand index between clusters K Means 2 and Agglomerative 5
+0.5269788496461448 is the rand index between clusters K Means 2 and Agglomerative 6
+0.5010846283533482 is the rand index between clusters K Means 2 and Agglomerative 7
+-0.0001058064358328868 is the rand index between clusters K Means 2 and Agglomerative 8
+0.4803526968029126 is the rand index between clusters K Means 2 and Agglomerative 9
+0.3993595386494921 is the rand index between clusters K Means 2 and Agglomerative 10
+0.5005971406633009 is the rand index between clusters K Means 2 and Agglomerative 11
+-4.680410140791278e-05 is the rand index between clusters K Means 2 and Agglomerative 12
+0.5288687712465732 is the rand index between clusters K Means 2 and Spectral 1
+0.886718259048934 is the rand index between clusters K Means 2 and Spectral 2
+0.46962705005982086 is the rand index between clusters K Means 2 and Spectral 3
+0.6200892879550615 is the rand index between clusters K Means 2 and Spectral 4
+0.49681282878577343 is the rand index between clusters K Means 2 and Spectral 5
+0.5267964648717294 is the rand index between clusters K Means 2 and Spectral 6
+0.6995610909891825 is the rand index between clusters K Means 2 and Spectral 7
+0.4544989711808391 is the rand index between clusters K Means 2 and Spectral 8
+0.4610102643120544 is the rand index between clusters K Means 2 and Spectral 9
+0.44553946257418237 is the rand index between clusters K Means 2 and Spectral 10
+0.5625715866825103 is the rand index between clusters K Means 2 and Birch 1
+0.7708297630830065 is the rand index between clusters K Means 2 and Birch 2
+0.6191210381660563 is the rand index between clusters K Means 2 and Birch 3
+0.45374556625686 is the rand index between clusters K Means 3 and K Means 1
+0.550020932000963 is the rand index between clusters K Means 3 and K Means 2
+1.0 is the rand index between clusters K Means 3 and K Means 3
+0.5321467527961942 is the rand index between clusters K Means 3 and K Means 4
+0.5651615111740603 is the rand index between clusters K Means 3 and K Means 5
+0.41900826280613734 is the rand index between clusters K Means 3 and Deconvolution 1
+0.38617043722711364 is the rand index between clusters K Means 3 and Deconvolution 2
+0.42017741221325094 is the rand index between clusters K Means 3 and Deconvolution 3
+0.42017741221325094 is the rand index between clusters K Means 3 and Deconvolution 4
+0.4408549180336268 is the rand index between clusters K Means 3 and K Medoids 1
+0.5517876941551805 is the rand index between clusters K Means 3 and K Medoids 2
+0.791795371536669 is the rand index between clusters K Means 3 and K Medoids 3
+0.623103132244743 is the rand index between clusters K Means 3 and K Medoids 4
+0.5415524424317975 is the rand index between clusters K Means 3 and K Medoids 5
+0.5208336208655473 is the rand index between clusters K Means 3 and K Medoids 6
+0.5517876941551805 is the rand index between clusters K Means 3 and K Medoids 7
+0.5517876941551805 is the rand index between clusters K Means 3 and K Medoids 8
+0.551661926851409 is the rand index between clusters K Means 3 and K Medoids 9
+0.37241152289672674 is the rand index between clusters K Means 3 and Agglomerative 1
+0.4338330186820624 is the rand index between clusters K Means 3 and Agglomerative 2
+0.00021412637807243764 is the rand index between clusters K Means 3 and Agglomerative 3
+-7.030137222876354e-05 is the rand index between clusters K Means 3 and Agglomerative 4
+0.556346135991502 is the rand index between clusters K Means 3 and Agglomerative 5
+0.4539646907044621 is the rand index between clusters K Means 3 and Agglomerative 6
+0.4184565494070987 is the rand index between clusters K Means 3 and Agglomerative 7
+-0.00010542565195719774 is the rand index between clusters K Means 3 and Agglomerative 8
+0.6952858390539026 is the rand index between clusters K Means 3 and Agglomerative 9
+0.37023986249016566 is the rand index between clusters K Means 3 and Agglomerative 10
+0.4180010810738968 is the rand index between clusters K Means 3 and Agglomerative 11
+-2.0127672849773672e-05 is the rand index between clusters K Means 3 and Agglomerative 12
+0.4427112894573205 is the rand index between clusters K Means 3 and Spectral 1
+0.5804581220681783 is the rand index between clusters K Means 3 and Spectral 2
+0.8106703992589525 is the rand index between clusters K Means 3 and Spectral 3
+0.4495729711127686 is the rand index between clusters K Means 3 and Spectral 4
+0.6054520927785377 is the rand index between clusters K Means 3 and Spectral 5
+0.44436958457869097 is the rand index between clusters K Means 3 and Spectral 6
+0.6646924893657005 is the rand index between clusters K Means 3 and Spectral 7
+0.5965293930100609 is the rand index between clusters K Means 3 and Spectral 8
+0.5314338214710885 is the rand index between clusters K Means 3 and Spectral 9
+0.49782845968353373 is the rand index between clusters K Means 3 and Spectral 10
+0.42344897732882186 is the rand index between clusters K Means 3 and Birch 1
+0.5402569836048547 is the rand index between clusters K Means 3 and Birch 2
+0.493742281566412 is the rand index between clusters K Means 3 and Birch 3
+0.35909838134296734 is the rand index between clusters K Means 4 and K Means 1
+0.5021845194022733 is the rand index between clusters K Means 4 and K Means 2
+0.5321467527961942 is the rand index between clusters K Means 4 and K Means 3
+1.0 is the rand index between clusters K Means 4 and K Means 4
+0.5534836121091357 is the rand index between clusters K Means 4 and K Means 5
+0.2924096764445385 is the rand index between clusters K Means 4 and Deconvolution 1
+0.3493204730402847 is the rand index between clusters K Means 4 and Deconvolution 2
+0.2901291022592282 is the rand index between clusters K Means 4 and Deconvolution 3
+0.2901291022592282 is the rand index between clusters K Means 4 and Deconvolution 4
+0.37162190091349195 is the rand index between clusters K Means 4 and K Medoids 1
+0.5375057144226906 is the rand index between clusters K Means 4 and K Medoids 2
+0.5319834737746146 is the rand index between clusters K Means 4 and K Medoids 3
+0.8477223957879889 is the rand index between clusters K Means 4 and K Medoids 4
+0.6416077990321045 is the rand index between clusters K Means 4 and K Medoids 5
+0.555490073023362 is the rand index between clusters K Means 4 and K Medoids 6
+0.5375057144226906 is the rand index between clusters K Means 4 and K Medoids 7
+0.5375057144226906 is the rand index between clusters K Means 4 and K Medoids 8
+0.5375550034304541 is the rand index between clusters K Means 4 and K Medoids 9
+0.34862777252607546 is the rand index between clusters K Means 4 and Agglomerative 1
+0.38079805093912006 is the rand index between clusters K Means 4 and Agglomerative 2
+0.0002104920338654574 is the rand index between clusters K Means 4 and Agglomerative 3
+-3.96891261829624e-05 is the rand index between clusters K Means 4 and Agglomerative 4
+0.586159073764236 is the rand index between clusters K Means 4 and Agglomerative 5
+0.4171752323408325 is the rand index between clusters K Means 4 and Agglomerative 6
+0.296594223940465 is the rand index between clusters K Means 4 and Agglomerative 7
+-5.950243413975121e-05 is the rand index between clusters K Means 4 and Agglomerative 8
+0.6371190764757235 is the rand index between clusters K Means 4 and Agglomerative 9
+0.394411526842824 is the rand index between clusters K Means 4 and Agglomerative 10
+0.2962681934898077 is the rand index between clusters K Means 4 and Agglomerative 11
+2.4373271450955408e-05 is the rand index between clusters K Means 4 and Agglomerative 12
+0.36952034823200186 is the rand index between clusters K Means 4 and Spectral 1
+0.4690092787954932 is the rand index between clusters K Means 4 and Spectral 2
+0.622096667862295 is the rand index between clusters K Means 4 and Spectral 3
+0.6683066202086858 is the rand index between clusters K Means 4 and Spectral 4
+0.5009018504058702 is the rand index between clusters K Means 4 and Spectral 5
+0.3677391526513219 is the rand index between clusters K Means 4 and Spectral 6
+0.4406764012534936 is the rand index between clusters K Means 4 and Spectral 7
+0.5895518469298039 is the rand index between clusters K Means 4 and Spectral 8
+0.5129364053813289 is the rand index between clusters K Means 4 and Spectral 9
+0.4805197865226836 is the rand index between clusters K Means 4 and Spectral 10
+0.3997491413172856 is the rand index between clusters K Means 4 and Birch 1
+0.5071181766791373 is the rand index between clusters K Means 4 and Birch 2
+0.6259985682769387 is the rand index between clusters K Means 4 and Birch 3
+0.3075364631778398 is the rand index between clusters K Means 5 and K Means 1
+0.5311450805356621 is the rand index between clusters K Means 5 and K Means 2
+0.5651615111740603 is the rand index between clusters K Means 5 and K Means 3
+0.5534836121091357 is the rand index between clusters K Means 5 and K Means 4
+1.0 is the rand index between clusters K Means 5 and K Means 5
+0.26361868996915927 is the rand index between clusters K Means 5 and Deconvolution 1
+0.2930100936353986 is the rand index between clusters K Means 5 and Deconvolution 2
+0.2594366502139447 is the rand index between clusters K Means 5 and Deconvolution 3
+0.2594366502139447 is the rand index between clusters K Means 5 and Deconvolution 4
+0.30262455359170143 is the rand index between clusters K Means 5 and K Medoids 1
+0.5076821006378501 is the rand index between clusters K Means 5 and K Medoids 2
+0.5495034541900197 is the rand index between clusters K Means 5 and K Medoids 3
+0.5449741653121604 is the rand index between clusters K Means 5 and K Medoids 4
+0.6169615408707095 is the rand index between clusters K Means 5 and K Medoids 5
+0.6163365152827055 is the rand index between clusters K Means 5 and K Medoids 6
+0.5076821006378501 is the rand index between clusters K Means 5 and K Medoids 7
+0.5076821006378501 is the rand index between clusters K Means 5 and K Medoids 8
+0.5078351027149005 is the rand index between clusters K Means 5 and K Medoids 9
+0.25675063970189466 is the rand index between clusters K Means 5 and Agglomerative 1
+0.30083104788941106 is the rand index between clusters K Means 5 and Agglomerative 2
+0.00021747245049243575 is the rand index between clusters K Means 5 and Agglomerative 3
+-2.5705353204594192e-05 is the rand index between clusters K Means 5 and Agglomerative 4
+0.4159711794000575 is the rand index between clusters K Means 5 and Agglomerative 5
+0.34534518721361324 is the rand index between clusters K Means 5 and Agglomerative 6
+0.27041602861572295 is the rand index between clusters K Means 5 and Agglomerative 7
+-3.852407807623605e-05 is the rand index between clusters K Means 5 and Agglomerative 8
+0.4554770901274617 is the rand index between clusters K Means 5 and Agglomerative 9
+0.35295541509361644 is the rand index between clusters K Means 5 and Agglomerative 10
+0.27017057349039575 is the rand index between clusters K Means 5 and Agglomerative 11
+4.816141663965817e-05 is the rand index between clusters K Means 5 and Agglomerative 12
+0.3032202973204244 is the rand index between clusters K Means 5 and Spectral 1
+0.5701321845644065 is the rand index between clusters K Means 5 and Spectral 2
+0.5384975909466555 is the rand index between clusters K Means 5 and Spectral 3
+0.6561615960113425 is the rand index between clusters K Means 5 and Spectral 4
+0.5899501204736216 is the rand index between clusters K Means 5 and Spectral 5
+0.30378849189471174 is the rand index between clusters K Means 5 and Spectral 6
+0.43904886752925887 is the rand index between clusters K Means 5 and Spectral 7
+0.47929038647743805 is the rand index between clusters K Means 5 and Spectral 8
+0.5445637616967177 is the rand index between clusters K Means 5 and Spectral 9
+0.392823860847676 is the rand index between clusters K Means 5 and Spectral 10
+0.3001971404066528 is the rand index between clusters K Means 5 and Birch 1
+0.48930840977774676 is the rand index between clusters K Means 5 and Birch 2
+0.6655888374781439 is the rand index between clusters K Means 5 and Birch 3
+0.5267255248406872 is the rand index between clusters Deconvolution 1 and K Means 1
+0.48652621143115626 is the rand index between clusters Deconvolution 1 and K Means 2
+0.41900826280613734 is the rand index between clusters Deconvolution 1 and K Means 3
+0.2924096764445385 is the rand index between clusters Deconvolution 1 and K Means 4
+0.26361868996915927 is the rand index between clusters Deconvolution 1 and K Means 5
+1.0 is the rand index between clusters Deconvolution 1 and Deconvolution 1
+0.8615581270796933 is the rand index between clusters Deconvolution 1 and Deconvolution 2
+0.9882282444416344 is the rand index between clusters Deconvolution 1 and Deconvolution 3
+0.9882282444416344 is the rand index between clusters Deconvolution 1 and Deconvolution 4
+0.5704962740672826 is the rand index between clusters Deconvolution 1 and K Medoids 1
+0.5087157995159857 is the rand index between clusters Deconvolution 1 and K Medoids 2
+0.3897198794779693 is the rand index between clusters Deconvolution 1 and K Medoids 3
+0.2899151440314777 is the rand index between clusters Deconvolution 1 and K Medoids 4
+0.2875488284211314 is the rand index between clusters Deconvolution 1 and K Medoids 5
+0.2375987291533886 is the rand index between clusters Deconvolution 1 and K Medoids 6
+0.5087157995159857 is the rand index between clusters Deconvolution 1 and K Medoids 7
+0.5087157995159857 is the rand index between clusters Deconvolution 1 and K Medoids 8
+0.508477522958245 is the rand index between clusters Deconvolution 1 and K Medoids 9
+0.2258229750642175 is the rand index between clusters Deconvolution 1 and Agglomerative 1
+0.5991833399318787 is the rand index between clusters Deconvolution 1 and Agglomerative 2
+0.0006755216982117951 is the rand index between clusters Deconvolution 1 and Agglomerative 3
+-0.00017984785247350828 is the rand index between clusters Deconvolution 1 and Agglomerative 4
+0.44830991256299235 is the rand index between clusters Deconvolution 1 and Agglomerative 5
+0.5020359242543938 is the rand index between clusters Deconvolution 1 and Agglomerative 6
+0.9819896688225755 is the rand index between clusters Deconvolution 1 and Agglomerative 7
+-0.0002697219369074762 is the rand index between clusters Deconvolution 1 and Agglomerative 8
+0.31365175924455707 is the rand index between clusters Deconvolution 1 and Agglomerative 9
+0.45186965288151987 is the rand index between clusters Deconvolution 1 and Agglomerative 10
+0.9824141901006286 is the rand index between clusters Deconvolution 1 and Agglomerative 11
+0.0006757254552833456 is the rand index between clusters Deconvolution 1 and Agglomerative 12
+0.5635823504981804 is the rand index between clusters Deconvolution 1 and Spectral 1
+0.5270147170767371 is the rand index between clusters Deconvolution 1 and Spectral 2
+0.3936244305155483 is the rand index between clusters Deconvolution 1 and Spectral 3
+0.29000895719551684 is the rand index between clusters Deconvolution 1 and Spectral 4
+0.29724154038447237 is the rand index between clusters Deconvolution 1 and Spectral 5
+0.5576037536011795 is the rand index between clusters Deconvolution 1 and Spectral 6
+0.6029440200478894 is the rand index between clusters Deconvolution 1 and Spectral 7
+0.39486829339598273 is the rand index between clusters Deconvolution 1 and Spectral 8
+0.29346499089677636 is the rand index between clusters Deconvolution 1 and Spectral 9
+0.33142064060405607 is the rand index between clusters Deconvolution 1 and Spectral 10
+0.6528339161028005 is the rand index between clusters Deconvolution 1 and Birch 1
+0.3683876829978985 is the rand index between clusters Deconvolution 1 and Birch 2
+0.3406801788706473 is the rand index between clusters Deconvolution 1 and Birch 3
+0.48161462843657354 is the rand index between clusters Deconvolution 2 and K Means 1
+0.43458947894600686 is the rand index between clusters Deconvolution 2 and K Means 2
+0.38617043722711364 is the rand index between clusters Deconvolution 2 and K Means 3
+0.3493204730402847 is the rand index between clusters Deconvolution 2 and K Means 4
+0.2930100936353986 is the rand index between clusters Deconvolution 2 and K Means 5
+0.8615581270796933 is the rand index between clusters Deconvolution 2 and Deconvolution 1
+1.0 is the rand index between clusters Deconvolution 2 and Deconvolution 2
+0.8576657437679803 is the rand index between clusters Deconvolution 2 and Deconvolution 3
+0.8576657437679803 is the rand index between clusters Deconvolution 2 and Deconvolution 4
+0.5278792026380928 is the rand index between clusters Deconvolution 2 and K Medoids 1
+0.45902353383539385 is the rand index between clusters Deconvolution 2 and K Medoids 2
+0.41004770806395646 is the rand index between clusters Deconvolution 2 and K Medoids 3
+0.34724649637386756 is the rand index between clusters Deconvolution 2 and K Medoids 4
+0.28219577879477614 is the rand index between clusters Deconvolution 2 and K Medoids 5
+0.2337798160863863 is the rand index between clusters Deconvolution 2 and K Medoids 6
+0.45902353383539385 is the rand index between clusters Deconvolution 2 and K Medoids 7
+0.45902353383539385 is the rand index between clusters Deconvolution 2 and K Medoids 8
+0.4587618539487938 is the rand index between clusters Deconvolution 2 and K Medoids 9
+0.16607320027905803 is the rand index between clusters Deconvolution 2 and Agglomerative 1
+0.5581867158302045 is the rand index between clusters Deconvolution 2 and Agglomerative 2
+-0.0005607709481793982 is the rand index between clusters Deconvolution 2 and Agglomerative 3
+-0.0002245374198933176 is the rand index between clusters Deconvolution 2 and Agglomerative 4
+0.5251096898569978 is the rand index between clusters Deconvolution 2 and Agglomerative 5
+0.45369508298656086 is the rand index between clusters Deconvolution 2 and Agglomerative 6
+0.8660291054138347 is the rand index between clusters Deconvolution 2 and Agglomerative 7
+-0.0003367716273947648 is the rand index between clusters Deconvolution 2 and Agglomerative 8
+0.3720190926241574 is the rand index between clusters Deconvolution 2 and Agglomerative 9
+0.45435679973215726 is the rand index between clusters Deconvolution 2 and Agglomerative 10
+0.8664559613476324 is the rand index between clusters Deconvolution 2 and Agglomerative 11
+-0.0005610910136624167 is the rand index between clusters Deconvolution 2 and Agglomerative 12
+0.520572560708512 is the rand index between clusters Deconvolution 2 and Spectral 1
+0.4790863290633 is the rand index between clusters Deconvolution 2 and Spectral 2
+0.4176671280956576 is the rand index between clusters Deconvolution 2 and Spectral 3
+0.3305162908388836 is the rand index between clusters Deconvolution 2 and Spectral 4
+0.2925291639795574 is the rand index between clusters Deconvolution 2 and Spectral 5
+0.5142538699532735 is the rand index between clusters Deconvolution 2 and Spectral 6
+0.5500557979129287 is the rand index between clusters Deconvolution 2 and Spectral 7
+0.46808703339454977 is the rand index between clusters Deconvolution 2 and Spectral 8
+0.31197188388435537 is the rand index between clusters Deconvolution 2 and Spectral 9
+0.3202296943210619 is the rand index between clusters Deconvolution 2 and Spectral 10
+0.6148087991585107 is the rand index between clusters Deconvolution 2 and Birch 1
+0.3054873580512436 is the rand index between clusters Deconvolution 2 and Birch 2
+0.38655642726473466 is the rand index between clusters Deconvolution 2 and Birch 3
+0.5189212216249656 is the rand index between clusters Deconvolution 3 and K Means 1
+0.4771610932921978 is the rand index between clusters Deconvolution 3 and K Means 2
+0.42017741221325094 is the rand index between clusters Deconvolution 3 and K Means 3
+0.2901291022592282 is the rand index between clusters Deconvolution 3 and K Means 4
+0.2594366502139447 is the rand index between clusters Deconvolution 3 and K Means 5
+0.9882282444416344 is the rand index between clusters Deconvolution 3 and Deconvolution 1
+0.8576657437679803 is the rand index between clusters Deconvolution 3 and Deconvolution 2
+1.0 is the rand index between clusters Deconvolution 3 and Deconvolution 3
+1.0 is the rand index between clusters Deconvolution 3 and Deconvolution 4
+0.5623798266636526 is the rand index between clusters Deconvolution 3 and K Medoids 1
+0.49918911756239825 is the rand index between clusters Deconvolution 3 and K Medoids 2
+0.3899143869248888 is the rand index between clusters Deconvolution 3 and K Medoids 3
+0.28756661644725 is the rand index between clusters Deconvolution 3 and K Medoids 4
+0.28235917050300136 is the rand index between clusters Deconvolution 3 and K Medoids 5
+0.2381018360131965 is the rand index between clusters Deconvolution 3 and K Medoids 6
+0.49918911756239825 is the rand index between clusters Deconvolution 3 and K Medoids 7
+0.49918911756239825 is the rand index between clusters Deconvolution 3 and K Medoids 8
+0.49895319638194446 is the rand index between clusters Deconvolution 3 and K Medoids 9
+0.22040661316492763 is the rand index between clusters Deconvolution 3 and Agglomerative 1
+0.5908668670377794 is the rand index between clusters Deconvolution 3 and Agglomerative 2
+-0.0004556646066584381 is the rand index between clusters Deconvolution 3 and Agglomerative 3
+-0.00018252678257032 is the rand index between clusters Deconvolution 3 and Agglomerative 4
+0.44993228336438146 is the rand index between clusters Deconvolution 3 and Agglomerative 5
+0.4932231233354413 is the rand index between clusters Deconvolution 3 and Agglomerative 6
+0.9703159072796353 is the rand index between clusters Deconvolution 3 and Agglomerative 7
+-0.00027373968852609573 is the rand index between clusters Deconvolution 3 and Agglomerative 8
+0.315462270006641 is the rand index between clusters Deconvolution 3 and Agglomerative 9
+0.44580376536121913 is the rand index between clusters Deconvolution 3 and Agglomerative 10
+0.9707342600021504 is the rand index between clusters Deconvolution 3 and Agglomerative 11
+-0.0004559845634198666 is the rand index between clusters Deconvolution 3 and Agglomerative 12
+0.5555146495539794 is the rand index between clusters Deconvolution 3 and Spectral 1
+0.5172527670225632 is the rand index between clusters Deconvolution 3 and Spectral 2
+0.3944477398228524 is the rand index between clusters Deconvolution 3 and Spectral 3
+0.2872472960826868 is the rand index between clusters Deconvolution 3 and Spectral 4
+0.2912113437485587 is the rand index between clusters Deconvolution 3 and Spectral 5
+0.5495783734106996 is the rand index between clusters Deconvolution 3 and Spectral 6
+0.5926179976919093 is the rand index between clusters Deconvolution 3 and Spectral 7
+0.39578512943595845 is the rand index between clusters Deconvolution 3 and Spectral 8
+0.289839551473821 is the rand index between clusters Deconvolution 3 and Spectral 9
+0.3257222171515094 is the rand index between clusters Deconvolution 3 and Spectral 10
+0.644152980589326 is the rand index between clusters Deconvolution 3 and Birch 1
+0.36016644320454516 is the rand index between clusters Deconvolution 3 and Birch 2
+0.33767984384662564 is the rand index between clusters Deconvolution 3 and Birch 3
+0.5189212216249656 is the rand index between clusters Deconvolution 4 and K Means 1
+0.4771610932921978 is the rand index between clusters Deconvolution 4 and K Means 2
+0.42017741221325094 is the rand index between clusters Deconvolution 4 and K Means 3
+0.2901291022592282 is the rand index between clusters Deconvolution 4 and K Means 4
+0.2594366502139447 is the rand index between clusters Deconvolution 4 and K Means 5
+0.9882282444416344 is the rand index between clusters Deconvolution 4 and Deconvolution 1
+0.8576657437679803 is the rand index between clusters Deconvolution 4 and Deconvolution 2
+1.0 is the rand index between clusters Deconvolution 4 and Deconvolution 3
+1.0 is the rand index between clusters Deconvolution 4 and Deconvolution 4
+0.5623798266636526 is the rand index between clusters Deconvolution 4 and K Medoids 1
+0.49918911756239825 is the rand index between clusters Deconvolution 4 and K Medoids 2
+0.3899143869248888 is the rand index between clusters Deconvolution 4 and K Medoids 3
+0.28756661644725 is the rand index between clusters Deconvolution 4 and K Medoids 4
+0.28235917050300136 is the rand index between clusters Deconvolution 4 and K Medoids 5
+0.2381018360131965 is the rand index between clusters Deconvolution 4 and K Medoids 6
+0.49918911756239825 is the rand index between clusters Deconvolution 4 and K Medoids 7
+0.49918911756239825 is the rand index between clusters Deconvolution 4 and K Medoids 8
+0.49895319638194446 is the rand index between clusters Deconvolution 4 and K Medoids 9
+0.22040661316492763 is the rand index between clusters Deconvolution 4 and Agglomerative 1
+0.5908668670377794 is the rand index between clusters Deconvolution 4 and Agglomerative 2
+-0.0004556646066584381 is the rand index between clusters Deconvolution 4 and Agglomerative 3
+-0.00018252678257032 is the rand index between clusters Deconvolution 4 and Agglomerative 4
+0.44993228336438146 is the rand index between clusters Deconvolution 4 and Agglomerative 5
+0.4932231233354413 is the rand index between clusters Deconvolution 4 and Agglomerative 6
+0.9703159072796353 is the rand index between clusters Deconvolution 4 and Agglomerative 7
+-0.00027373968852609573 is the rand index between clusters Deconvolution 4 and Agglomerative 8
+0.315462270006641 is the rand index between clusters Deconvolution 4 and Agglomerative 9
+0.44580376536121913 is the rand index between clusters Deconvolution 4 and Agglomerative 10
+0.9707342600021504 is the rand index between clusters Deconvolution 4 and Agglomerative 11
+-0.0004559845634198666 is the rand index between clusters Deconvolution 4 and Agglomerative 12
+0.5555146495539794 is the rand index between clusters Deconvolution 4 and Spectral 1
+0.5172527670225632 is the rand index between clusters Deconvolution 4 and Spectral 2
+0.3944477398228524 is the rand index between clusters Deconvolution 4 and Spectral 3
+0.2872472960826868 is the rand index between clusters Deconvolution 4 and Spectral 4
+0.2912113437485587 is the rand index between clusters Deconvolution 4 and Spectral 5
+0.5495783734106996 is the rand index between clusters Deconvolution 4 and Spectral 6
+0.5926179976919093 is the rand index between clusters Deconvolution 4 and Spectral 7
+0.39578512943595845 is the rand index between clusters Deconvolution 4 and Spectral 8
+0.289839551473821 is the rand index between clusters Deconvolution 4 and Spectral 9
+0.3257222171515094 is the rand index between clusters Deconvolution 4 and Spectral 10
+0.644152980589326 is the rand index between clusters Deconvolution 4 and Birch 1
+0.36016644320454516 is the rand index between clusters Deconvolution 4 and Birch 2
+0.33767984384662564 is the rand index between clusters Deconvolution 4 and Birch 3
+0.9416703081011281 is the rand index between clusters K Medoids 1 and K Means 1
+0.5312968874332135 is the rand index between clusters K Medoids 1 and K Means 2
+0.4408549180336268 is the rand index between clusters K Medoids 1 and K Means 3
+0.37162190091349195 is the rand index between clusters K Medoids 1 and K Means 4
+0.30262455359170143 is the rand index between clusters K Medoids 1 and K Means 5
+0.5704962740672826 is the rand index between clusters K Medoids 1 and Deconvolution 1
+0.5278792026380928 is the rand index between clusters K Medoids 1 and Deconvolution 2
+0.5623798266636526 is the rand index between clusters K Medoids 1 and Deconvolution 3
+0.5623798266636526 is the rand index between clusters K Medoids 1 and Deconvolution 4
+1.0 is the rand index between clusters K Medoids 1 and K Medoids 1
+0.5355627442905475 is the rand index between clusters K Medoids 1 and K Medoids 2
+0.4603148601100174 is the rand index between clusters K Medoids 1 and K Medoids 3
+0.35822695915135927 is the rand index between clusters K Medoids 1 and K Medoids 4
+0.31585141981405523 is the rand index between clusters K Medoids 1 and K Medoids 5
+0.2817769069687404 is the rand index between clusters K Medoids 1 and K Medoids 6
+0.5355627442905475 is the rand index between clusters K Medoids 1 and K Medoids 7
+0.5355627442905475 is the rand index between clusters K Medoids 1 and K Medoids 8
+0.535762957280117 is the rand index between clusters K Medoids 1 and K Medoids 9
+0.5232092350525915 is the rand index between clusters K Medoids 1 and Agglomerative 1
+0.9627494118137342 is the rand index between clusters K Medoids 1 and Agglomerative 2
+-8.678802169384558e-05 is the rand index between clusters K Medoids 1 and Agglomerative 3
+3.847860494666614e-05 is the rand index between clusters K Medoids 1 and Agglomerative 4
+0.45651613229913224 is the rand index between clusters K Medoids 1 and Agglomerative 5
+0.8646517781987736 is the rand index between clusters K Medoids 1 and Agglomerative 6
+0.5830860486104856 is the rand index between clusters K Medoids 1 and Agglomerative 7
+5.7757865117037574e-05 is the rand index between clusters K Medoids 1 and Agglomerative 8
+0.30975768269171366 is the rand index between clusters K Medoids 1 and Agglomerative 9
+0.711803459136688 is the rand index between clusters K Medoids 1 and Agglomerative 10
+0.5826556176587129 is the rand index between clusters K Medoids 1 and Agglomerative 11
+2.2561556943139535e-05 is the rand index between clusters K Medoids 1 and Agglomerative 12
+0.9908202127246315 is the rand index between clusters K Medoids 1 and Spectral 1
+0.48819823383796773 is the rand index between clusters K Medoids 1 and Spectral 2
+0.4279629799355413 is the rand index between clusters K Medoids 1 and Spectral 3
+0.4158117924751868 is the rand index between clusters K Medoids 1 and Spectral 4
+0.3324324729525856 is the rand index between clusters K Medoids 1 and Spectral 5
+0.9828722032891296 is the rand index between clusters K Medoids 1 and Spectral 6
+0.4509141413815656 is the rand index between clusters K Medoids 1 and Spectral 7
+0.41655800560245004 is the rand index between clusters K Medoids 1 and Spectral 8
+0.4963030622737373 is the rand index between clusters K Medoids 1 and Spectral 9
+0.5459295740781421 is the rand index between clusters K Medoids 1 and Spectral 10
+0.897175580950459 is the rand index between clusters K Medoids 1 and Birch 1
+0.6511710496760228 is the rand index between clusters K Medoids 1 and Birch 2
+0.44895133154794264 is the rand index between clusters K Medoids 1 and Birch 3
+0.5256731140529253 is the rand index between clusters K Medoids 2 and K Means 1
+0.8912167477037994 is the rand index between clusters K Medoids 2 and K Means 2
+0.5517876941551805 is the rand index between clusters K Medoids 2 and K Means 3
+0.5375057144226906 is the rand index between clusters K Medoids 2 and K Means 4
+0.5076821006378501 is the rand index between clusters K Medoids 2 and K Means 5
+0.5087157995159857 is the rand index between clusters K Medoids 2 and Deconvolution 1
+0.45902353383539385 is the rand index between clusters K Medoids 2 and Deconvolution 2
+0.49918911756239825 is the rand index between clusters K Medoids 2 and Deconvolution 3
+0.49918911756239825 is the rand index between clusters K Medoids 2 and Deconvolution 4
+0.5355627442905475 is the rand index between clusters K Medoids 2 and K Medoids 1
+1.0 is the rand index between clusters K Medoids 2 and K Medoids 2
+0.5503758688296213 is the rand index between clusters K Medoids 2 and K Medoids 3
+0.515998560002154 is the rand index between clusters K Medoids 2 and K Medoids 4
+0.5109923338555795 is the rand index between clusters K Medoids 2 and K Medoids 5
+0.39773143638058434 is the rand index between clusters K Medoids 2 and K Medoids 6
+1.0 is the rand index between clusters K Medoids 2 and K Medoids 7
+1.0 is the rand index between clusters K Medoids 2 and K Medoids 8
+0.9996980010619297 is the rand index between clusters K Medoids 2 and K Medoids 9
+0.5219456311219739 is the rand index between clusters K Medoids 2 and Agglomerative 1
+0.5428811172227285 is the rand index between clusters K Medoids 2 and Agglomerative 2
+4.648375873787446e-05 is the rand index between clusters K Medoids 2 and Agglomerative 3
+-6.114707978759144e-05 is the rand index between clusters K Medoids 2 and Agglomerative 4
+0.6008513547387045 is the rand index between clusters K Medoids 2 and Agglomerative 5
+0.5137574167792562 is the rand index between clusters K Medoids 2 and Agglomerative 6
+0.5235242750367772 is the rand index between clusters K Medoids 2 and Agglomerative 7
+-9.168955641924601e-05 is the rand index between clusters K Medoids 2 and Agglomerative 8
+0.5073151287367424 is the rand index between clusters K Medoids 2 and Agglomerative 9
+0.3932634405821634 is the rand index between clusters K Medoids 2 and Agglomerative 10
+0.5230394429192271 is the rand index between clusters K Medoids 2 and Agglomerative 11
+-7.347704771315473e-05 is the rand index between clusters K Medoids 2 and Agglomerative 12
+0.5338943712568714 is the rand index between clusters K Medoids 2 and Spectral 1
+0.8377234009732603 is the rand index between clusters K Medoids 2 and Spectral 2
+0.4881449656970683 is the rand index between clusters K Medoids 2 and Spectral 3
+0.5469821683123066 is the rand index between clusters K Medoids 2 and Spectral 4
+0.5230169089910712 is the rand index between clusters K Medoids 2 and Spectral 5
+0.5324828403243769 is the rand index between clusters K Medoids 2 and Spectral 6
+0.6699284934850462 is the rand index between clusters K Medoids 2 and Spectral 7
+0.5078890212473962 is the rand index between clusters K Medoids 2 and Spectral 8
+0.41396822786526094 is the rand index between clusters K Medoids 2 and Spectral 9
+0.4039426969089955 is the rand index between clusters K Medoids 2 and Spectral 10
+0.558137873968074 is the rand index between clusters K Medoids 2 and Birch 1
+0.6919082433078798 is the rand index between clusters K Medoids 2 and Birch 2
+0.5515935204692823 is the rand index between clusters K Medoids 2 and Birch 3
+0.4793438046290549 is the rand index between clusters K Medoids 3 and K Means 1
+0.5749836287842844 is the rand index between clusters K Medoids 3 and K Means 2
+0.791795371536669 is the rand index between clusters K Medoids 3 and K Means 3
+0.5319834737746146 is the rand index between clusters K Medoids 3 and K Means 4
+0.5495034541900197 is the rand index between clusters K Medoids 3 and K Means 5
+0.3897198794779693 is the rand index between clusters K Medoids 3 and Deconvolution 1
+0.41004770806395646 is the rand index between clusters K Medoids 3 and Deconvolution 2
+0.3899143869248888 is the rand index between clusters K Medoids 3 and Deconvolution 3
+0.3899143869248888 is the rand index between clusters K Medoids 3 and Deconvolution 4
+0.4603148601100174 is the rand index between clusters K Medoids 3 and K Medoids 1
+0.5503758688296213 is the rand index between clusters K Medoids 3 and K Medoids 2
+1.0 is the rand index between clusters K Medoids 3 and K Medoids 3
+0.5813350151860639 is the rand index between clusters K Medoids 3 and K Medoids 4
+0.534776442234885 is the rand index between clusters K Medoids 3 and K Medoids 5
+0.5465604295196803 is the rand index between clusters K Medoids 3 and K Medoids 6
+0.5503758688296213 is the rand index between clusters K Medoids 3 and K Medoids 7
+0.5503758688296213 is the rand index between clusters K Medoids 3 and K Medoids 8
+0.5502990155388986 is the rand index between clusters K Medoids 3 and K Medoids 9
+0.344077219915046 is the rand index between clusters K Medoids 3 and Agglomerative 1
+0.44939956283984045 is the rand index between clusters K Medoids 3 and Agglomerative 2
+8.781088219497139e-05 is the rand index between clusters K Medoids 3 and Agglomerative 3
+-5.406006769249862e-05 is the rand index between clusters K Medoids 3 and Agglomerative 4
+0.5738181623979853 is the rand index between clusters K Medoids 3 and Agglomerative 5
+0.451589600624387 is the rand index between clusters K Medoids 3 and Agglomerative 6
+0.39050817890794737 is the rand index between clusters K Medoids 3 and Agglomerative 7
+-8.10607279561817e-05 is the rand index between clusters K Medoids 3 and Agglomerative 8
+0.6401354245563139 is the rand index between clusters K Medoids 3 and Agglomerative 9
+0.38606313617267246 is the rand index between clusters K Medoids 3 and Agglomerative 10
+0.39009218752386654 is the rand index between clusters K Medoids 3 and Agglomerative 11
+-4.628038602805352e-05 is the rand index between clusters K Medoids 3 and Agglomerative 12
+0.46312477377559463 is the rand index between clusters K Medoids 3 and Spectral 1
+0.6169867956457343 is the rand index between clusters K Medoids 3 and Spectral 2
+0.7351457518026936 is the rand index between clusters K Medoids 3 and Spectral 3
+0.5339417186385726 is the rand index between clusters K Medoids 3 and Spectral 4
+0.4792668093496324 is the rand index between clusters K Medoids 3 and Spectral 5
+0.4656124263450055 is the rand index between clusters K Medoids 3 and Spectral 6
+0.6143532714691096 is the rand index between clusters K Medoids 3 and Spectral 7
+0.5755646430296942 is the rand index between clusters K Medoids 3 and Spectral 8
+0.609678136828355 is the rand index between clusters K Medoids 3 and Spectral 9
+0.4677379123553219 is the rand index between clusters K Medoids 3 and Spectral 10
+0.4319998744219389 is the rand index between clusters K Medoids 3 and Birch 1
+0.6128954443720311 is the rand index between clusters K Medoids 3 and Birch 2
+0.6203053686101716 is the rand index between clusters K Medoids 3 and Birch 3
+0.3492528078490241 is the rand index between clusters K Medoids 4 and K Means 1
+0.502487091591769 is the rand index between clusters K Medoids 4 and K Means 2
+0.623103132244743 is the rand index between clusters K Medoids 4 and K Means 3
+0.8477223957879889 is the rand index between clusters K Medoids 4 and K Means 4
+0.5449741653121604 is the rand index between clusters K Medoids 4 and K Means 5
+0.2899151440314777 is the rand index between clusters K Medoids 4 and Deconvolution 1
+0.34724649637386756 is the rand index between clusters K Medoids 4 and Deconvolution 2
+0.28756661644725 is the rand index between clusters K Medoids 4 and Deconvolution 3
+0.28756661644725 is the rand index between clusters K Medoids 4 and Deconvolution 4
+0.35822695915135927 is the rand index between clusters K Medoids 4 and K Medoids 1
+0.515998560002154 is the rand index between clusters K Medoids 4 and K Medoids 2
+0.5813350151860639 is the rand index between clusters K Medoids 4 and K Medoids 3
+1.0 is the rand index between clusters K Medoids 4 and K Medoids 4
+0.5999365123416208 is the rand index between clusters K Medoids 4 and K Medoids 5
+0.5761171169927192 is the rand index between clusters K Medoids 4 and K Medoids 6
+0.515998560002154 is the rand index between clusters K Medoids 4 and K Medoids 7
+0.515998560002154 is the rand index between clusters K Medoids 4 and K Medoids 8
+0.5160567489247965 is the rand index between clusters K Medoids 4 and K Medoids 9
+0.3683529636455076 is the rand index between clusters K Medoids 4 and Agglomerative 1
+0.3651666578338379 is the rand index between clusters K Medoids 4 and Agglomerative 2
+8.57091035472059e-05 is the rand index between clusters K Medoids 4 and Agglomerative 3
+-4.476719589757616e-05 is the rand index between clusters K Medoids 4 and Agglomerative 4
+0.6119314153130179 is the rand index between clusters K Medoids 4 and Agglomerative 5
+0.3799712124485882 is the rand index between clusters K Medoids 4 and Agglomerative 6
+0.29419039774775013 is the rand index between clusters K Medoids 4 and Agglomerative 7
+-6.712076909512088e-05 is the rand index between clusters K Medoids 4 and Agglomerative 8
+0.7519050828451505 is the rand index between clusters K Medoids 4 and Agglomerative 9
+0.3519089141661972 is the rand index between clusters K Medoids 4 and Agglomerative 10
+0.2938606098788581 is the rand index between clusters K Medoids 4 and Agglomerative 11
+-3.315875867968104e-05 is the rand index between clusters K Medoids 4 and Agglomerative 12
+0.35667491032730764 is the rand index between clusters K Medoids 4 and Spectral 1
+0.48564919075301 is the rand index between clusters K Medoids 4 and Spectral 2
+0.6035658080541032 is the rand index between clusters K Medoids 4 and Spectral 3
+0.6120589772260477 is the rand index between clusters K Medoids 4 and Spectral 4
+0.6164528252460834 is the rand index between clusters K Medoids 4 and Spectral 5
+0.3553722153135673 is the rand index between clusters K Medoids 4 and Spectral 6
+0.4994787734955028 is the rand index between clusters K Medoids 4 and Spectral 7
+0.5822256816771736 is the rand index between clusters K Medoids 4 and Spectral 8
+0.544111438431747 is the rand index between clusters K Medoids 4 and Spectral 9
+0.5039123929601047 is the rand index between clusters K Medoids 4 and Spectral 10
+0.3801175862076885 is the rand index between clusters K Medoids 4 and Birch 1
+0.5058164608853356 is the rand index between clusters K Medoids 4 and Birch 2
+0.6233995472663671 is the rand index between clusters K Medoids 4 and Birch 3
+0.33003258658683104 is the rand index between clusters K Medoids 5 and K Means 1
+0.45867843588722323 is the rand index between clusters K Medoids 5 and K Means 2
+0.5415524424317975 is the rand index between clusters K Medoids 5 and K Means 3
+0.6416077990321045 is the rand index between clusters K Medoids 5 and K Means 4
+0.6169615408707095 is the rand index between clusters K Medoids 5 and K Means 5
+0.2875488284211314 is the rand index between clusters K Medoids 5 and Deconvolution 1
+0.28219577879477614 is the rand index between clusters K Medoids 5 and Deconvolution 2
+0.28235917050300136 is the rand index between clusters K Medoids 5 and Deconvolution 3
+0.28235917050300136 is the rand index between clusters K Medoids 5 and Deconvolution 4
+0.31585141981405523 is the rand index between clusters K Medoids 5 and K Medoids 1
+0.5109923338555795 is the rand index between clusters K Medoids 5 and K Medoids 2
+0.534776442234885 is the rand index between clusters K Medoids 5 and K Medoids 3
+0.5999365123416208 is the rand index between clusters K Medoids 5 and K Medoids 4
+1.0 is the rand index between clusters K Medoids 5 and K Medoids 5
+0.6365262045041512 is the rand index between clusters K Medoids 5 and K Medoids 6
+0.5109923338555795 is the rand index between clusters K Medoids 5 and K Medoids 7
+0.5109923338555795 is the rand index between clusters K Medoids 5 and K Medoids 8
+0.5108767509258679 is the rand index between clusters K Medoids 5 and K Medoids 9
+0.2650319014162775 is the rand index between clusters K Medoids 5 and Agglomerative 1
+0.3081866730123441 is the rand index between clusters K Medoids 5 and Agglomerative 2
+5.839283217073574e-05 is the rand index between clusters K Medoids 5 and Agglomerative 3
+-1.338383991112214e-05 is the rand index between clusters K Medoids 5 and Agglomerative 4
+0.4316324204971673 is the rand index between clusters K Medoids 5 and Agglomerative 5
+0.32557448453560406 is the rand index between clusters K Medoids 5 and Agglomerative 6
+0.2950236658341089 is the rand index between clusters K Medoids 5 and Agglomerative 7
+-2.0038937766693797e-05 is the rand index between clusters K Medoids 5 and Agglomerative 8
+0.5046064222254174 is the rand index between clusters K Medoids 5 and Agglomerative 9
+0.3488341282118844 is the rand index between clusters K Medoids 5 and Agglomerative 10
+0.2948253489278256 is the rand index between clusters K Medoids 5 and Agglomerative 11
+3.0228320815336603e-06 is the rand index between clusters K Medoids 5 and Agglomerative 12
+0.31788619023918796 is the rand index between clusters K Medoids 5 and Spectral 1
+0.4469947133833092 is the rand index between clusters K Medoids 5 and Spectral 2
+0.5468371935346918 is the rand index between clusters K Medoids 5 and Spectral 3
+0.5589819876308824 is the rand index between clusters K Medoids 5 and Spectral 4
+0.5675582354015808 is the rand index between clusters K Medoids 5 and Spectral 5
+0.31970630069006284 is the rand index between clusters K Medoids 5 and Spectral 6
+0.4382788664562075 is the rand index between clusters K Medoids 5 and Spectral 7
+0.43090923282124255 is the rand index between clusters K Medoids 5 and Spectral 8
+0.5689388307963043 is the rand index between clusters K Medoids 5 and Spectral 9
+0.456088384170244 is the rand index between clusters K Medoids 5 and Spectral 10
+0.2969961864704269 is the rand index between clusters K Medoids 5 and Birch 1
+0.40800809869890337 is the rand index between clusters K Medoids 5 and Birch 2
+0.5382750095293 is the rand index between clusters K Medoids 5 and Birch 3
+0.26994147513730965 is the rand index between clusters K Medoids 6 and K Means 1
+0.39736789745712187 is the rand index between clusters K Medoids 6 and K Means 2
+0.5208336208655473 is the rand index between clusters K Medoids 6 and K Means 3
+0.555490073023362 is the rand index between clusters K Medoids 6 and K Means 4
+0.6163365152827055 is the rand index between clusters K Medoids 6 and K Means 5
+0.2375987291533886 is the rand index between clusters K Medoids 6 and Deconvolution 1
+0.2337798160863863 is the rand index between clusters K Medoids 6 and Deconvolution 2
+0.2381018360131965 is the rand index between clusters K Medoids 6 and Deconvolution 3
+0.2381018360131965 is the rand index between clusters K Medoids 6 and Deconvolution 4
+0.2817769069687404 is the rand index between clusters K Medoids 6 and K Medoids 1
+0.39773143638058434 is the rand index between clusters K Medoids 6 and K Medoids 2
+0.5465604295196803 is the rand index between clusters K Medoids 6 and K Medoids 3
+0.5761171169927192 is the rand index between clusters K Medoids 6 and K Medoids 4
+0.6365262045041512 is the rand index between clusters K Medoids 6 and K Medoids 5
+1.0 is the rand index between clusters K Medoids 6 and K Medoids 6
+0.39773143638058434 is the rand index between clusters K Medoids 6 and K Medoids 7
+0.39773143638058434 is the rand index between clusters K Medoids 6 and K Medoids 8
+0.3976757975513926 is the rand index between clusters K Medoids 6 and K Medoids 9
+0.26145027428724715 is the rand index between clusters K Medoids 6 and Agglomerative 1
+0.2906410088668321 is the rand index between clusters K Medoids 6 and Agglomerative 2
+0.0001254751071878964 is the rand index between clusters K Medoids 6 and Agglomerative 3
+-1.7524671502112572e-05 is the rand index between clusters K Medoids 6 and Agglomerative 4
+0.4265534433025761 is the rand index between clusters K Medoids 6 and Agglomerative 5
+0.3268392366636097 is the rand index between clusters K Medoids 6 and Agglomerative 6
+0.23756148890515982 is the rand index between clusters K Medoids 6 and Agglomerative 7
+-2.6251337139338477e-05 is the rand index between clusters K Medoids 6 and Agglomerative 8
+0.5022308954791368 is the rand index between clusters K Medoids 6 and Agglomerative 9
+0.3626482718132424 is the rand index between clusters K Medoids 6 and Agglomerative 10
+0.23737354929473822 is the rand index between clusters K Medoids 6 and Agglomerative 11
+2.364844443371206e-05 is the rand index between clusters K Medoids 6 and Agglomerative 12
+0.2797663196592936 is the rand index between clusters K Medoids 6 and Spectral 1
+0.4172287312262123 is the rand index between clusters K Medoids 6 and Spectral 2
+0.4771099166793806 is the rand index between clusters K Medoids 6 and Spectral 3
+0.5406427639432274 is the rand index between clusters K Medoids 6 and Spectral 4
+0.5537510692081881 is the rand index between clusters K Medoids 6 and Spectral 5
+0.27806895969543394 is the rand index between clusters K Medoids 6 and Spectral 6
+0.39175840987394694 is the rand index between clusters K Medoids 6 and Spectral 7
+0.4554429821050386 is the rand index between clusters K Medoids 6 and Spectral 8
+0.5818827846852792 is the rand index between clusters K Medoids 6 and Spectral 9
+0.4250085113203531 is the rand index between clusters K Medoids 6 and Spectral 10
+0.27425750672893195 is the rand index between clusters K Medoids 6 and Birch 1
+0.4255820685333601 is the rand index between clusters K Medoids 6 and Birch 2
+0.5386144053740333 is the rand index between clusters K Medoids 6 and Birch 3
+0.5256731140529253 is the rand index between clusters K Medoids 7 and K Means 1
+0.8912167477037994 is the rand index between clusters K Medoids 7 and K Means 2
+0.5517876941551805 is the rand index between clusters K Medoids 7 and K Means 3
+0.5375057144226906 is the rand index between clusters K Medoids 7 and K Means 4
+0.5076821006378501 is the rand index between clusters K Medoids 7 and K Means 5
+0.5087157995159857 is the rand index between clusters K Medoids 7 and Deconvolution 1
+0.45902353383539385 is the rand index between clusters K Medoids 7 and Deconvolution 2
+0.49918911756239825 is the rand index between clusters K Medoids 7 and Deconvolution 3
+0.49918911756239825 is the rand index between clusters K Medoids 7 and Deconvolution 4
+0.5355627442905475 is the rand index between clusters K Medoids 7 and K Medoids 1
+1.0 is the rand index between clusters K Medoids 7 and K Medoids 2
+0.5503758688296213 is the rand index between clusters K Medoids 7 and K Medoids 3
+0.515998560002154 is the rand index between clusters K Medoids 7 and K Medoids 4
+0.5109923338555795 is the rand index between clusters K Medoids 7 and K Medoids 5
+0.39773143638058434 is the rand index between clusters K Medoids 7 and K Medoids 6
+1.0 is the rand index between clusters K Medoids 7 and K Medoids 7
+1.0 is the rand index between clusters K Medoids 7 and K Medoids 8
+0.9996980010619297 is the rand index between clusters K Medoids 7 and K Medoids 9
+0.5219456311219739 is the rand index between clusters K Medoids 7 and Agglomerative 1
+0.5428811172227285 is the rand index between clusters K Medoids 7 and Agglomerative 2
+4.648375873787446e-05 is the rand index between clusters K Medoids 7 and Agglomerative 3
+-6.114707978759144e-05 is the rand index between clusters K Medoids 7 and Agglomerative 4
+0.6008513547387045 is the rand index between clusters K Medoids 7 and Agglomerative 5
+0.5137574167792562 is the rand index between clusters K Medoids 7 and Agglomerative 6
+0.5235242750367772 is the rand index between clusters K Medoids 7 and Agglomerative 7
+-9.168955641924601e-05 is the rand index between clusters K Medoids 7 and Agglomerative 8
+0.5073151287367424 is the rand index between clusters K Medoids 7 and Agglomerative 9
+0.3932634405821634 is the rand index between clusters K Medoids 7 and Agglomerative 10
+0.5230394429192271 is the rand index between clusters K Medoids 7 and Agglomerative 11
+-7.347704771315473e-05 is the rand index between clusters K Medoids 7 and Agglomerative 12
+0.5338943712568714 is the rand index between clusters K Medoids 7 and Spectral 1
+0.8377234009732603 is the rand index between clusters K Medoids 7 and Spectral 2
+0.4881449656970683 is the rand index between clusters K Medoids 7 and Spectral 3
+0.5469821683123066 is the rand index between clusters K Medoids 7 and Spectral 4
+0.5230169089910712 is the rand index between clusters K Medoids 7 and Spectral 5
+0.5324828403243769 is the rand index between clusters K Medoids 7 and Spectral 6
+0.6699284934850462 is the rand index between clusters K Medoids 7 and Spectral 7
+0.5078890212473962 is the rand index between clusters K Medoids 7 and Spectral 8
+0.41396822786526094 is the rand index between clusters K Medoids 7 and Spectral 9
+0.4039426969089955 is the rand index between clusters K Medoids 7 and Spectral 10
+0.558137873968074 is the rand index between clusters K Medoids 7 and Birch 1
+0.6919082433078798 is the rand index between clusters K Medoids 7 and Birch 2
+0.5515935204692823 is the rand index between clusters K Medoids 7 and Birch 3
+0.5256731140529253 is the rand index between clusters K Medoids 8 and K Means 1
+0.8912167477037994 is the rand index between clusters K Medoids 8 and K Means 2
+0.5517876941551805 is the rand index between clusters K Medoids 8 and K Means 3
+0.5375057144226906 is the rand index between clusters K Medoids 8 and K Means 4
+0.5076821006378501 is the rand index between clusters K Medoids 8 and K Means 5
+0.5087157995159857 is the rand index between clusters K Medoids 8 and Deconvolution 1
+0.45902353383539385 is the rand index between clusters K Medoids 8 and Deconvolution 2
+0.49918911756239825 is the rand index between clusters K Medoids 8 and Deconvolution 3
+0.49918911756239825 is the rand index between clusters K Medoids 8 and Deconvolution 4
+0.5355627442905475 is the rand index between clusters K Medoids 8 and K Medoids 1
+1.0 is the rand index between clusters K Medoids 8 and K Medoids 2
+0.5503758688296213 is the rand index between clusters K Medoids 8 and K Medoids 3
+0.515998560002154 is the rand index between clusters K Medoids 8 and K Medoids 4
+0.5109923338555795 is the rand index between clusters K Medoids 8 and K Medoids 5
+0.39773143638058434 is the rand index between clusters K Medoids 8 and K Medoids 6
+1.0 is the rand index between clusters K Medoids 8 and K Medoids 7
+1.0 is the rand index between clusters K Medoids 8 and K Medoids 8
+0.9996980010619297 is the rand index between clusters K Medoids 8 and K Medoids 9
+0.5219456311219739 is the rand index between clusters K Medoids 8 and Agglomerative 1
+0.5428811172227285 is the rand index between clusters K Medoids 8 and Agglomerative 2
+4.648375873787446e-05 is the rand index between clusters K Medoids 8 and Agglomerative 3
+-6.114707978759144e-05 is the rand index between clusters K Medoids 8 and Agglomerative 4
+0.6008513547387045 is the rand index between clusters K Medoids 8 and Agglomerative 5
+0.5137574167792562 is the rand index between clusters K Medoids 8 and Agglomerative 6
+0.5235242750367772 is the rand index between clusters K Medoids 8 and Agglomerative 7
+-9.168955641924601e-05 is the rand index between clusters K Medoids 8 and Agglomerative 8
+0.5073151287367424 is the rand index between clusters K Medoids 8 and Agglomerative 9
+0.3932634405821634 is the rand index between clusters K Medoids 8 and Agglomerative 10
+0.5230394429192271 is the rand index between clusters K Medoids 8 and Agglomerative 11
+-7.347704771315473e-05 is the rand index between clusters K Medoids 8 and Agglomerative 12
+0.5338943712568714 is the rand index between clusters K Medoids 8 and Spectral 1
+0.8377234009732603 is the rand index between clusters K Medoids 8 and Spectral 2
+0.4881449656970683 is the rand index between clusters K Medoids 8 and Spectral 3
+0.5469821683123066 is the rand index between clusters K Medoids 8 and Spectral 4
+0.5230169089910712 is the rand index between clusters K Medoids 8 and Spectral 5
+0.5324828403243769 is the rand index between clusters K Medoids 8 and Spectral 6
+0.6699284934850462 is the rand index between clusters K Medoids 8 and Spectral 7
+0.5078890212473962 is the rand index between clusters K Medoids 8 and Spectral 8
+0.41396822786526094 is the rand index between clusters K Medoids 8 and Spectral 9
+0.4039426969089955 is the rand index between clusters K Medoids 8 and Spectral 10
+0.558137873968074 is the rand index between clusters K Medoids 8 and Birch 1
+0.6919082433078798 is the rand index between clusters K Medoids 8 and Birch 2
+0.5515935204692823 is the rand index between clusters K Medoids 8 and Birch 3
+0.5258616398700454 is the rand index between clusters K Medoids 9 and K Means 1
+0.8915123305406282 is the rand index between clusters K Medoids 9 and K Means 2
+0.551661926851409 is the rand index between clusters K Medoids 9 and K Means 3
+0.5375550034304541 is the rand index between clusters K Medoids 9 and K Means 4
+0.5078351027149005 is the rand index between clusters K Medoids 9 and K Means 5
+0.508477522958245 is the rand index between clusters K Medoids 9 and Deconvolution 1
+0.4587618539487938 is the rand index between clusters K Medoids 9 and Deconvolution 2
+0.49895319638194446 is the rand index between clusters K Medoids 9 and Deconvolution 3
+0.49895319638194446 is the rand index between clusters K Medoids 9 and Deconvolution 4
+0.535762957280117 is the rand index between clusters K Medoids 9 and K Medoids 1
+0.9996980010619297 is the rand index between clusters K Medoids 9 and K Medoids 2
+0.5502990155388986 is the rand index between clusters K Medoids 9 and K Medoids 3
+0.5160567489247965 is the rand index between clusters K Medoids 9 and K Medoids 4
+0.5108767509258679 is the rand index between clusters K Medoids 9 and K Medoids 5
+0.3976757975513926 is the rand index between clusters K Medoids 9 and K Medoids 6
+0.9996980010619297 is the rand index between clusters K Medoids 9 and K Medoids 7
+0.9996980010619297 is the rand index between clusters K Medoids 9 and K Medoids 8
+1.0 is the rand index between clusters K Medoids 9 and K Medoids 9
+0.5220328236655233 is the rand index between clusters K Medoids 9 and Agglomerative 1
+0.5430886689764426 is the rand index between clusters K Medoids 9 and Agglomerative 2
+4.654708002917828e-05 is the rand index between clusters K Medoids 9 and Agglomerative 3
+-6.124521704459435e-05 is the rand index between clusters K Medoids 9 and Agglomerative 4
+0.6007086023596503 is the rand index between clusters K Medoids 9 and Agglomerative 5
+0.5139741262731916 is the rand index between clusters K Medoids 9 and Agglomerative 6
+0.523282373810586 is the rand index between clusters K Medoids 9 and Agglomerative 7
+-9.183677581441047e-05 is the rand index between clusters K Medoids 9 and Agglomerative 8
+0.5071693408608915 is the rand index between clusters K Medoids 9 and Agglomerative 9
+0.39340451353299377 is the rand index between clusters K Medoids 9 and Agglomerative 10
+0.522797515584701 is the rand index between clusters K Medoids 9 and Agglomerative 11
+-7.359897682629372e-05 is the rand index between clusters K Medoids 9 and Agglomerative 12
+0.5340927783502342 is the rand index between clusters K Medoids 9 and Spectral 1
+0.8374287225735116 is the rand index between clusters K Medoids 9 and Spectral 2
+0.48803341357551966 is the rand index between clusters K Medoids 9 and Spectral 3
+0.5470425427498947 is the rand index between clusters K Medoids 9 and Spectral 4
+0.5227902647100313 is the rand index between clusters K Medoids 9 and Spectral 5
+0.5326796738982947 is the rand index between clusters K Medoids 9 and Spectral 6
+0.6696507870993672 is the rand index between clusters K Medoids 9 and Spectral 7
+0.5077634787899934 is the rand index between clusters K Medoids 9 and Spectral 8
+0.41405692000020106 is the rand index between clusters K Medoids 9 and Spectral 9
+0.40410041372634486 is the rand index between clusters K Medoids 9 and Spectral 10
+0.5583585169517137 is the rand index between clusters K Medoids 9 and Birch 1
+0.692156743605758 is the rand index between clusters K Medoids 9 and Birch 2
+0.5516648625941671 is the rand index between clusters K Medoids 9 and Birch 3
+0.566961955795852 is the rand index between clusters Agglomerative 1 and K Means 1
+0.4727613988183349 is the rand index between clusters Agglomerative 1 and K Means 2
+0.37241152289672674 is the rand index between clusters Agglomerative 1 and K Means 3
+0.34862777252607546 is the rand index between clusters Agglomerative 1 and K Means 4
+0.25675063970189466 is the rand index between clusters Agglomerative 1 and K Means 5
+0.2258229750642175 is the rand index between clusters Agglomerative 1 and Deconvolution 1
+0.16607320027905803 is the rand index between clusters Agglomerative 1 and Deconvolution 2
+0.22040661316492763 is the rand index between clusters Agglomerative 1 and Deconvolution 3
+0.22040661316492763 is the rand index between clusters Agglomerative 1 and Deconvolution 4
+0.5232092350525915 is the rand index between clusters Agglomerative 1 and K Medoids 1
+0.5219456311219739 is the rand index between clusters Agglomerative 1 and K Medoids 2
+0.344077219915046 is the rand index between clusters Agglomerative 1 and K Medoids 3
+0.3683529636455076 is the rand index between clusters Agglomerative 1 and K Medoids 4
+0.2650319014162775 is the rand index between clusters Agglomerative 1 and K Medoids 5
+0.26145027428724715 is the rand index between clusters Agglomerative 1 and K Medoids 6
+0.5219456311219739 is the rand index between clusters Agglomerative 1 and K Medoids 7
+0.5219456311219739 is the rand index between clusters Agglomerative 1 and K Medoids 8
+0.5220328236655233 is the rand index between clusters Agglomerative 1 and K Medoids 9
+1.0 is the rand index between clusters Agglomerative 1 and Agglomerative 1
+0.4963016961504902 is the rand index between clusters Agglomerative 1 and Agglomerative 2
+0.0006008366249329771 is the rand index between clusters Agglomerative 1 and Agglomerative 3
+-0.0001499295062077323 is the rand index between clusters Agglomerative 1 and Agglomerative 4
+0.6309551319055439 is the rand index between clusters Agglomerative 1 and Agglomerative 5
+0.4600786291005756 is the rand index between clusters Agglomerative 1 and Agglomerative 6
+0.2342487193529029 is the rand index between clusters Agglomerative 1 and Agglomerative 7
+-0.0002248492073130874 is the rand index between clusters Agglomerative 1 and Agglomerative 8
+0.4902949159758598 is the rand index between clusters Agglomerative 1 and Agglomerative 9
+0.3134609761200721 is the rand index between clusters Agglomerative 1 and Agglomerative 10
+0.2338338248106829 is the rand index between clusters Agglomerative 1 and Agglomerative 11
+1.498858455217175e-05 is the rand index between clusters Agglomerative 1 and Agglomerative 12
+0.5298970581246464 is the rand index between clusters Agglomerative 1 and Spectral 1
+0.4160332799988247 is the rand index between clusters Agglomerative 1 and Spectral 2
+0.38128941601737304 is the rand index between clusters Agglomerative 1 and Spectral 3
+0.3028473683417968 is the rand index between clusters Agglomerative 1 and Spectral 4
+0.3180361363999083 is the rand index between clusters Agglomerative 1 and Spectral 5
+0.5357458814202594 is the rand index between clusters Agglomerative 1 and Spectral 6
+0.31597111978201897 is the rand index between clusters Agglomerative 1 and Spectral 7
+0.5013656280528795 is the rand index between clusters Agglomerative 1 and Spectral 8
+0.2736705238323557 is the rand index between clusters Agglomerative 1 and Spectral 9
+0.2815629551237468 is the rand index between clusters Agglomerative 1 and Spectral 10
+0.44936757245336867 is the rand index between clusters Agglomerative 1 and Birch 1
+0.4959430594044286 is the rand index between clusters Agglomerative 1 and Birch 2
+0.3038526143893937 is the rand index between clusters Agglomerative 1 and Birch 3
+0.905533050795328 is the rand index between clusters Agglomerative 2 and K Means 1
+0.5417180221675841 is the rand index between clusters Agglomerative 2 and K Means 2
+0.4338330186820624 is the rand index between clusters Agglomerative 2 and K Means 3
+0.38079805093912006 is the rand index between clusters Agglomerative 2 and K Means 4
+0.30083104788941106 is the rand index between clusters Agglomerative 2 and K Means 5
+0.5991833399318787 is the rand index between clusters Agglomerative 2 and Deconvolution 1
+0.5581867158302045 is the rand index between clusters Agglomerative 2 and Deconvolution 2
+0.5908668670377794 is the rand index between clusters Agglomerative 2 and Deconvolution 3
+0.5908668670377794 is the rand index between clusters Agglomerative 2 and Deconvolution 4
+0.9627494118137342 is the rand index between clusters Agglomerative 2 and K Medoids 1
+0.5428811172227285 is the rand index between clusters Agglomerative 2 and K Medoids 2
+0.44939956283984045 is the rand index between clusters Agglomerative 2 and K Medoids 3
+0.3651666578338379 is the rand index between clusters Agglomerative 2 and K Medoids 4
+0.3081866730123441 is the rand index between clusters Agglomerative 2 and K Medoids 5
+0.2906410088668321 is the rand index between clusters Agglomerative 2 and K Medoids 6
+0.5428811172227285 is the rand index between clusters Agglomerative 2 and K Medoids 7
+0.5428811172227285 is the rand index between clusters Agglomerative 2 and K Medoids 8
+0.5430886689764426 is the rand index between clusters Agglomerative 2 and K Medoids 9
+0.4963016961504902 is the rand index between clusters Agglomerative 2 and Agglomerative 1
+1.0 is the rand index between clusters Agglomerative 2 and Agglomerative 2
+-0.0001205590694201272 is the rand index between clusters Agglomerative 2 and Agglomerative 3
+5.532891827047236e-05 is the rand index between clusters Agglomerative 2 and Agglomerative 4
+0.45099058918408486 is the rand index between clusters Agglomerative 2 and Agglomerative 5
+0.897907767620374 is the rand index between clusters Agglomerative 2 and Agglomerative 6
+0.6120804808183767 is the rand index between clusters Agglomerative 2 and Agglomerative 7
+8.303324545282404e-05 is the rand index between clusters Agglomerative 2 and Agglomerative 8
+0.3045436988392566 is the rand index between clusters Agglomerative 2 and Agglomerative 9
+0.74516124064566 is the rand index between clusters Agglomerative 2 and Agglomerative 10
+0.6116503025824936 is the rand index between clusters Agglomerative 2 and Agglomerative 11
+3.432733858974535e-05 is the rand index between clusters Agglomerative 2 and Agglomerative 12
+0.9537426332537139 is the rand index between clusters Agglomerative 2 and Spectral 1
+0.4996294593686831 is the rand index between clusters Agglomerative 2 and Spectral 2
+0.4199445339396326 is the rand index between clusters Agglomerative 2 and Spectral 3
+0.4310093044205413 is the rand index between clusters Agglomerative 2 and Spectral 4
+0.3331544120191291 is the rand index between clusters Agglomerative 2 and Spectral 5
+0.9459450718102465 is the rand index between clusters Agglomerative 2 and Spectral 6
+0.46658756907159477 is the rand index between clusters Agglomerative 2 and Spectral 7
+0.40967467084109727 is the rand index between clusters Agglomerative 2 and Spectral 8
+0.5024847110940492 is the rand index between clusters Agglomerative 2 and Spectral 9
+0.5708074799932182 is the rand index between clusters Agglomerative 2 and Spectral 10
+0.9331466943071721 is the rand index between clusters Agglomerative 2 and Birch 1
+0.6679826450822095 is the rand index between clusters Agglomerative 2 and Birch 2
+0.4661021870876934 is the rand index between clusters Agglomerative 2 and Birch 3
+-3.108339739737143e-05 is the rand index between clusters Agglomerative 3 and K Means 1
+0.00014846647243625324 is the rand index between clusters Agglomerative 3 and K Means 2
+0.00021412637807243764 is the rand index between clusters Agglomerative 3 and K Means 3
+0.0002104920338654574 is the rand index between clusters Agglomerative 3 and K Means 4
+0.00021747245049243575 is the rand index between clusters Agglomerative 3 and K Means 5
+0.0006755216982117951 is the rand index between clusters Agglomerative 3 and Deconvolution 1
+-0.0005607709481793982 is the rand index between clusters Agglomerative 3 and Deconvolution 2
+-0.0004556646066584381 is the rand index between clusters Agglomerative 3 and Deconvolution 3
+-0.0004556646066584381 is the rand index between clusters Agglomerative 3 and Deconvolution 4
+-8.678802169384558e-05 is the rand index between clusters Agglomerative 3 and K Medoids 1
+4.648375873787446e-05 is the rand index between clusters Agglomerative 3 and K Medoids 2
+8.781088219497139e-05 is the rand index between clusters Agglomerative 3 and K Medoids 3
+8.57091035472059e-05 is the rand index between clusters Agglomerative 3 and K Medoids 4
+5.839283217073574e-05 is the rand index between clusters Agglomerative 3 and K Medoids 5
+0.0001254751071878964 is the rand index between clusters Agglomerative 3 and K Medoids 6
+4.648375873787446e-05 is the rand index between clusters Agglomerative 3 and K Medoids 7
+4.648375873787446e-05 is the rand index between clusters Agglomerative 3 and K Medoids 8
+4.654708002917828e-05 is the rand index between clusters Agglomerative 3 and K Medoids 9
+0.0006008366249329771 is the rand index between clusters Agglomerative 3 and Agglomerative 1
+-0.0001205590694201272 is the rand index between clusters Agglomerative 3 and Agglomerative 2
+1.0 is the rand index between clusters Agglomerative 3 and Agglomerative 3
+-0.00028565292574365974 is the rand index between clusters Agglomerative 3 and Agglomerative 4
+-0.0001373258976148929 is the rand index between clusters Agglomerative 3 and Agglomerative 5
+0.0014500331766283158 is the rand index between clusters Agglomerative 3 and Agglomerative 6
+0.0023367153452191316 is the rand index between clusters Agglomerative 3 and Agglomerative 7
+-0.0003749560613970598 is the rand index between clusters Agglomerative 3 and Agglomerative 8
+0.00024041645147137707 is the rand index between clusters Agglomerative 3 and Agglomerative 9
+0.0010284713796134216 is the rand index between clusters Agglomerative 3 and Agglomerative 10
+0.002334693401274277 is the rand index between clusters Agglomerative 3 and Agglomerative 11
+0.3995478021560723 is the rand index between clusters Agglomerative 3 and Agglomerative 12
+-7.833912385811865e-05 is the rand index between clusters Agglomerative 3 and Spectral 1
+0.00023413029248982078 is the rand index between clusters Agglomerative 3 and Spectral 2
+0.0003683090327984433 is the rand index between clusters Agglomerative 3 and Spectral 3
+0.00044195003291076985 is the rand index between clusters Agglomerative 3 and Spectral 4
+0.0004496287282298875 is the rand index between clusters Agglomerative 3 and Spectral 5
+-7.093132272037679e-05 is the rand index between clusters Agglomerative 3 and Spectral 6
+0.0005299105720411086 is the rand index between clusters Agglomerative 3 and Spectral 7
+0.0006900547155403006 is the rand index between clusters Agglomerative 3 and Spectral 8
+0.000638336068867142 is the rand index between clusters Agglomerative 3 and Spectral 9
+0.0008497686083313407 is the rand index between clusters Agglomerative 3 and Spectral 10
+-0.00017869763210196467 is the rand index between clusters Agglomerative 3 and Birch 1
+0.0003024468700369208 is the rand index between clusters Agglomerative 3 and Birch 2
+-9.846220210632707e-06 is the rand index between clusters Agglomerative 3 and Birch 3
+1.3253415507817035e-05 is the rand index between clusters Agglomerative 4 and K Means 1
+-7.05574504467786e-05 is the rand index between clusters Agglomerative 4 and K Means 2
+-7.030137222876354e-05 is the rand index between clusters Agglomerative 4 and K Means 3
+-3.96891261829624e-05 is the rand index between clusters Agglomerative 4 and K Means 4
+-2.5705353204594192e-05 is the rand index between clusters Agglomerative 4 and K Means 5
+-0.00017984785247350828 is the rand index between clusters Agglomerative 4 and Deconvolution 1
+-0.0002245374198933176 is the rand index between clusters Agglomerative 4 and Deconvolution 2
+-0.00018252678257032 is the rand index between clusters Agglomerative 4 and Deconvolution 3
+-0.00018252678257032 is the rand index between clusters Agglomerative 4 and Deconvolution 4
+3.847860494666614e-05 is the rand index between clusters Agglomerative 4 and K Medoids 1
+-6.114707978759144e-05 is the rand index between clusters Agglomerative 4 and K Medoids 2
+-5.406006769249862e-05 is the rand index between clusters Agglomerative 4 and K Medoids 3
+-4.476719589757616e-05 is the rand index between clusters Agglomerative 4 and K Medoids 4
+-1.338383991112214e-05 is the rand index between clusters Agglomerative 4 and K Medoids 5
+-1.7524671502112572e-05 is the rand index between clusters Agglomerative 4 and K Medoids 6
+-6.114707978759144e-05 is the rand index between clusters Agglomerative 4 and K Medoids 7
+-6.114707978759144e-05 is the rand index between clusters Agglomerative 4 and K Medoids 8
+-6.124521704459435e-05 is the rand index between clusters Agglomerative 4 and K Medoids 9
+-0.0001499295062077323 is the rand index between clusters Agglomerative 4 and Agglomerative 1
+5.532891827047236e-05 is the rand index between clusters Agglomerative 4 and Agglomerative 2
+-0.00028565292574365974 is the rand index between clusters Agglomerative 4 and Agglomerative 3
+1.0 is the rand index between clusters Agglomerative 4 and Agglomerative 4
+7.315515949612615e-05 is the rand index between clusters Agglomerative 4 and Agglomerative 5
+-2.4221299408580632e-05 is the rand index between clusters Agglomerative 4 and Agglomerative 6
+0.00031209792487773245 is the rand index between clusters Agglomerative 4 and Agglomerative 7
+0.7999199759946936 is the rand index between clusters Agglomerative 4 and Agglomerative 8
+-1.4246544588934866e-05 is the rand index between clusters Agglomerative 4 and Agglomerative 9
+0.0003441429380633079 is the rand index between clusters Agglomerative 4 and Agglomerative 10
+0.00093407832324512 is the rand index between clusters Agglomerative 4 and Agglomerative 11
+0.5712407604591669 is the rand index between clusters Agglomerative 4 and Agglomerative 12
+3.4456267609886525e-05 is the rand index between clusters Agglomerative 4 and Spectral 1
+-5.244880586557164e-05 is the rand index between clusters Agglomerative 4 and Spectral 2
+-3.644349933104687e-05 is the rand index between clusters Agglomerative 4 and Spectral 3
+6.50702469652514e-06 is the rand index between clusters Agglomerative 4 and Spectral 4
+7.180446363794725e-05 is the rand index between clusters Agglomerative 4 and Spectral 5
+3.098982241287925e-05 is the rand index between clusters Agglomerative 4 and Spectral 6
+-1.0769396757211113e-05 is the rand index between clusters Agglomerative 4 and Spectral 7
+2.2641070532715514e-05 is the rand index between clusters Agglomerative 4 and Spectral 8
+8.511496010758272e-05 is the rand index between clusters Agglomerative 4 and Spectral 9
+0.000217807802068075 is the rand index between clusters Agglomerative 4 and Spectral 10
+8.75876476286286e-05 is the rand index between clusters Agglomerative 4 and Birch 1
+-0.00011906372392013079 is the rand index between clusters Agglomerative 4 and Birch 2
+4.308512635901911e-05 is the rand index between clusters Agglomerative 4 and Birch 3
+0.4669104714135234 is the rand index between clusters Agglomerative 5 and K Means 1
+0.5235799619214903 is the rand index between clusters Agglomerative 5 and K Means 2
+0.556346135991502 is the rand index between clusters Agglomerative 5 and K Means 3
+0.586159073764236 is the rand index between clusters Agglomerative 5 and K Means 4
+0.4159711794000575 is the rand index between clusters Agglomerative 5 and K Means 5
+0.44830991256299235 is the rand index between clusters Agglomerative 5 and Deconvolution 1
+0.5251096898569978 is the rand index between clusters Agglomerative 5 and Deconvolution 2
+0.44993228336438146 is the rand index between clusters Agglomerative 5 and Deconvolution 3
+0.44993228336438146 is the rand index between clusters Agglomerative 5 and Deconvolution 4
+0.45651613229913224 is the rand index between clusters Agglomerative 5 and K Medoids 1
+0.6008513547387045 is the rand index between clusters Agglomerative 5 and K Medoids 2
+0.5738181623979853 is the rand index between clusters Agglomerative 5 and K Medoids 3
+0.6119314153130179 is the rand index between clusters Agglomerative 5 and K Medoids 4
+0.4316324204971673 is the rand index between clusters Agglomerative 5 and K Medoids 5
+0.4265534433025761 is the rand index between clusters Agglomerative 5 and K Medoids 6
+0.6008513547387045 is the rand index between clusters Agglomerative 5 and K Medoids 7
+0.6008513547387045 is the rand index between clusters Agglomerative 5 and K Medoids 8
+0.6007086023596503 is the rand index between clusters Agglomerative 5 and K Medoids 9
+0.6309551319055439 is the rand index between clusters Agglomerative 5 and Agglomerative 1
+0.45099058918408486 is the rand index between clusters Agglomerative 5 and Agglomerative 2
+-0.0001373258976148929 is the rand index between clusters Agglomerative 5 and Agglomerative 3
+7.315515949612615e-05 is the rand index between clusters Agglomerative 5 and Agglomerative 4
+1.0 is the rand index between clusters Agglomerative 5 and Agglomerative 5
+0.3919105434091254 is the rand index between clusters Agglomerative 5 and Agglomerative 6
+0.44701383124210936 is the rand index between clusters Agglomerative 5 and Agglomerative 7
+0.0001097834518483084 is the rand index between clusters Agglomerative 5 and Agglomerative 8
+0.8267509338478712 is the rand index between clusters Agglomerative 5 and Agglomerative 9
+0.3667036128575028 is the rand index between clusters Agglomerative 5 and Agglomerative 10
+0.4467074754240039 is the rand index between clusters Agglomerative 5 and Agglomerative 11
+5.451124570774409e-05 is the rand index between clusters Agglomerative 5 and Agglomerative 12
+0.4579956409603395 is the rand index between clusters Agglomerative 5 and Spectral 1
+0.4940725530195583 is the rand index between clusters Agglomerative 5 and Spectral 2
+0.6330018386458844 is the rand index between clusters Agglomerative 5 and Spectral 3
+0.4829721610420984 is the rand index between clusters Agglomerative 5 and Spectral 4
+0.43427732191897644 is the rand index between clusters Agglomerative 5 and Spectral 5
+0.4593228606285029 is the rand index between clusters Agglomerative 5 and Spectral 6
+0.42173397690646597 is the rand index between clusters Agglomerative 5 and Spectral 7
+0.8407730387778145 is the rand index between clusters Agglomerative 5 and Spectral 8
+0.37724812738526764 is the rand index between clusters Agglomerative 5 and Spectral 9
+0.30591464012023695 is the rand index between clusters Agglomerative 5 and Spectral 10
+0.4431284885775769 is the rand index between clusters Agglomerative 5 and Birch 1
+0.4261025012444979 is the rand index between clusters Agglomerative 5 and Birch 2
+0.4897746487509824 is the rand index between clusters Agglomerative 5 and Birch 3
+0.8137229794629547 is the rand index between clusters Agglomerative 6 and K Means 1
+0.5269788496461448 is the rand index between clusters Agglomerative 6 and K Means 2
+0.4539646907044621 is the rand index between clusters Agglomerative 6 and K Means 3
+0.4171752323408325 is the rand index between clusters Agglomerative 6 and K Means 4
+0.34534518721361324 is the rand index between clusters Agglomerative 6 and K Means 5
+0.5020359242543938 is the rand index between clusters Agglomerative 6 and Deconvolution 1
+0.45369508298656086 is the rand index between clusters Agglomerative 6 and Deconvolution 2
+0.4932231233354413 is the rand index between clusters Agglomerative 6 and Deconvolution 3
+0.4932231233354413 is the rand index between clusters Agglomerative 6 and Deconvolution 4
+0.8646517781987736 is the rand index between clusters Agglomerative 6 and K Medoids 1
+0.5137574167792562 is the rand index between clusters Agglomerative 6 and K Medoids 2
+0.451589600624387 is the rand index between clusters Agglomerative 6 and K Medoids 3
+0.3799712124485882 is the rand index between clusters Agglomerative 6 and K Medoids 4
+0.32557448453560406 is the rand index between clusters Agglomerative 6 and K Medoids 5
+0.3268392366636097 is the rand index between clusters Agglomerative 6 and K Medoids 6
+0.5137574167792562 is the rand index between clusters Agglomerative 6 and K Medoids 7
+0.5137574167792562 is the rand index between clusters Agglomerative 6 and K Medoids 8
+0.5139741262731916 is the rand index between clusters Agglomerative 6 and K Medoids 9
+0.4600786291005756 is the rand index between clusters Agglomerative 6 and Agglomerative 1
+0.897907767620374 is the rand index between clusters Agglomerative 6 and Agglomerative 2
+0.0014500331766283158 is the rand index between clusters Agglomerative 6 and Agglomerative 3
+-2.4221299408580632e-05 is the rand index between clusters Agglomerative 6 and Agglomerative 4
+0.3919105434091254 is the rand index between clusters Agglomerative 6 and Agglomerative 5
+1.0 is the rand index between clusters Agglomerative 6 and Agglomerative 6
+0.5156876021860315 is the rand index between clusters Agglomerative 6 and Agglomerative 7
+-3.629323851855617e-05 is the rand index between clusters Agglomerative 6 and Agglomerative 8
+0.3211461626155872 is the rand index between clusters Agglomerative 6 and Agglomerative 9
+0.8431733037994847 is the rand index between clusters Agglomerative 6 and Agglomerative 10
+0.5152398261731859 is the rand index between clusters Agglomerative 6 and Agglomerative 11
+0.0005432801998266387 is the rand index between clusters Agglomerative 6 and Agglomerative 12
+0.8566217615286009 is the rand index between clusters Agglomerative 6 and Spectral 1
+0.495441307007844 is the rand index between clusters Agglomerative 6 and Spectral 2
+0.4616716786459854 is the rand index between clusters Agglomerative 6 and Spectral 3
+0.5041524493169962 is the rand index between clusters Agglomerative 6 and Spectral 4
+0.3705776195696393 is the rand index between clusters Agglomerative 6 and Spectral 5
+0.8496735323489712 is the rand index between clusters Agglomerative 6 and Spectral 6
+0.4939952168561695 is the rand index between clusters Agglomerative 6 and Spectral 7
+0.4881292196743935 is the rand index between clusters Agglomerative 6 and Spectral 8
+0.540631636436573 is the rand index between clusters Agglomerative 6 and Spectral 9
+0.6284555769977994 is the rand index between clusters Agglomerative 6 and Spectral 10
+0.8311756074381383 is the rand index between clusters Agglomerative 6 and Birch 1
+0.6734106775002228 is the rand index between clusters Agglomerative 6 and Birch 2
+0.4537328034072289 is the rand index between clusters Agglomerative 6 and Birch 3
+0.538835405999613 is the rand index between clusters Agglomerative 7 and K Means 1
+0.5010846283533482 is the rand index between clusters Agglomerative 7 and K Means 2
+0.4184565494070987 is the rand index between clusters Agglomerative 7 and K Means 3
+0.296594223940465 is the rand index between clusters Agglomerative 7 and K Means 4
+0.27041602861572295 is the rand index between clusters Agglomerative 7 and K Means 5
+0.9819896688225755 is the rand index between clusters Agglomerative 7 and Deconvolution 1
+0.8660291054138347 is the rand index between clusters Agglomerative 7 and Deconvolution 2
+0.9703159072796353 is the rand index between clusters Agglomerative 7 and Deconvolution 3
+0.9703159072796353 is the rand index between clusters Agglomerative 7 and Deconvolution 4
+0.5830860486104856 is the rand index between clusters Agglomerative 7 and K Medoids 1
+0.5235242750367772 is the rand index between clusters Agglomerative 7 and K Medoids 2
+0.39050817890794737 is the rand index between clusters Agglomerative 7 and K Medoids 3
+0.29419039774775013 is the rand index between clusters Agglomerative 7 and K Medoids 4
+0.2950236658341089 is the rand index between clusters Agglomerative 7 and K Medoids 5
+0.23756148890515982 is the rand index between clusters Agglomerative 7 and K Medoids 6
+0.5235242750367772 is the rand index between clusters Agglomerative 7 and K Medoids 7
+0.5235242750367772 is the rand index between clusters Agglomerative 7 and K Medoids 8
+0.523282373810586 is the rand index between clusters Agglomerative 7 and K Medoids 9
+0.2342487193529029 is the rand index between clusters Agglomerative 7 and Agglomerative 1
+0.6120804808183767 is the rand index between clusters Agglomerative 7 and Agglomerative 2
+0.0023367153452191316 is the rand index between clusters Agglomerative 7 and Agglomerative 3
+0.00031209792487773245 is the rand index between clusters Agglomerative 7 and Agglomerative 4
+0.44701383124210936 is the rand index between clusters Agglomerative 7 and Agglomerative 5
+0.5156876021860315 is the rand index between clusters Agglomerative 7 and Agglomerative 6
+1.0 is the rand index between clusters Agglomerative 7 and Agglomerative 7
+0.00046817106653778253 is the rand index between clusters Agglomerative 7 and Agglomerative 8
+0.3120583747412376 is the rand index between clusters Agglomerative 7 and Agglomerative 9
+0.46122951938804546 is the rand index between clusters Agglomerative 7 and Agglomerative 10
+0.9995666600490488 is the rand index between clusters Agglomerative 7 and Agglomerative 11
+0.001402305015181067 is the rand index between clusters Agglomerative 7 and Agglomerative 12
+0.5760972015731576 is the rand index between clusters Agglomerative 7 and Spectral 1
+0.5421804901458922 is the rand index between clusters Agglomerative 7 and Spectral 2
+0.39351932363443287 is the rand index between clusters Agglomerative 7 and Spectral 3
+0.29483460320988786 is the rand index between clusters Agglomerative 7 and Spectral 4
+0.3065550663572787 is the rand index between clusters Agglomerative 7 and Spectral 5
+0.5700535517074883 is the rand index between clusters Agglomerative 7 and Spectral 6
+0.6189625154286006 is the rand index between clusters Agglomerative 7 and Spectral 7
+0.39460148804421197 is the rand index between clusters Agglomerative 7 and Spectral 8
+0.29944866439570317 is the rand index between clusters Agglomerative 7 and Spectral 9
+0.34023798492247004 is the rand index between clusters Agglomerative 7 and Spectral 10
+0.666290814443271 is the rand index between clusters Agglomerative 7 and Birch 1
+0.381182069336289 is the rand index between clusters Agglomerative 7 and Birch 2
+0.34582725240971524 is the rand index between clusters Agglomerative 7 and Birch 3
+1.9920125962368793e-05 is the rand index between clusters Agglomerative 8 and K Means 1
+-0.0001058064358328868 is the rand index between clusters Agglomerative 8 and K Means 2
+-0.00010542565195719774 is the rand index between clusters Agglomerative 8 and K Means 3
+-5.950243413975121e-05 is the rand index between clusters Agglomerative 8 and K Means 4
+-3.852407807623605e-05 is the rand index between clusters Agglomerative 8 and K Means 5
+-0.0002697219369074762 is the rand index between clusters Agglomerative 8 and Deconvolution 1
+-0.0003367716273947648 is the rand index between clusters Agglomerative 8 and Deconvolution 2
+-0.00027373968852609573 is the rand index between clusters Agglomerative 8 and Deconvolution 3
+-0.00027373968852609573 is the rand index between clusters Agglomerative 8 and Deconvolution 4
+5.7757865117037574e-05 is the rand index between clusters Agglomerative 8 and K Medoids 1
+-9.168955641924601e-05 is the rand index between clusters Agglomerative 8 and K Medoids 2
+-8.10607279561817e-05 is the rand index between clusters Agglomerative 8 and K Medoids 3
+-6.712076909512088e-05 is the rand index between clusters Agglomerative 8 and K Medoids 4
+-2.0038937766693797e-05 is the rand index between clusters Agglomerative 8 and K Medoids 5
+-2.6251337139338477e-05 is the rand index between clusters Agglomerative 8 and K Medoids 6
+-9.168955641924601e-05 is the rand index between clusters Agglomerative 8 and K Medoids 7
+-9.168955641924601e-05 is the rand index between clusters Agglomerative 8 and K Medoids 8
+-9.183677581441047e-05 is the rand index between clusters Agglomerative 8 and K Medoids 9
+-0.0002248492073130874 is the rand index between clusters Agglomerative 8 and Agglomerative 1
+8.303324545282404e-05 is the rand index between clusters Agglomerative 8 and Agglomerative 2
+-0.0003749560613970598 is the rand index between clusters Agglomerative 8 and Agglomerative 3
+0.7999199759946936 is the rand index between clusters Agglomerative 8 and Agglomerative 4
+0.0001097834518483084 is the rand index between clusters Agglomerative 8 and Agglomerative 5
+-3.629323851855617e-05 is the rand index between clusters Agglomerative 8 and Agglomerative 6
+0.00046817106653778253 is the rand index between clusters Agglomerative 8 and Agglomerative 7
+1.0 is the rand index between clusters Agglomerative 8 and Agglomerative 8
+-2.1332528086846853e-05 is the rand index between clusters Agglomerative 8 and Agglomerative 9
+0.0005162958550165764 is the rand index between clusters Agglomerative 8 and Agglomerative 10
+0.001401110418648173 is the rand index between clusters Agglomerative 8 and Agglomerative 11
+0.7498624443594115 is the rand index between clusters Agglomerative 8 and Agglomerative 12
+5.1724372263922645e-05 is the rand index between clusters Agglomerative 8 and Spectral 1
+-7.864078755774294e-05 is the rand index between clusters Agglomerative 8 and Spectral 2
+-5.463213304475766e-05 is the rand index between clusters Agglomerative 8 and Spectral 3
+9.801939358591536e-06 is the rand index between clusters Agglomerative 8 and Spectral 4
+0.00010776275576908043 is the rand index between clusters Agglomerative 8 and Spectral 5
+4.6524713657962624e-05 is the rand index between clusters Agglomerative 8 and Spectral 6
+-1.6115465787216598e-05 is the rand index between clusters Agglomerative 8 and Spectral 7
+3.4005499107508846e-05 is the rand index between clusters Agglomerative 8 and Spectral 8
+0.0001277291831762519 is the rand index between clusters Agglomerative 8 and Spectral 9
+0.0003267891611631212 is the rand index between clusters Agglomerative 8 and Spectral 10
+0.00013142096446167834 is the rand index between clusters Agglomerative 8 and Birch 1
+-0.00017857167199778167 is the rand index between clusters Agglomerative 8 and Birch 2
+6.467625303144226e-05 is the rand index between clusters Agglomerative 8 and Birch 3
+0.31987871000808726 is the rand index between clusters Agglomerative 9 and K Means 1
+0.4803526968029126 is the rand index between clusters Agglomerative 9 and K Means 2
+0.6952858390539026 is the rand index between clusters Agglomerative 9 and K Means 3
+0.6371190764757235 is the rand index between clusters Agglomerative 9 and K Means 4
+0.4554770901274617 is the rand index between clusters Agglomerative 9 and K Means 5
+0.31365175924455707 is the rand index between clusters Agglomerative 9 and Deconvolution 1
+0.3720190926241574 is the rand index between clusters Agglomerative 9 and Deconvolution 2
+0.315462270006641 is the rand index between clusters Agglomerative 9 and Deconvolution 3
+0.315462270006641 is the rand index between clusters Agglomerative 9 and Deconvolution 4
+0.30975768269171366 is the rand index between clusters Agglomerative 9 and K Medoids 1
+0.5073151287367424 is the rand index between clusters Agglomerative 9 and K Medoids 2
+0.6401354245563139 is the rand index between clusters Agglomerative 9 and K Medoids 3
+0.7519050828451505 is the rand index between clusters Agglomerative 9 and K Medoids 4
+0.5046064222254174 is the rand index between clusters Agglomerative 9 and K Medoids 5
+0.5022308954791368 is the rand index between clusters Agglomerative 9 and K Medoids 6
+0.5073151287367424 is the rand index between clusters Agglomerative 9 and K Medoids 7
+0.5073151287367424 is the rand index between clusters Agglomerative 9 and K Medoids 8
+0.5071693408608915 is the rand index between clusters Agglomerative 9 and K Medoids 9
+0.4902949159758598 is the rand index between clusters Agglomerative 9 and Agglomerative 1
+0.3045436988392566 is the rand index between clusters Agglomerative 9 and Agglomerative 2
+0.00024041645147137707 is the rand index between clusters Agglomerative 9 and Agglomerative 3
+-1.4246544588934866e-05 is the rand index between clusters Agglomerative 9 and Agglomerative 4
+0.8267509338478712 is the rand index between clusters Agglomerative 9 and Agglomerative 5
+0.3211461626155872 is the rand index between clusters Agglomerative 9 and Agglomerative 6
+0.3120583747412376 is the rand index between clusters Agglomerative 9 and Agglomerative 7
+-2.1332528086846853e-05 is the rand index between clusters Agglomerative 9 and Agglomerative 8
+1.0 is the rand index between clusters Agglomerative 9 and Agglomerative 9
+0.27362173175761706 is the rand index between clusters Agglomerative 9 and Agglomerative 10
+0.31169527077663145 is the rand index between clusters Agglomerative 9 and Agglomerative 11
+7.45016715555063e-05 is the rand index between clusters Agglomerative 9 and Agglomerative 12
+0.3111773374450347 is the rand index between clusters Agglomerative 9 and Spectral 1
+0.49438586137219626 is the rand index between clusters Agglomerative 9 and Spectral 2
+0.6996705116228977 is the rand index between clusters Agglomerative 9 and Spectral 3
+0.47522034654477313 is the rand index between clusters Agglomerative 9 and Spectral 4
+0.5543016658932003 is the rand index between clusters Agglomerative 9 and Spectral 5
+0.31245772935673105 is the rand index between clusters Agglomerative 9 and Spectral 6
+0.5346224689901148 is the rand index between clusters Agglomerative 9 and Spectral 7
+0.7698443249735744 is the rand index between clusters Agglomerative 9 and Spectral 8
+0.46185373230650417 is the rand index between clusters Agglomerative 9 and Spectral 9
+0.40252243256039105 is the rand index between clusters Agglomerative 9 and Spectral 10
+0.29751832479280393 is the rand index between clusters Agglomerative 9 and Birch 1
+0.4367281896385794 is the rand index between clusters Agglomerative 9 and Birch 2
+0.4854811706867092 is the rand index between clusters Agglomerative 9 and Birch 3
+0.6607675095080625 is the rand index between clusters Agglomerative 10 and K Means 1
+0.3993595386494921 is the rand index between clusters Agglomerative 10 and K Means 2
+0.37023986249016566 is the rand index between clusters Agglomerative 10 and K Means 3
+0.394411526842824 is the rand index between clusters Agglomerative 10 and K Means 4
+0.35295541509361644 is the rand index between clusters Agglomerative 10 and K Means 5
+0.45186965288151987 is the rand index between clusters Agglomerative 10 and Deconvolution 1
+0.45435679973215726 is the rand index between clusters Agglomerative 10 and Deconvolution 2
+0.44580376536121913 is the rand index between clusters Agglomerative 10 and Deconvolution 3
+0.44580376536121913 is the rand index between clusters Agglomerative 10 and Deconvolution 4
+0.711803459136688 is the rand index between clusters Agglomerative 10 and K Medoids 1
+0.3932634405821634 is the rand index between clusters Agglomerative 10 and K Medoids 2
+0.38606313617267246 is the rand index between clusters Agglomerative 10 and K Medoids 3
+0.3519089141661972 is the rand index between clusters Agglomerative 10 and K Medoids 4
+0.3488341282118844 is the rand index between clusters Agglomerative 10 and K Medoids 5
+0.3626482718132424 is the rand index between clusters Agglomerative 10 and K Medoids 6
+0.3932634405821634 is the rand index between clusters Agglomerative 10 and K Medoids 7
+0.3932634405821634 is the rand index between clusters Agglomerative 10 and K Medoids 8
+0.39340451353299377 is the rand index between clusters Agglomerative 10 and K Medoids 9
+0.3134609761200721 is the rand index between clusters Agglomerative 10 and Agglomerative 1
+0.74516124064566 is the rand index between clusters Agglomerative 10 and Agglomerative 2
+0.0010284713796134216 is the rand index between clusters Agglomerative 10 and Agglomerative 3
+0.0003441429380633079 is the rand index between clusters Agglomerative 10 and Agglomerative 4
+0.3667036128575028 is the rand index between clusters Agglomerative 10 and Agglomerative 5
+0.8431733037994847 is the rand index between clusters Agglomerative 10 and Agglomerative 6
+0.46122951938804546 is the rand index between clusters Agglomerative 10 and Agglomerative 7
+0.0005162958550165764 is the rand index between clusters Agglomerative 10 and Agglomerative 8
+0.27362173175761706 is the rand index between clusters Agglomerative 10 and Agglomerative 9
+1.0 is the rand index between clusters Agglomerative 10 and Agglomerative 10
+0.46134695933397324 is the rand index between clusters Agglomerative 10 and Agglomerative 11
+0.0009273834341334441 is the rand index between clusters Agglomerative 10 and Agglomerative 12
+0.7037517703101277 is the rand index between clusters Agglomerative 10 and Spectral 1
+0.37910263495982854 is the rand index between clusters Agglomerative 10 and Spectral 2
+0.40328593209995417 is the rand index between clusters Agglomerative 10 and Spectral 3
+0.521111284496176 is the rand index between clusters Agglomerative 10 and Spectral 4
+0.4567297611246845 is the rand index between clusters Agglomerative 10 and Spectral 5
+0.696785997480859 is the rand index between clusters Agglomerative 10 and Spectral 6
+0.3936454006616181 is the rand index between clusters Agglomerative 10 and Spectral 7
+0.4588940556256362 is the rand index between clusters Agglomerative 10 and Spectral 8
+0.6065296120724013 is the rand index between clusters Agglomerative 10 and Spectral 9
+0.7702790511915824 is the rand index between clusters Agglomerative 10 and Spectral 10
+0.6931542184606925 is the rand index between clusters Agglomerative 10 and Birch 1
+0.5082081172363145 is the rand index between clusters Agglomerative 10 and Birch 2
+0.4774968698875684 is the rand index between clusters Agglomerative 10 and Birch 3
+0.5384047097744048 is the rand index between clusters Agglomerative 11 and K Means 1
+0.5005971406633009 is the rand index between clusters Agglomerative 11 and K Means 2
+0.4180010810738968 is the rand index between clusters Agglomerative 11 and K Means 3
+0.2962681934898077 is the rand index between clusters Agglomerative 11 and K Means 4
+0.27017057349039575 is the rand index between clusters Agglomerative 11 and K Means 5
+0.9824141901006286 is the rand index between clusters Agglomerative 11 and Deconvolution 1
+0.8664559613476324 is the rand index between clusters Agglomerative 11 and Deconvolution 2
+0.9707342600021504 is the rand index between clusters Agglomerative 11 and Deconvolution 3
+0.9707342600021504 is the rand index between clusters Agglomerative 11 and Deconvolution 4
+0.5826556176587129 is the rand index between clusters Agglomerative 11 and K Medoids 1
+0.5230394429192271 is the rand index between clusters Agglomerative 11 and K Medoids 2
+0.39009218752386654 is the rand index between clusters Agglomerative 11 and K Medoids 3
+0.2938606098788581 is the rand index between clusters Agglomerative 11 and K Medoids 4
+0.2948253489278256 is the rand index between clusters Agglomerative 11 and K Medoids 5
+0.23737354929473822 is the rand index between clusters Agglomerative 11 and K Medoids 6
+0.5230394429192271 is the rand index between clusters Agglomerative 11 and K Medoids 7
+0.5230394429192271 is the rand index between clusters Agglomerative 11 and K Medoids 8
+0.522797515584701 is the rand index between clusters Agglomerative 11 and K Medoids 9
+0.2338338248106829 is the rand index between clusters Agglomerative 11 and Agglomerative 1
+0.6116503025824936 is the rand index between clusters Agglomerative 11 and Agglomerative 2
+0.002334693401274277 is the rand index between clusters Agglomerative 11 and Agglomerative 3
+0.00093407832324512 is the rand index between clusters Agglomerative 11 and Agglomerative 4
+0.4467074754240039 is the rand index between clusters Agglomerative 11 and Agglomerative 5
+0.5152398261731859 is the rand index between clusters Agglomerative 11 and Agglomerative 6
+0.9995666600490488 is the rand index between clusters Agglomerative 11 and Agglomerative 7
+0.001401110418648173 is the rand index between clusters Agglomerative 11 and Agglomerative 8
+0.31169527077663145 is the rand index between clusters Agglomerative 11 and Agglomerative 9
+0.46134695933397324 is the rand index between clusters Agglomerative 11 and Agglomerative 10
+1.0 is the rand index between clusters Agglomerative 11 and Agglomerative 11
+0.0023343733602615843 is the rand index between clusters Agglomerative 11 and Agglomerative 12
+0.5756667169015456 is the rand index between clusters Agglomerative 11 and Spectral 1
+0.5416989189639764 is the rand index between clusters Agglomerative 11 and Spectral 2
+0.393117838474959 is the rand index between clusters Agglomerative 11 and Spectral 3
+0.29458198757384774 is the rand index between clusters Agglomerative 11 and Spectral 4
+0.30649466975133427 is the rand index between clusters Agglomerative 11 and Spectral 5
+0.569623023572482 is the rand index between clusters Agglomerative 11 and Spectral 6
+0.6184968661735329 is the rand index between clusters Agglomerative 11 and Spectral 7
+0.39426527416184554 is the rand index between clusters Agglomerative 11 and Spectral 8
+0.29931186509231794 is the rand index between clusters Agglomerative 11 and Spectral 9
+0.34029273724951975 is the rand index between clusters Agglomerative 11 and Spectral 10
+0.6658611541236775 is the rand index between clusters Agglomerative 11 and Birch 1
+0.38068500778568143 is the rand index between clusters Agglomerative 11 and Birch 2
+0.34561599322226755 is the rand index between clusters Agglomerative 11 and Birch 3
+7.006638567541514e-06 is the rand index between clusters Agglomerative 12 and K Means 1
+-4.680410140791278e-05 is the rand index between clusters Agglomerative 12 and K Means 2
+-2.0127672849773672e-05 is the rand index between clusters Agglomerative 12 and K Means 3
+2.4373271450955408e-05 is the rand index between clusters Agglomerative 12 and K Means 4
+4.816141663965817e-05 is the rand index between clusters Agglomerative 12 and K Means 5
+0.0006757254552833456 is the rand index between clusters Agglomerative 12 and Deconvolution 1
+-0.0005610910136624167 is the rand index between clusters Agglomerative 12 and Deconvolution 2
+-0.0004559845634198666 is the rand index between clusters Agglomerative 12 and Deconvolution 3
+-0.0004559845634198666 is the rand index between clusters Agglomerative 12 and Deconvolution 4
+2.2561556943139535e-05 is the rand index between clusters Agglomerative 12 and K Medoids 1
+-7.347704771315473e-05 is the rand index between clusters Agglomerative 12 and K Medoids 2
+-4.628038602805352e-05 is the rand index between clusters Agglomerative 12 and K Medoids 3
+-3.315875867968104e-05 is the rand index between clusters Agglomerative 12 and K Medoids 4
+3.0228320815336603e-06 is the rand index between clusters Agglomerative 12 and K Medoids 5
+2.364844443371206e-05 is the rand index between clusters Agglomerative 12 and K Medoids 6
+-7.347704771315473e-05 is the rand index between clusters Agglomerative 12 and K Medoids 7
+-7.347704771315473e-05 is the rand index between clusters Agglomerative 12 and K Medoids 8
+-7.359897682629372e-05 is the rand index between clusters Agglomerative 12 and K Medoids 9
+1.498858455217175e-05 is the rand index between clusters Agglomerative 12 and Agglomerative 1
+3.432733858974535e-05 is the rand index between clusters Agglomerative 12 and Agglomerative 2
+0.3995478021560723 is the rand index between clusters Agglomerative 12 and Agglomerative 3
+0.5712407604591669 is the rand index between clusters Agglomerative 12 and Agglomerative 4
+5.451124570774409e-05 is the rand index between clusters Agglomerative 12 and Agglomerative 5
+0.0005432801998266387 is the rand index between clusters Agglomerative 12 and Agglomerative 6
+0.001402305015181067 is the rand index between clusters Agglomerative 12 and Agglomerative 7
+0.7498624443594115 is the rand index between clusters Agglomerative 12 and Agglomerative 8
+7.45016715555063e-05 is the rand index between clusters Agglomerative 12 and Agglomerative 9
+0.0009273834341334441 is the rand index between clusters Agglomerative 12 and Agglomerative 10
+0.0023343733602615843 is the rand index between clusters Agglomerative 12 and Agglomerative 11
+1.0 is the rand index between clusters Agglomerative 12 and Agglomerative 12
+1.9907841931335316e-05 is the rand index between clusters Agglomerative 12 and Spectral 1
+1.4631768055476067e-05 is the rand index between clusters Agglomerative 12 and Spectral 2
+9.23489664774257e-05 is the rand index between clusters Agglomerative 12 and Spectral 3
+0.00018627428449128895 is the rand index between clusters Agglomerative 12 and Spectral 4
+0.0002873447567287853 is the rand index between clusters Agglomerative 12 and Spectral 5
+1.767147282234649e-05 is the rand index between clusters Agglomerative 12 and Spectral 6
+0.0001954686888714682 is the rand index between clusters Agglomerative 12 and Spectral 7
+0.0003096918633230811 is the rand index between clusters Agglomerative 12 and Spectral 8
+0.0003827740100243044 is the rand index between clusters Agglomerative 12 and Spectral 9
+0.0006664288027587904 is the rand index between clusters Agglomerative 12 and Spectral 10
+5.945618778112495e-05 is the rand index between clusters Agglomerative 12 and Birch 1
+-5.7997140958304166e-05 is the rand index between clusters Agglomerative 12 and Birch 2
+6.043322703457762e-05 is the rand index between clusters Agglomerative 12 and Birch 3
+0.9506200491901253 is the rand index between clusters Spectral 1 and K Means 1
+0.5288687712465732 is the rand index between clusters Spectral 1 and K Means 2
+0.4427112894573205 is the rand index between clusters Spectral 1 and K Means 3
+0.36952034823200186 is the rand index between clusters Spectral 1 and K Means 4
+0.3032202973204244 is the rand index between clusters Spectral 1 and K Means 5
+0.5635823504981804 is the rand index between clusters Spectral 1 and Deconvolution 1
+0.520572560708512 is the rand index between clusters Spectral 1 and Deconvolution 2
+0.5555146495539794 is the rand index between clusters Spectral 1 and Deconvolution 3
+0.5555146495539794 is the rand index between clusters Spectral 1 and Deconvolution 4
+0.9908202127246315 is the rand index between clusters Spectral 1 and K Medoids 1
+0.5338943712568714 is the rand index between clusters Spectral 1 and K Medoids 2
+0.46312477377559463 is the rand index between clusters Spectral 1 and K Medoids 3
+0.35667491032730764 is the rand index between clusters Spectral 1 and K Medoids 4
+0.31788619023918796 is the rand index between clusters Spectral 1 and K Medoids 5
+0.2797663196592936 is the rand index between clusters Spectral 1 and K Medoids 6
+0.5338943712568714 is the rand index between clusters Spectral 1 and K Medoids 7
+0.5338943712568714 is the rand index between clusters Spectral 1 and K Medoids 8
+0.5340927783502342 is the rand index between clusters Spectral 1 and K Medoids 9
+0.5298970581246464 is the rand index between clusters Spectral 1 and Agglomerative 1
+0.9537426332537139 is the rand index between clusters Spectral 1 and Agglomerative 2
+-7.833912385811865e-05 is the rand index between clusters Spectral 1 and Agglomerative 3
+3.4456267609886525e-05 is the rand index between clusters Spectral 1 and Agglomerative 4
+0.4579956409603395 is the rand index between clusters Spectral 1 and Agglomerative 5
+0.8566217615286009 is the rand index between clusters Spectral 1 and Agglomerative 6
+0.5760972015731576 is the rand index between clusters Spectral 1 and Agglomerative 7
+5.1724372263922645e-05 is the rand index between clusters Spectral 1 and Agglomerative 8
+0.3111773374450347 is the rand index between clusters Spectral 1 and Agglomerative 9
+0.7037517703101277 is the rand index between clusters Spectral 1 and Agglomerative 10
+0.5756667169015456 is the rand index between clusters Spectral 1 and Agglomerative 11
+1.9907841931335316e-05 is the rand index between clusters Spectral 1 and Agglomerative 12
+1.0 is the rand index between clusters Spectral 1 and Spectral 1
+0.48552414085783896 is the rand index between clusters Spectral 1 and Spectral 2
+0.4300631325402552 is the rand index between clusters Spectral 1 and Spectral 3
+0.41223016469153917 is the rand index between clusters Spectral 1 and Spectral 4
+0.3324056797663413 is the rand index between clusters Spectral 1 and Spectral 5
+0.9920151851411599 is the rand index between clusters Spectral 1 and Spectral 6
+0.44720028568316883 is the rand index between clusters Spectral 1 and Spectral 7
+0.4183765216552027 is the rand index between clusters Spectral 1 and Spectral 8
+0.49095076576881896 is the rand index between clusters Spectral 1 and Spectral 9
+0.5399635726893698 is the rand index between clusters Spectral 1 and Spectral 10
+0.8884818939284955 is the rand index between clusters Spectral 1 and Birch 1
+0.6471731331986851 is the rand index between clusters Spectral 1 and Birch 2
+0.4448865394269365 is the rand index between clusters Spectral 1 and Birch 3
+0.4718436711475345 is the rand index between clusters Spectral 2 and K Means 1
+0.886718259048934 is the rand index between clusters Spectral 2 and K Means 2
+0.5804581220681783 is the rand index between clusters Spectral 2 and K Means 3
+0.4690092787954932 is the rand index between clusters Spectral 2 and K Means 4
+0.5701321845644065 is the rand index between clusters Spectral 2 and K Means 5
+0.5270147170767371 is the rand index between clusters Spectral 2 and Deconvolution 1
+0.4790863290633 is the rand index between clusters Spectral 2 and Deconvolution 2
+0.5172527670225632 is the rand index between clusters Spectral 2 and Deconvolution 3
+0.5172527670225632 is the rand index between clusters Spectral 2 and Deconvolution 4
+0.48819823383796773 is the rand index between clusters Spectral 2 and K Medoids 1
+0.8377234009732603 is the rand index between clusters Spectral 2 and K Medoids 2
+0.6169867956457343 is the rand index between clusters Spectral 2 and K Medoids 3
+0.48564919075301 is the rand index between clusters Spectral 2 and K Medoids 4
+0.4469947133833092 is the rand index between clusters Spectral 2 and K Medoids 5
+0.4172287312262123 is the rand index between clusters Spectral 2 and K Medoids 6
+0.8377234009732603 is the rand index between clusters Spectral 2 and K Medoids 7
+0.8377234009732603 is the rand index between clusters Spectral 2 and K Medoids 8
+0.8374287225735116 is the rand index between clusters Spectral 2 and K Medoids 9
+0.4160332799988247 is the rand index between clusters Spectral 2 and Agglomerative 1
+0.4996294593686831 is the rand index between clusters Spectral 2 and Agglomerative 2
+0.00023413029248982078 is the rand index between clusters Spectral 2 and Agglomerative 3
+-5.244880586557164e-05 is the rand index between clusters Spectral 2 and Agglomerative 4
+0.4940725530195583 is the rand index between clusters Spectral 2 and Agglomerative 5
+0.495441307007844 is the rand index between clusters Spectral 2 and Agglomerative 6
+0.5421804901458922 is the rand index between clusters Spectral 2 and Agglomerative 7
+-7.864078755774294e-05 is the rand index between clusters Spectral 2 and Agglomerative 8
+0.49438586137219626 is the rand index between clusters Spectral 2 and Agglomerative 9
+0.37910263495982854 is the rand index between clusters Spectral 2 and Agglomerative 10
+0.5416989189639764 is the rand index between clusters Spectral 2 and Agglomerative 11
+1.4631768055476067e-05 is the rand index between clusters Spectral 2 and Agglomerative 12
+0.48552414085783896 is the rand index between clusters Spectral 2 and Spectral 1
+1.0 is the rand index between clusters Spectral 2 and Spectral 2
+0.48346554158477234 is the rand index between clusters Spectral 2 and Spectral 3
+0.5497071232905414 is the rand index between clusters Spectral 2 and Spectral 4
+0.5071548711368168 is the rand index between clusters Spectral 2 and Spectral 5
+0.48323833139606537 is the rand index between clusters Spectral 2 and Spectral 6
+0.7935149948341831 is the rand index between clusters Spectral 2 and Spectral 7
+0.4419439096572826 is the rand index between clusters Spectral 2 and Spectral 8
+0.4874273086093737 is the rand index between clusters Spectral 2 and Spectral 9
+0.45227299589121484 is the rand index between clusters Spectral 2 and Spectral 10
+0.5223277210352278 is the rand index between clusters Spectral 2 and Birch 1
+0.7875604456243955 is the rand index between clusters Spectral 2 and Birch 2
+0.6654037985936505 is the rand index between clusters Spectral 2 and Birch 3
+0.4424212175503118 is the rand index between clusters Spectral 3 and K Means 1
+0.46962705005982086 is the rand index between clusters Spectral 3 and K Means 2
+0.8106703992589525 is the rand index between clusters Spectral 3 and K Means 3
+0.622096667862295 is the rand index between clusters Spectral 3 and K Means 4
+0.5384975909466555 is the rand index between clusters Spectral 3 and K Means 5
+0.3936244305155483 is the rand index between clusters Spectral 3 and Deconvolution 1
+0.4176671280956576 is the rand index between clusters Spectral 3 and Deconvolution 2
+0.3944477398228524 is the rand index between clusters Spectral 3 and Deconvolution 3
+0.3944477398228524 is the rand index between clusters Spectral 3 and Deconvolution 4
+0.4279629799355413 is the rand index between clusters Spectral 3 and K Medoids 1
+0.4881449656970683 is the rand index between clusters Spectral 3 and K Medoids 2
+0.7351457518026936 is the rand index between clusters Spectral 3 and K Medoids 3
+0.6035658080541032 is the rand index between clusters Spectral 3 and K Medoids 4
+0.5468371935346918 is the rand index between clusters Spectral 3 and K Medoids 5
+0.4771099166793806 is the rand index between clusters Spectral 3 and K Medoids 6
+0.4881449656970683 is the rand index between clusters Spectral 3 and K Medoids 7
+0.4881449656970683 is the rand index between clusters Spectral 3 and K Medoids 8
+0.48803341357551966 is the rand index between clusters Spectral 3 and K Medoids 9
+0.38128941601737304 is the rand index between clusters Spectral 3 and Agglomerative 1
+0.4199445339396326 is the rand index between clusters Spectral 3 and Agglomerative 2
+0.0003683090327984433 is the rand index between clusters Spectral 3 and Agglomerative 3
+-3.644349933104687e-05 is the rand index between clusters Spectral 3 and Agglomerative 4
+0.6330018386458844 is the rand index between clusters Spectral 3 and Agglomerative 5
+0.4616716786459854 is the rand index between clusters Spectral 3 and Agglomerative 6
+0.39351932363443287 is the rand index between clusters Spectral 3 and Agglomerative 7
+-5.463213304475766e-05 is the rand index between clusters Spectral 3 and Agglomerative 8
+0.6996705116228977 is the rand index between clusters Spectral 3 and Agglomerative 9
+0.40328593209995417 is the rand index between clusters Spectral 3 and Agglomerative 10
+0.393117838474959 is the rand index between clusters Spectral 3 and Agglomerative 11
+9.23489664774257e-05 is the rand index between clusters Spectral 3 and Agglomerative 12
+0.4300631325402552 is the rand index between clusters Spectral 3 and Spectral 1
+0.48346554158477234 is the rand index between clusters Spectral 3 and Spectral 2
+1.0 is the rand index between clusters Spectral 3 and Spectral 3
+0.4552181598638995 is the rand index between clusters Spectral 3 and Spectral 4
+0.5652932643192081 is the rand index between clusters Spectral 3 and Spectral 5
+0.43193337465799975 is the rand index between clusters Spectral 3 and Spectral 6
+0.530876969962186 is the rand index between clusters Spectral 3 and Spectral 7
+0.717970858966194 is the rand index between clusters Spectral 3 and Spectral 8
+0.4575588266620743 is the rand index between clusters Spectral 3 and Spectral 9
+0.4782879127119614 is the rand index between clusters Spectral 3 and Spectral 10
+0.4077595267244864 is the rand index between clusters Spectral 3 and Birch 1
+0.4490277226083032 is the rand index between clusters Spectral 3 and Birch 2
+0.44675826408143954 is the rand index between clusters Spectral 3 and Birch 3
+0.3937233152192519 is the rand index between clusters Spectral 4 and K Means 1
+0.6200892879550615 is the rand index between clusters Spectral 4 and K Means 2
+0.4495729711127686 is the rand index between clusters Spectral 4 and K Means 3
+0.6683066202086858 is the rand index between clusters Spectral 4 and K Means 4
+0.6561615960113425 is the rand index between clusters Spectral 4 and K Means 5
+0.29000895719551684 is the rand index between clusters Spectral 4 and Deconvolution 1
+0.3305162908388836 is the rand index between clusters Spectral 4 and Deconvolution 2
+0.2872472960826868 is the rand index between clusters Spectral 4 and Deconvolution 3
+0.2872472960826868 is the rand index between clusters Spectral 4 and Deconvolution 4
+0.4158117924751868 is the rand index between clusters Spectral 4 and K Medoids 1
+0.5469821683123066 is the rand index between clusters Spectral 4 and K Medoids 2
+0.5339417186385726 is the rand index between clusters Spectral 4 and K Medoids 3
+0.6120589772260477 is the rand index between clusters Spectral 4 and K Medoids 4
+0.5589819876308824 is the rand index between clusters Spectral 4 and K Medoids 5
+0.5406427639432274 is the rand index between clusters Spectral 4 and K Medoids 6
+0.5469821683123066 is the rand index between clusters Spectral 4 and K Medoids 7
+0.5469821683123066 is the rand index between clusters Spectral 4 and K Medoids 8
+0.5470425427498947 is the rand index between clusters Spectral 4 and K Medoids 9
+0.3028473683417968 is the rand index between clusters Spectral 4 and Agglomerative 1
+0.4310093044205413 is the rand index between clusters Spectral 4 and Agglomerative 2
+0.00044195003291076985 is the rand index between clusters Spectral 4 and Agglomerative 3
+6.50702469652514e-06 is the rand index between clusters Spectral 4 and Agglomerative 4
+0.4829721610420984 is the rand index between clusters Spectral 4 and Agglomerative 5
+0.5041524493169962 is the rand index between clusters Spectral 4 and Agglomerative 6
+0.29483460320988786 is the rand index between clusters Spectral 4 and Agglomerative 7
+9.801939358591536e-06 is the rand index between clusters Spectral 4 and Agglomerative 8
+0.47522034654477313 is the rand index between clusters Spectral 4 and Agglomerative 9
+0.521111284496176 is the rand index between clusters Spectral 4 and Agglomerative 10
+0.29458198757384774 is the rand index between clusters Spectral 4 and Agglomerative 11
+0.00018627428449128895 is the rand index between clusters Spectral 4 and Agglomerative 12
+0.41223016469153917 is the rand index between clusters Spectral 4 and Spectral 1
+0.5497071232905414 is the rand index between clusters Spectral 4 and Spectral 2
+0.4552181598638995 is the rand index between clusters Spectral 4 and Spectral 3
+1.0 is the rand index between clusters Spectral 4 and Spectral 4
+0.43290939451997484 is the rand index between clusters Spectral 4 and Spectral 5
+0.4091599289225078 is the rand index between clusters Spectral 4 and Spectral 6
+0.42834386237792044 is the rand index between clusters Spectral 4 and Spectral 7
+0.5324604668869997 is the rand index between clusters Spectral 4 and Spectral 8
+0.6536275436613331 is the rand index between clusters Spectral 4 and Spectral 9
+0.5361427666909935 is the rand index between clusters Spectral 4 and Spectral 10
+0.4327579050406796 is the rand index between clusters Spectral 4 and Birch 1
+0.6131312631432474 is the rand index between clusters Spectral 4 and Birch 2
+0.8155282208252214 is the rand index between clusters Spectral 4 and Birch 3
+0.3332927707360955 is the rand index between clusters Spectral 5 and K Means 1
+0.49681282878577343 is the rand index between clusters Spectral 5 and K Means 2
+0.6054520927785377 is the rand index between clusters Spectral 5 and K Means 3
+0.5009018504058702 is the rand index between clusters Spectral 5 and K Means 4
+0.5899501204736216 is the rand index between clusters Spectral 5 and K Means 5
+0.29724154038447237 is the rand index between clusters Spectral 5 and Deconvolution 1
+0.2925291639795574 is the rand index between clusters Spectral 5 and Deconvolution 2
+0.2912113437485587 is the rand index between clusters Spectral 5 and Deconvolution 3
+0.2912113437485587 is the rand index between clusters Spectral 5 and Deconvolution 4
+0.3324324729525856 is the rand index between clusters Spectral 5 and K Medoids 1
+0.5230169089910712 is the rand index between clusters Spectral 5 and K Medoids 2
+0.4792668093496324 is the rand index between clusters Spectral 5 and K Medoids 3
+0.6164528252460834 is the rand index between clusters Spectral 5 and K Medoids 4
+0.5675582354015808 is the rand index between clusters Spectral 5 and K Medoids 5
+0.5537510692081881 is the rand index between clusters Spectral 5 and K Medoids 6
+0.5230169089910712 is the rand index between clusters Spectral 5 and K Medoids 7
+0.5230169089910712 is the rand index between clusters Spectral 5 and K Medoids 8
+0.5227902647100313 is the rand index between clusters Spectral 5 and K Medoids 9
+0.3180361363999083 is the rand index between clusters Spectral 5 and Agglomerative 1
+0.3331544120191291 is the rand index between clusters Spectral 5 and Agglomerative 2
+0.0004496287282298875 is the rand index between clusters Spectral 5 and Agglomerative 3
+7.180446363794725e-05 is the rand index between clusters Spectral 5 and Agglomerative 4
+0.43427732191897644 is the rand index between clusters Spectral 5 and Agglomerative 5
+0.3705776195696393 is the rand index between clusters Spectral 5 and Agglomerative 6
+0.3065550663572787 is the rand index between clusters Spectral 5 and Agglomerative 7
+0.00010776275576908043 is the rand index between clusters Spectral 5 and Agglomerative 8
+0.5543016658932003 is the rand index between clusters Spectral 5 and Agglomerative 9
+0.4567297611246845 is the rand index between clusters Spectral 5 and Agglomerative 10
+0.30649466975133427 is the rand index between clusters Spectral 5 and Agglomerative 11
+0.0002873447567287853 is the rand index between clusters Spectral 5 and Agglomerative 12
+0.3324056797663413 is the rand index between clusters Spectral 5 and Spectral 1
+0.5071548711368168 is the rand index between clusters Spectral 5 and Spectral 2
+0.5652932643192081 is the rand index between clusters Spectral 5 and Spectral 3
+0.43290939451997484 is the rand index between clusters Spectral 5 and Spectral 4
+1.0 is the rand index between clusters Spectral 5 and Spectral 5
+0.3324303538366529 is the rand index between clusters Spectral 5 and Spectral 6
+0.5269867242732328 is the rand index between clusters Spectral 5 and Spectral 7
+0.5082804751045056 is the rand index between clusters Spectral 5 and Spectral 8
+0.5539660473143216 is the rand index between clusters Spectral 5 and Spectral 9
+0.6160041545457088 is the rand index between clusters Spectral 5 and Spectral 10
+0.3369450865536327 is the rand index between clusters Spectral 5 and Birch 1
+0.42281953627648244 is the rand index between clusters Spectral 5 and Birch 2
+0.45005683586920225 is the rand index between clusters Spectral 5 and Birch 3
+0.9584368350147625 is the rand index between clusters Spectral 6 and K Means 1
+0.5267964648717294 is the rand index between clusters Spectral 6 and K Means 2
+0.44436958457869097 is the rand index between clusters Spectral 6 and K Means 3
+0.3677391526513219 is the rand index between clusters Spectral 6 and K Means 4
+0.30378849189471174 is the rand index between clusters Spectral 6 and K Means 5
+0.5576037536011795 is the rand index between clusters Spectral 6 and Deconvolution 1
+0.5142538699532735 is the rand index between clusters Spectral 6 and Deconvolution 2
+0.5495783734106996 is the rand index between clusters Spectral 6 and Deconvolution 3
+0.5495783734106996 is the rand index between clusters Spectral 6 and Deconvolution 4
+0.9828722032891296 is the rand index between clusters Spectral 6 and K Medoids 1
+0.5324828403243769 is the rand index between clusters Spectral 6 and K Medoids 2
+0.4656124263450055 is the rand index between clusters Spectral 6 and K Medoids 3
+0.3553722153135673 is the rand index between clusters Spectral 6 and K Medoids 4
+0.31970630069006284 is the rand index between clusters Spectral 6 and K Medoids 5
+0.27806895969543394 is the rand index between clusters Spectral 6 and K Medoids 6
+0.5324828403243769 is the rand index between clusters Spectral 6 and K Medoids 7
+0.5324828403243769 is the rand index between clusters Spectral 6 and K Medoids 8
+0.5326796738982947 is the rand index between clusters Spectral 6 and K Medoids 9
+0.5357458814202594 is the rand index between clusters Spectral 6 and Agglomerative 1
+0.9459450718102465 is the rand index between clusters Spectral 6 and Agglomerative 2
+-7.093132272037679e-05 is the rand index between clusters Spectral 6 and Agglomerative 3
+3.098982241287925e-05 is the rand index between clusters Spectral 6 and Agglomerative 4
+0.4593228606285029 is the rand index between clusters Spectral 6 and Agglomerative 5
+0.8496735323489712 is the rand index between clusters Spectral 6 and Agglomerative 6
+0.5700535517074883 is the rand index between clusters Spectral 6 and Agglomerative 7
+4.6524713657962624e-05 is the rand index between clusters Spectral 6 and Agglomerative 8
+0.31245772935673105 is the rand index between clusters Spectral 6 and Agglomerative 9
+0.696785997480859 is the rand index between clusters Spectral 6 and Agglomerative 10
+0.569623023572482 is the rand index between clusters Spectral 6 and Agglomerative 11
+1.767147282234649e-05 is the rand index between clusters Spectral 6 and Agglomerative 12
+0.9920151851411599 is the rand index between clusters Spectral 6 and Spectral 1
+0.48323833139606537 is the rand index between clusters Spectral 6 and Spectral 2
+0.43193337465799975 is the rand index between clusters Spectral 6 and Spectral 3
+0.4091599289225078 is the rand index between clusters Spectral 6 and Spectral 4
+0.3324303538366529 is the rand index between clusters Spectral 6 and Spectral 5
+1.0 is the rand index between clusters Spectral 6 and Spectral 6
+0.4440097947272058 is the rand index between clusters Spectral 6 and Spectral 7
+0.42000065784523155 is the rand index between clusters Spectral 6 and Spectral 8
+0.48633788009465617 is the rand index between clusters Spectral 6 and Spectral 9
+0.5348149955160078 is the rand index between clusters Spectral 6 and Spectral 10
+0.8809565849613199 is the rand index between clusters Spectral 6 and Birch 1
+0.643733883096451 is the rand index between clusters Spectral 6 and Birch 2
+0.44139449350146465 is the rand index between clusters Spectral 6 and Birch 3
+0.4278578179741447 is the rand index between clusters Spectral 7 and K Means 1
+0.6995610909891825 is the rand index between clusters Spectral 7 and K Means 2
+0.6646924893657005 is the rand index between clusters Spectral 7 and K Means 3
+0.4406764012534936 is the rand index between clusters Spectral 7 and K Means 4
+0.43904886752925887 is the rand index between clusters Spectral 7 and K Means 5
+0.6029440200478894 is the rand index between clusters Spectral 7 and Deconvolution 1
+0.5500557979129287 is the rand index between clusters Spectral 7 and Deconvolution 2
+0.5926179976919093 is the rand index between clusters Spectral 7 and Deconvolution 3
+0.5926179976919093 is the rand index between clusters Spectral 7 and Deconvolution 4
+0.4509141413815656 is the rand index between clusters Spectral 7 and K Medoids 1
+0.6699284934850462 is the rand index between clusters Spectral 7 and K Medoids 2
+0.6143532714691096 is the rand index between clusters Spectral 7 and K Medoids 3
+0.4994787734955028 is the rand index between clusters Spectral 7 and K Medoids 4
+0.4382788664562075 is the rand index between clusters Spectral 7 and K Medoids 5
+0.39175840987394694 is the rand index between clusters Spectral 7 and K Medoids 6
+0.6699284934850462 is the rand index between clusters Spectral 7 and K Medoids 7
+0.6699284934850462 is the rand index between clusters Spectral 7 and K Medoids 8
+0.6696507870993672 is the rand index between clusters Spectral 7 and K Medoids 9
+0.31597111978201897 is the rand index between clusters Spectral 7 and Agglomerative 1
+0.46658756907159477 is the rand index between clusters Spectral 7 and Agglomerative 2
+0.0005299105720411086 is the rand index between clusters Spectral 7 and Agglomerative 3
+-1.0769396757211113e-05 is the rand index between clusters Spectral 7 and Agglomerative 4
+0.42173397690646597 is the rand index between clusters Spectral 7 and Agglomerative 5
+0.4939952168561695 is the rand index between clusters Spectral 7 and Agglomerative 6
+0.6189625154286006 is the rand index between clusters Spectral 7 and Agglomerative 7
+-1.6115465787216598e-05 is the rand index between clusters Spectral 7 and Agglomerative 8
+0.5346224689901148 is the rand index between clusters Spectral 7 and Agglomerative 9
+0.3936454006616181 is the rand index between clusters Spectral 7 and Agglomerative 10
+0.6184968661735329 is the rand index between clusters Spectral 7 and Agglomerative 11
+0.0001954686888714682 is the rand index between clusters Spectral 7 and Agglomerative 12
+0.44720028568316883 is the rand index between clusters Spectral 7 and Spectral 1
+0.7935149948341831 is the rand index between clusters Spectral 7 and Spectral 2
+0.530876969962186 is the rand index between clusters Spectral 7 and Spectral 3
+0.42834386237792044 is the rand index between clusters Spectral 7 and Spectral 4
+0.5269867242732328 is the rand index between clusters Spectral 7 and Spectral 5
+0.4440097947272058 is the rand index between clusters Spectral 7 and Spectral 6
+1.0 is the rand index between clusters Spectral 7 and Spectral 7
+0.4191559320130032 is the rand index between clusters Spectral 7 and Spectral 8
+0.5572649064384829 is the rand index between clusters Spectral 7 and Spectral 9
+0.5417101980947129 is the rand index between clusters Spectral 7 and Spectral 10
+0.4969255594837922 is the rand index between clusters Spectral 7 and Birch 1
+0.6215109653901413 is the rand index between clusters Spectral 7 and Birch 2
+0.5178096852706489 is the rand index between clusters Spectral 7 and Birch 3
+0.42917880378300827 is the rand index between clusters Spectral 8 and K Means 1
+0.4544989711808391 is the rand index between clusters Spectral 8 and K Means 2
+0.5965293930100609 is the rand index between clusters Spectral 8 and K Means 3
+0.5895518469298039 is the rand index between clusters Spectral 8 and K Means 4
+0.47929038647743805 is the rand index between clusters Spectral 8 and K Means 5
+0.39486829339598273 is the rand index between clusters Spectral 8 and Deconvolution 1
+0.46808703339454977 is the rand index between clusters Spectral 8 and Deconvolution 2
+0.39578512943595845 is the rand index between clusters Spectral 8 and Deconvolution 3
+0.39578512943595845 is the rand index between clusters Spectral 8 and Deconvolution 4
+0.41655800560245004 is the rand index between clusters Spectral 8 and K Medoids 1
+0.5078890212473962 is the rand index between clusters Spectral 8 and K Medoids 2
+0.5755646430296942 is the rand index between clusters Spectral 8 and K Medoids 3
+0.5822256816771736 is the rand index between clusters Spectral 8 and K Medoids 4
+0.43090923282124255 is the rand index between clusters Spectral 8 and K Medoids 5
+0.4554429821050386 is the rand index between clusters Spectral 8 and K Medoids 6
+0.5078890212473962 is the rand index between clusters Spectral 8 and K Medoids 7
+0.5078890212473962 is the rand index between clusters Spectral 8 and K Medoids 8
+0.5077634787899934 is the rand index between clusters Spectral 8 and K Medoids 9
+0.5013656280528795 is the rand index between clusters Spectral 8 and Agglomerative 1
+0.40967467084109727 is the rand index between clusters Spectral 8 and Agglomerative 2
+0.0006900547155403006 is the rand index between clusters Spectral 8 and Agglomerative 3
+2.2641070532715514e-05 is the rand index between clusters Spectral 8 and Agglomerative 4
+0.8407730387778145 is the rand index between clusters Spectral 8 and Agglomerative 5
+0.4881292196743935 is the rand index between clusters Spectral 8 and Agglomerative 6
+0.39460148804421197 is the rand index between clusters Spectral 8 and Agglomerative 7
+3.4005499107508846e-05 is the rand index between clusters Spectral 8 and Agglomerative 8
+0.7698443249735744 is the rand index between clusters Spectral 8 and Agglomerative 9
+0.4588940556256362 is the rand index between clusters Spectral 8 and Agglomerative 10
+0.39426527416184554 is the rand index between clusters Spectral 8 and Agglomerative 11
+0.0003096918633230811 is the rand index between clusters Spectral 8 and Agglomerative 12
+0.4183765216552027 is the rand index between clusters Spectral 8 and Spectral 1
+0.4419439096572826 is the rand index between clusters Spectral 8 and Spectral 2
+0.717970858966194 is the rand index between clusters Spectral 8 and Spectral 3
+0.5324604668869997 is the rand index between clusters Spectral 8 and Spectral 4
+0.5082804751045056 is the rand index between clusters Spectral 8 and Spectral 5
+0.42000065784523155 is the rand index between clusters Spectral 8 and Spectral 6
+0.4191559320130032 is the rand index between clusters Spectral 8 and Spectral 7
+1.0 is the rand index between clusters Spectral 8 and Spectral 8
+0.3956842057067323 is the rand index between clusters Spectral 8 and Spectral 9
+0.35176607919195574 is the rand index between clusters Spectral 8 and Spectral 10
+0.3994737027904742 is the rand index between clusters Spectral 8 and Birch 1
+0.39101606865317845 is the rand index between clusters Spectral 8 and Birch 2
+0.43835971794386513 is the rand index between clusters Spectral 8 and Birch 3
+0.4627595961808742 is the rand index between clusters Spectral 9 and K Means 1
+0.4610102643120544 is the rand index between clusters Spectral 9 and K Means 2
+0.5314338214710885 is the rand index between clusters Spectral 9 and K Means 3
+0.5129364053813289 is the rand index between clusters Spectral 9 and K Means 4
+0.5445637616967177 is the rand index between clusters Spectral 9 and K Means 5
+0.29346499089677636 is the rand index between clusters Spectral 9 and Deconvolution 1
+0.31197188388435537 is the rand index between clusters Spectral 9 and Deconvolution 2
+0.289839551473821 is the rand index between clusters Spectral 9 and Deconvolution 3
+0.289839551473821 is the rand index between clusters Spectral 9 and Deconvolution 4
+0.4963030622737373 is the rand index between clusters Spectral 9 and K Medoids 1
+0.41396822786526094 is the rand index between clusters Spectral 9 and K Medoids 2
+0.609678136828355 is the rand index between clusters Spectral 9 and K Medoids 3
+0.544111438431747 is the rand index between clusters Spectral 9 and K Medoids 4
+0.5689388307963043 is the rand index between clusters Spectral 9 and K Medoids 5
+0.5818827846852792 is the rand index between clusters Spectral 9 and K Medoids 6
+0.41396822786526094 is the rand index between clusters Spectral 9 and K Medoids 7
+0.41396822786526094 is the rand index between clusters Spectral 9 and K Medoids 8
+0.41405692000020106 is the rand index between clusters Spectral 9 and K Medoids 9
+0.2736705238323557 is the rand index between clusters Spectral 9 and Agglomerative 1
+0.5024847110940492 is the rand index between clusters Spectral 9 and Agglomerative 2
+0.000638336068867142 is the rand index between clusters Spectral 9 and Agglomerative 3
+8.511496010758272e-05 is the rand index between clusters Spectral 9 and Agglomerative 4
+0.37724812738526764 is the rand index between clusters Spectral 9 and Agglomerative 5
+0.540631636436573 is the rand index between clusters Spectral 9 and Agglomerative 6
+0.29944866439570317 is the rand index between clusters Spectral 9 and Agglomerative 7
+0.0001277291831762519 is the rand index between clusters Spectral 9 and Agglomerative 8
+0.46185373230650417 is the rand index between clusters Spectral 9 and Agglomerative 9
+0.6065296120724013 is the rand index between clusters Spectral 9 and Agglomerative 10
+0.29931186509231794 is the rand index between clusters Spectral 9 and Agglomerative 11
+0.0003827740100243044 is the rand index between clusters Spectral 9 and Agglomerative 12
+0.49095076576881896 is the rand index between clusters Spectral 9 and Spectral 1
+0.4874273086093737 is the rand index between clusters Spectral 9 and Spectral 2
+0.4575588266620743 is the rand index between clusters Spectral 9 and Spectral 3
+0.6536275436613331 is the rand index between clusters Spectral 9 and Spectral 4
+0.5539660473143216 is the rand index between clusters Spectral 9 and Spectral 5
+0.48633788009465617 is the rand index between clusters Spectral 9 and Spectral 6
+0.5572649064384829 is the rand index between clusters Spectral 9 and Spectral 7
+0.3956842057067323 is the rand index between clusters Spectral 9 and Spectral 8
+1.0 is the rand index between clusters Spectral 9 and Spectral 9
+0.721956320225113 is the rand index between clusters Spectral 9 and Spectral 10
+0.46178704440071483 is the rand index between clusters Spectral 9 and Birch 1
+0.5928145610933152 is the rand index between clusters Spectral 9 and Birch 2
+0.7177910512678334 is the rand index between clusters Spectral 9 and Birch 3
+0.5083924575687638 is the rand index between clusters Spectral 10 and K Means 1
+0.44553946257418237 is the rand index between clusters Spectral 10 and K Means 2
+0.49782845968353373 is the rand index between clusters Spectral 10 and K Means 3
+0.4805197865226836 is the rand index between clusters Spectral 10 and K Means 4
+0.392823860847676 is the rand index between clusters Spectral 10 and K Means 5
+0.33142064060405607 is the rand index between clusters Spectral 10 and Deconvolution 1
+0.3202296943210619 is the rand index between clusters Spectral 10 and Deconvolution 2
+0.3257222171515094 is the rand index between clusters Spectral 10 and Deconvolution 3
+0.3257222171515094 is the rand index between clusters Spectral 10 and Deconvolution 4
+0.5459295740781421 is the rand index between clusters Spectral 10 and K Medoids 1
+0.4039426969089955 is the rand index between clusters Spectral 10 and K Medoids 2
+0.4677379123553219 is the rand index between clusters Spectral 10 and K Medoids 3
+0.5039123929601047 is the rand index between clusters Spectral 10 and K Medoids 4
+0.456088384170244 is the rand index between clusters Spectral 10 and K Medoids 5
+0.4250085113203531 is the rand index between clusters Spectral 10 and K Medoids 6
+0.4039426969089955 is the rand index between clusters Spectral 10 and K Medoids 7
+0.4039426969089955 is the rand index between clusters Spectral 10 and K Medoids 8
+0.40410041372634486 is the rand index between clusters Spectral 10 and K Medoids 9
+0.2815629551237468 is the rand index between clusters Spectral 10 and Agglomerative 1
+0.5708074799932182 is the rand index between clusters Spectral 10 and Agglomerative 2
+0.0008497686083313407 is the rand index between clusters Spectral 10 and Agglomerative 3
+0.000217807802068075 is the rand index between clusters Spectral 10 and Agglomerative 4
+0.30591464012023695 is the rand index between clusters Spectral 10 and Agglomerative 5
+0.6284555769977994 is the rand index between clusters Spectral 10 and Agglomerative 6
+0.34023798492247004 is the rand index between clusters Spectral 10 and Agglomerative 7
+0.0003267891611631212 is the rand index between clusters Spectral 10 and Agglomerative 8
+0.40252243256039105 is the rand index between clusters Spectral 10 and Agglomerative 9
+0.7702790511915824 is the rand index between clusters Spectral 10 and Agglomerative 10
+0.34029273724951975 is the rand index between clusters Spectral 10 and Agglomerative 11
+0.0006664288027587904 is the rand index between clusters Spectral 10 and Agglomerative 12
+0.5399635726893698 is the rand index between clusters Spectral 10 and Spectral 1
+0.45227299589121484 is the rand index between clusters Spectral 10 and Spectral 2
+0.4782879127119614 is the rand index between clusters Spectral 10 and Spectral 3
+0.5361427666909935 is the rand index between clusters Spectral 10 and Spectral 4
+0.6160041545457088 is the rand index between clusters Spectral 10 and Spectral 5
+0.5348149955160078 is the rand index between clusters Spectral 10 and Spectral 6
+0.5417101980947129 is the rand index between clusters Spectral 10 and Spectral 7
+0.35176607919195574 is the rand index between clusters Spectral 10 and Spectral 8
+0.721956320225113 is the rand index between clusters Spectral 10 and Spectral 9
+1.0 is the rand index between clusters Spectral 10 and Spectral 10
+0.566524445599999 is the rand index between clusters Spectral 10 and Birch 1
+0.600040990624433 is the rand index between clusters Spectral 10 and Birch 2
+0.5644584236745115 is the rand index between clusters Spectral 10 and Birch 3
+0.8419737103526361 is the rand index between clusters Birch 1 and K Means 1
+0.5625715866825103 is the rand index between clusters Birch 1 and K Means 2
+0.42344897732882186 is the rand index between clusters Birch 1 and K Means 3
+0.3997491413172856 is the rand index between clusters Birch 1 and K Means 4
+0.3001971404066528 is the rand index between clusters Birch 1 and K Means 5
+0.6528339161028005 is the rand index between clusters Birch 1 and Deconvolution 1
+0.6148087991585107 is the rand index between clusters Birch 1 and Deconvolution 2
+0.644152980589326 is the rand index between clusters Birch 1 and Deconvolution 3
+0.644152980589326 is the rand index between clusters Birch 1 and Deconvolution 4
+0.897175580950459 is the rand index between clusters Birch 1 and K Medoids 1
+0.558137873968074 is the rand index between clusters Birch 1 and K Medoids 2
+0.4319998744219389 is the rand index between clusters Birch 1 and K Medoids 3
+0.3801175862076885 is the rand index between clusters Birch 1 and K Medoids 4
+0.2969961864704269 is the rand index between clusters Birch 1 and K Medoids 5
+0.27425750672893195 is the rand index between clusters Birch 1 and K Medoids 6
+0.558137873968074 is the rand index between clusters Birch 1 and K Medoids 7
+0.558137873968074 is the rand index between clusters Birch 1 and K Medoids 8
+0.5583585169517137 is the rand index between clusters Birch 1 and K Medoids 9
+0.44936757245336867 is the rand index between clusters Birch 1 and Agglomerative 1
+0.9331466943071721 is the rand index between clusters Birch 1 and Agglomerative 2
+-0.00017869763210196467 is the rand index between clusters Birch 1 and Agglomerative 3
+8.75876476286286e-05 is the rand index between clusters Birch 1 and Agglomerative 4
+0.4431284885775769 is the rand index between clusters Birch 1 and Agglomerative 5
+0.8311756074381383 is the rand index between clusters Birch 1 and Agglomerative 6
+0.666290814443271 is the rand index between clusters Birch 1 and Agglomerative 7
+0.00013142096446167834 is the rand index between clusters Birch 1 and Agglomerative 8
+0.29751832479280393 is the rand index between clusters Birch 1 and Agglomerative 9
+0.6931542184606925 is the rand index between clusters Birch 1 and Agglomerative 10
+0.6658611541236775 is the rand index between clusters Birch 1 and Agglomerative 11
+5.945618778112495e-05 is the rand index between clusters Birch 1 and Agglomerative 12
+0.8884818939284955 is the rand index between clusters Birch 1 and Spectral 1
+0.5223277210352278 is the rand index between clusters Birch 1 and Spectral 2
+0.4077595267244864 is the rand index between clusters Birch 1 and Spectral 3
+0.4327579050406796 is the rand index between clusters Birch 1 and Spectral 4
+0.3369450865536327 is the rand index between clusters Birch 1 and Spectral 5
+0.8809565849613199 is the rand index between clusters Birch 1 and Spectral 6
+0.4969255594837922 is the rand index between clusters Birch 1 and Spectral 7
+0.3994737027904742 is the rand index between clusters Birch 1 and Spectral 8
+0.46178704440071483 is the rand index between clusters Birch 1 and Spectral 9
+0.566524445599999 is the rand index between clusters Birch 1 and Spectral 10
+1.0 is the rand index between clusters Birch 1 and Birch 1
+0.7002826422954631 is the rand index between clusters Birch 1 and Birch 2
+0.49926122286583546 is the rand index between clusters Birch 1 and Birch 3
+0.6262497281277916 is the rand index between clusters Birch 2 and K Means 1
+0.7708297630830065 is the rand index between clusters Birch 2 and K Means 2
+0.5402569836048547 is the rand index between clusters Birch 2 and K Means 3
+0.5071181766791373 is the rand index between clusters Birch 2 and K Means 4
+0.48930840977774676 is the rand index between clusters Birch 2 and K Means 5
+0.3683876829978985 is the rand index between clusters Birch 2 and Deconvolution 1
+0.3054873580512436 is the rand index between clusters Birch 2 and Deconvolution 2
+0.36016644320454516 is the rand index between clusters Birch 2 and Deconvolution 3
+0.36016644320454516 is the rand index between clusters Birch 2 and Deconvolution 4
+0.6511710496760228 is the rand index between clusters Birch 2 and K Medoids 1
+0.6919082433078798 is the rand index between clusters Birch 2 and K Medoids 2
+0.6128954443720311 is the rand index between clusters Birch 2 and K Medoids 3
+0.5058164608853356 is the rand index between clusters Birch 2 and K Medoids 4
+0.40800809869890337 is the rand index between clusters Birch 2 and K Medoids 5
+0.4255820685333601 is the rand index between clusters Birch 2 and K Medoids 6
+0.6919082433078798 is the rand index between clusters Birch 2 and K Medoids 7
+0.6919082433078798 is the rand index between clusters Birch 2 and K Medoids 8
+0.692156743605758 is the rand index between clusters Birch 2 and K Medoids 9
+0.4959430594044286 is the rand index between clusters Birch 2 and Agglomerative 1
+0.6679826450822095 is the rand index between clusters Birch 2 and Agglomerative 2
+0.0003024468700369208 is the rand index between clusters Birch 2 and Agglomerative 3
+-0.00011906372392013079 is the rand index between clusters Birch 2 and Agglomerative 4
+0.4261025012444979 is the rand index between clusters Birch 2 and Agglomerative 5
+0.6734106775002228 is the rand index between clusters Birch 2 and Agglomerative 6
+0.381182069336289 is the rand index between clusters Birch 2 and Agglomerative 7
+-0.00017857167199778167 is the rand index between clusters Birch 2 and Agglomerative 8
+0.4367281896385794 is the rand index between clusters Birch 2 and Agglomerative 9
+0.5082081172363145 is the rand index between clusters Birch 2 and Agglomerative 10
+0.38068500778568143 is the rand index between clusters Birch 2 and Agglomerative 11
+-5.7997140958304166e-05 is the rand index between clusters Birch 2 and Agglomerative 12
+0.6471731331986851 is the rand index between clusters Birch 2 and Spectral 1
+0.7875604456243955 is the rand index between clusters Birch 2 and Spectral 2
+0.4490277226083032 is the rand index between clusters Birch 2 and Spectral 3
+0.6131312631432474 is the rand index between clusters Birch 2 and Spectral 4
+0.42281953627648244 is the rand index between clusters Birch 2 and Spectral 5
+0.643733883096451 is the rand index between clusters Birch 2 and Spectral 6
+0.6215109653901413 is the rand index between clusters Birch 2 and Spectral 7
+0.39101606865317845 is the rand index between clusters Birch 2 and Spectral 8
+0.5928145610933152 is the rand index between clusters Birch 2 and Spectral 9
+0.600040990624433 is the rand index between clusters Birch 2 and Spectral 10
+0.7002826422954631 is the rand index between clusters Birch 2 and Birch 1
+1.0 is the rand index between clusters Birch 2 and Birch 2
+0.7634819231995511 is the rand index between clusters Birch 2 and Birch 3
+0.4237180083697095 is the rand index between clusters Birch 3 and K Means 1
+0.6191210381660563 is the rand index between clusters Birch 3 and K Means 2
+0.493742281566412 is the rand index between clusters Birch 3 and K Means 3
+0.6259985682769387 is the rand index between clusters Birch 3 and K Means 4
+0.6655888374781439 is the rand index between clusters Birch 3 and K Means 5
+0.3406801788706473 is the rand index between clusters Birch 3 and Deconvolution 1
+0.38655642726473466 is the rand index between clusters Birch 3 and Deconvolution 2
+0.33767984384662564 is the rand index between clusters Birch 3 and Deconvolution 3
+0.33767984384662564 is the rand index between clusters Birch 3 and Deconvolution 4
+0.44895133154794264 is the rand index between clusters Birch 3 and K Medoids 1
+0.5515935204692823 is the rand index between clusters Birch 3 and K Medoids 2
+0.6203053686101716 is the rand index between clusters Birch 3 and K Medoids 3
+0.6233995472663671 is the rand index between clusters Birch 3 and K Medoids 4
+0.5382750095293 is the rand index between clusters Birch 3 and K Medoids 5
+0.5386144053740333 is the rand index between clusters Birch 3 and K Medoids 6
+0.5515935204692823 is the rand index between clusters Birch 3 and K Medoids 7
+0.5515935204692823 is the rand index between clusters Birch 3 and K Medoids 8
+0.5516648625941671 is the rand index between clusters Birch 3 and K Medoids 9
+0.3038526143893937 is the rand index between clusters Birch 3 and Agglomerative 1
+0.4661021870876934 is the rand index between clusters Birch 3 and Agglomerative 2
+-9.846220210632707e-06 is the rand index between clusters Birch 3 and Agglomerative 3
+4.308512635901911e-05 is the rand index between clusters Birch 3 and Agglomerative 4
+0.4897746487509824 is the rand index between clusters Birch 3 and Agglomerative 5
+0.4537328034072289 is the rand index between clusters Birch 3 and Agglomerative 6
+0.34582725240971524 is the rand index between clusters Birch 3 and Agglomerative 7
+6.467625303144226e-05 is the rand index between clusters Birch 3 and Agglomerative 8
+0.4854811706867092 is the rand index between clusters Birch 3 and Agglomerative 9
+0.4774968698875684 is the rand index between clusters Birch 3 and Agglomerative 10
+0.34561599322226755 is the rand index between clusters Birch 3 and Agglomerative 11
+6.043322703457762e-05 is the rand index between clusters Birch 3 and Agglomerative 12
+0.4448865394269365 is the rand index between clusters Birch 3 and Spectral 1
+0.6654037985936505 is the rand index between clusters Birch 3 and Spectral 2
+0.44675826408143954 is the rand index between clusters Birch 3 and Spectral 3
+0.8155282208252214 is the rand index between clusters Birch 3 and Spectral 4
+0.45005683586920225 is the rand index between clusters Birch 3 and Spectral 5
+0.44139449350146465 is the rand index between clusters Birch 3 and Spectral 6
+0.5178096852706489 is the rand index between clusters Birch 3 and Spectral 7
+0.43835971794386513 is the rand index between clusters Birch 3 and Spectral 8
+0.7177910512678334 is the rand index between clusters Birch 3 and Spectral 9
+0.5644584236745115 is the rand index between clusters Birch 3 and Spectral 10
+0.49926122286583546 is the rand index between clusters Birch 3 and Birch 1
+0.7634819231995511 is the rand index between clusters Birch 3 and Birch 2
+1.0 is the rand index between clusters Birch 3 and Birch 3
+Process complete
+Clustering on all files completed
+Process finished with exit code 0

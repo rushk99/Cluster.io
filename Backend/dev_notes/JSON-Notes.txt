@@ -1,0 +1,11 @@
+JSON Contents:
+    Excel File
+        Filename
+        File format
+        Column to cluster (hardness, modulus, stiffness)
+    Clustering
+        Clustering Method
+            Clustering Method details
+    Analysis
+        What to return (csv file, plots, etc)
+

@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>AllClusteringAnalysisEfficientServer &mdash; NanomechanicalBackend V 0.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="BinHelper" href="BinHelper.html" />
+    <link rel="prev" title="Helper Files" href="helpers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> NanomechanicalBackend
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="helpers.html">Helper Files</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">AllClusteringAnalysisEfficientServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BinHelper.html">BinHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CHI.html">CHI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ClusteringComparisonHelper.html">ClusteringComparisonHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ClusteringHelper.html">ClusteringHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ContourPlotHelper.html">ContourPlotHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DataAnalysisHelper.html">DataAnalysisHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DataCollectionHelper.html">DataCollectionHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DBI.html">DBI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeconHelper.html">DeconHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeconPhaseHelper.html">DeconPhaseHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DirectoryManagerHelper.html">DirectoryManagerHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Errors.html">Errors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExcelFileReaderHelper.html">ExcelFileReaderHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MainCallable.html">MainCallable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MaxAreaRectangle.html">MaxAreaRectangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PDFHelper.html">PDFHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PreProcessingHelper.html">PreProcessingHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RemoveOutliers.html">RemoveOutliers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SilhouetteCoefficient.html">SilhouetteCoefficient</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StringDefinitionsHelper.html">StringDefinitionsHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="server_files.html">Server Files</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NanomechanicalBackend</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="helpers.html">Helper Files</a> &raquo;</li>
+        
+      <li>AllClusteringAnalysisEfficientServer</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/AllClusteringAnalysisEfficientServer.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-AllClusteringAnalysisEfficientServer">
+<span id="allclusteringanalysisefficientserver"></span><h1>AllClusteringAnalysisEfficientServer<a class="headerlink" href="#module-AllClusteringAnalysisEfficientServer" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="AllClusteringAnalysisEfficientServer.execute">
+<em class="property">async </em><code class="sig-prename descclassname">AllClusteringAnalysisEfficientServer.</code><code class="sig-name descname">execute</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">clustering_methods_list</span></em>, <em class="sig-param"><span class="n">clustering_details_list</span></em>, <em class="sig-param"><span class="n">cluster_names_list</span></em>, <em class="sig-param"><span class="n">file_name</span></em>, <em class="sig-param"><span class="n">file_format</span></em>, <em class="sig-param"><span class="n">clustered_column</span><span class="o">=</span><span class="default_value">'Hardness'</span></em>, <em class="sig-param"><span class="n">caller_id</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">show_contour_clustered</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">show_contour_raw</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">show_bar</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">remove_outliers</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_contour_clustered</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">give_cluster_report</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">print_to_console</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">print_to_text_file</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">text_report_name</span><span class="o">=</span><span class="default_value">'RunReport.txt'</span></em>, <em class="sig-param"><span class="n">clusters_save_dir</span><span class="o">=</span><span class="default_value">'/ClusterPlots'</span></em>, <em class="sig-param"><span class="n">rand_index_save_dir</span><span class="o">=</span><span class="default_value">'/RandIndexVisualization'</span></em>, <em class="sig-param"><span class="n">text_files_save_dir</span><span class="o">=</span><span class="default_value">'/TextFiles'</span></em>, <em class="sig-param"><span class="n">data_save_dir</span><span class="o">=</span><span class="default_value">'/ClusteredData'</span></em>, <em class="sig-param"><span class="n">cluster_fraction_save_dir</span><span class="o">=</span><span class="default_value">'/ClusterInfoHistograms'</span></em>, <em class="sig-param"><span class="n">save_rand_index_visualizations</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">additional_outlier_clusters</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">show_rand_index_plots</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_cluster_histograms</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">decon_dir</span><span class="o">=</span><span class="default_value">'/DeconvolutionPlots'</span></em>, <em class="sig-param"><span class="n">save_clustered_data</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#AllClusteringAnalysisEfficientServer.execute" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>clustering_methods_list</strong> – The clustering methods we are using for our clustering,
+see StringDefinitionsHelper for options</p></li>
+<li><p><strong>clustering_details_list</strong> – The details associated with the clustering methods we are using for our
+clustering methods, see StringDefinitionsHelper.py and ClusteringHelper.py for details</p></li>
+<li><p><strong>cluster_names_list</strong> – How to identify the clusters for print reports</p></li>
+<li><p><strong>file_name</strong> – The name of the file we are reading in relative to the folder of the executable</p></li>
+<li><p><strong>file_format</strong> – The format of the file we are reading in, see StringDefinitionsHelper for options</p></li>
+<li><p><strong>clustered_column</strong> – The name of the type of column we are clustering, default value of Hardness</p></li>
+<li><p><strong>caller_id</strong> – #TODO Eric describe this</p></li>
+<li><p><strong>show_contour_clustered</strong> – A boolean of whether or not to show the final clustered data’s contour plot</p></li>
+<li><p><strong>show_contour_raw</strong> – A boolean of whether or not to show the raw data’s contour plot</p></li>
+<li><p><strong>show_bar</strong> – A boolean of whether or not to show the bar graph</p></li>
+<li><p><strong>remove_outliers</strong> – A boolean of whether or not to remove outliers</p></li>
+<li><p><strong>save_contour_clustered</strong> – A boolean of whether or not save the clustered contour plot</p></li>
+<li><p><strong>give_cluster_report</strong> – A boolean of whether or not to print out a report of the clusters’ details</p></li>
+<li><p><strong>print_to_console</strong> – A boolean of whether or not to print out information to the console</p></li>
+<li><p><strong>print_to_text_file</strong> – A boolean of whether or not to print out information to a text file</p></li>
+<li><p><strong>text_report_name</strong> – The file path to save the text file to</p></li>
+<li><p><strong>clusters_save_dir</strong> – The directory to save the clustered figures to</p></li>
+<li><p><strong>rand_index_save_dir</strong> – The directory to save the rand index visualization figures to</p></li>
+<li><p><strong>text_files_save_dir</strong> – The directory to save the text files to</p></li>
+<li><p><strong>data_save_dir</strong> – The directory to save the data files to</p></li>
+<li><p><strong>cluster_fraction_save_dir</strong> – The directory to save the histograms which highlight cluster fractions to</p></li>
+<li><p><strong>save_rand_index_visualizations</strong> – A boolean of whether or not to save the rand index visualization</p></li>
+<li><p><strong>additional_outlier_clusters</strong> – A boolean of whether to place any outliers into separate clusters</p></li>
+<li><p><strong>show_rand_index_plots</strong> – A boolean of whether to show the rand index visualization plots or not</p></li>
+<li><p><strong>save_cluster_histograms</strong> – A boolean of whether or not to save the cluster fraction histograms</p></li>
+<li><p><strong>decon_dir</strong> – The directory to save the deconvolution plots in</p></li>
+<li><p><strong>save_clustered_data</strong> – A boolean of whether or not to save the clustered data</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing at the moment</p>
+</dd>
+</dl>
+<p>Reads in all of the data and performs the necessary clustering. It performs the following steps: Reading in the
+data, preprocessing the data, clustering the data, an then analyzing the data. The the respective helper classes
+for more details as to how the processes work.</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="BinHelper.html" class="btn btn-neutral float-right" title="BinHelper" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="helpers.html" class="btn btn-neutral float-left" title="Helper Files" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Christopher Vieira and Eric Schmid
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

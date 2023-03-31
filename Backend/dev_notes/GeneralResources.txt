@@ -1,0 +1,223 @@
+Remove values lower or greater than values np array
+https://stackoverflow.com/questions/55806118/remove-elements-from-numpy-array-smaller-than-1
+
+Create a numpy array with a range of values
+https://stackoverflow.com/questions/41300706/create-an-array-with-varying-increment-in-python
+
+Generate numpy arrays with random, normal, etc values
+https://chrisalbon.com/python/basics/generating_random_numbers_with_numpy/
+https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.uniform.html
+
+Plotting Histograms
+https://stackoverflow.com/questions/51473993/plot-an-histogram-with-y-axis-as-percentage-using-funcformatter
+https://stackoverflow.com/questions/33203645/how-to-plot-a-histogram-using-matplotlib-in-python-with-a-list-of-data
+https://matplotlib.org/3.1.0/gallery/statistics/hist.html
+https://matplotlib.org/3.2.2/api/_as_gen/matplotlib.pyplot.hist.html
+https://matplotlib.org/3.2.2/api/_as_gen/matplotlib.pyplot.hist2d.html#matplotlib.pyplot.hist2d
+
+Numpy sort array
+https://numpy.org/doc/stable/reference/generated/numpy.sort.html
+
+Numpy Array
+https://numpy.org/doc/stable/reference/generated/numpy.array.html
+
+PDF
+https://www.mathworks.com/help/stats/prob.normaldistribution.pdf.html
+https://stackoverflow.com/questions/12412895/calculate-probability-in-normal-distribution-given-mean-std-in-python
+https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html
+
+Plotting normal curve
+https://stackoverflow.com/questions/10138085/python-plot-normal-distribution
+
+Contour Plots
+https://alex.miller.im/posts/contour-plots-in-python-matplotlib-x-y-z/
+https://stackoverflow.com/questions/39727040/matplotlib-2d-plot-from-x-y-z-values
+https://jakevdp.github.io/PythonDataScienceHandbook/04.04-density-and-contour-plots.html
+https://stackoverflow.com/questions/51891538/create-a-surface-plot-of-xyz-altitude-data-in-python
+https://problemsolvingwithpython.com/06-Plotting-with-Matplotlib/06.14-Contour-Plots/
+Best - https://stackoverflow.com/questions/39727040/matplotlib-2d-plot-from-x-y-z-values
+https://matplotlib.org/3.1.3/api/_as_gen/matplotlib.pyplot.contour.html
+
+Matplotlib Color Bar
+https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.colorbar.html
+https://matplotlib.org/3.2.2/tutorials/colors/colormaps.html
+
+Numpy index of max val
+https://numpy.org/doc/stable/reference/generated/numpy.argmax.html
+
+K-Means Clustering
+https://www.youtube.com/watch?v=4b5d3muPQmA
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+https://stackoverflow.com/questions/28416408/scikit-learn-how-to-run-kmeans-on-a-one-dimensional-array
+
+Closest number in array
+https://www.geeksforgeeks.org/python-find-closest-number-to-k-in-given-list/
+
+Matplotlib Bar Graph
+https://matplotlib.org/3.3.0/api/_as_gen/matplotlib.pyplot.bar.html
+
+Python Count item in List
+https://www.geeksforgeeks.org/python-count-occurrences-element-list/
+
+IQR
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.iqr.html
+
+Clustering Methods
+*** https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68
+https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/
+*** https://scikit-learn.org/stable/modules/clustering.html
+
+Spectral Clustering
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.SpectralClustering.html#sklearn.cluster.SpectralClustering
+https://towardsdatascience.com/spectral-clustering-aba2640c0d5b
+https://www.youtube.com/watch?v=uxsDKhZHDcc
+
+Agglomerative Clustering
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html#sklearn.cluster.AgglomerativeClustering
+https://www.datanovia.com/en/lessons/agglomerative-hierarchical-clustering/
+https://www.youtube.com/watch?v=XJ3194AmH40
+
+AffinityPropagation
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AffinityPropagation.html#sklearn.cluster.AffinityPropagation
+
+DBSCAN
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html#sklearn.cluster.DBSCAN
+https://en.wikipedia.org/wiki/DBSCAN
+https://www.youtube.com/watch?v=sKRUfsc8zp4
+https://www.youtube.com/watch?v=6jl9KkmgDIw
+
+OPTICS
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS
+https://en.wikipedia.org/wiki/OPTICS_algorithm#:~:text=Ordering%20points%20to%20identify%20the,based%20clusters%20in%20spatial%20data.&text=Additionally%2C%20a%20special%20distance%20is,belong%20to%20the%20same%20cluster.
+https://www.youtube.com/watch?v=GCnsmjwV3BE
+
+Birch
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.Birch.html#sklearn.cluster.Birch
+https://www.youtube.com/watch?v=c-tXRWfoGJc
+
+K Medoids
+https://scikit-learn-extra.readthedocs.io/en/latest/generated/sklearn_extra.cluster.KMedoids.html
+
+Largest Rectangular Area in a Histogram
+https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+
+Maximum size rectangle binary sub-matrix with all 1s
+https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
+
+How to get the second-to-last element of a list in Python?
+https://www.tutorialspoint.com/How-to-get-the-second-to-last-element-of-a-list-in-Python
+
+Detect if a NumPy array contains at least one non-numeric value?
+https://stackoverflow.com/questions/911871/detect-if-a-numpy-array-contains-at-least-one-non-numeric-value
+
+How to access the ith column of a NumPy multidimensional array?
+https://stackoverflow.com/questions/4455076/how-to-access-the-ith-column-of-a-numpy-multidimensional-array
+
+Rotate numpy array
+https://docs.scipy.org/doc/numpy-1.9.2/reference/generated/numpy.rot90.html
+
+How To Replace Nulls
+https://towardsdatascience.com/the-tale-of-missing-values-in-python-c96beb0e8a9d
+https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.interpolate.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html
+https://stackoverflow.com/questions/37662180/interpolate-missing-values-2d-python
+
+Remove outliers work
+https://stackoverflow.com/questions/11686720/is-there-a-numpy-builtin-to-reject-outliers-from-a-list
+
+Vectorize function
+https://stackoverflow.com/questions/8036878/function-of-numpy-array-with-if-statement
+
+CDF Work
+https://www.youtube.com/watch?v=-QH2vRGKq4k
+
+Color bar max, min, and increments
+https://stackoverflow.com/questions/53641644/set-colorbar-range-with-contourf
+
+Matplotlib colors
+https://matplotlib.org/stable/gallery/color/named_colors.html
+https://matplotlib.org/stable/tutorials/colors/colormaps.html
+
+Matplotlib contour plot specify color bar levels
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contour.html
+
+Python DataFrames compare multiple columns in a DF
+https://stackoverflow.com/questions/27474921/compare-two-columns-using-pandas
+https://stackoverflow.com/questions/17071871/how-do-i-select-rows-from-a-dataframe-based-on-column-values
+https://datatofish.com/if-condition-in-pandas-dataframe/
+https://stackoverflow.com/questions/43391591/if-else-function-in-pandas-dataframe
+
+Issue with jupyter notebook failing due to DLL import after updating libraries
+Solved by adding anaconda and *anaconda root*/Library/bin to path environment variable
+https://github.com/jupyter/notebook/issues/4332
+https://www.programmersought.com/article/61014432179/
+https://youtrack.jetbrains.com/issue/PY-39047
+https://docs.conda.io/projects/conda-build/en/latest/install-conda-build.html
+
+Numpy fill array with identical values
+https://www.kite.com/python/answers/how-to-fill-a-numpy-array-with-all-identical-values-in-python
+
+Sort dataframe based on index
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_index.html
+
+Adding new column to dataframe
+https://www.geeksforgeeks.org/adding-new-column-to-existing-dataframe-in-pandas/
+
+Dataframe append
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html
+
+Assign columns ignoring index
+https://stackoverflow.com/questions/15979339/how-to-assign-columns-while-ignoring-index-alignment
+
+Indexing data dataframes
+https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html
+
+Dataframe index
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.index.html
+
+Dataframe rename columns
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html
+
+Dataframe set index
+http://pytolearn.csd.auth.gr/b4-pandas/40/moddfcols.html
+
+Characters to avoid
+https://www.mtu.edu/umc/services/websites/writing/characters-avoid/
+
+Datetime
+https://stackoverflow.com/questions/43553222/transform-datetime-in-yyyy-mm-dd-hhmmss-ssssss/43553617
+
+Python does directory exist
+https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions
+https://www.geeksforgeeks.org/python-os-path-isdir-method/#:~:text=os.-,path.,the%20method%20will%20return%20True.
+https://docs.python.org/3/library/os.html
+
+Using del to remove items from a list
+https://stackoverflow.com/questions/627435/how-to-remove-an-element-from-a-list-by-index
+
+How to use uuid's
+https://docs.python.org/3/library/uuid.html
+
+Clustering Metrics
+https://scikit-learn.org/stable/modules/model_evaluation.html
+https://scikit-learn.org/stable/modules/classes.html
+https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics.cluster
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.calinski_harabasz_score.html#sklearn.metrics.calinski_harabasz_score
+
+Multiple subplots
+https://matplotlib.org/devdocs/gallery/subplots_axes_and_figures/subplots_demo.html
+https://stackoverflow.com/questions/6871201/plot-two-histograms-on-single-chart-with-matplotlib
+https://stackoverflow.com/questions/47467077/python-plot-multiple-histograms
+https://stackoverflow.com/questions/50257509/is-there-maximum-figsize-in-matplotlib
+
+Find last instance of character in string
+https://www.w3schools.com/python/ref_string_rfind.asp
+
+Numpy mask null or nonsense values
+https://numpy.org/doc/stable/reference/generated/numpy.ma.masked_invalid.html
+
+Interpolation
+https://stackoverflow.com/questions/37662180/interpolate-missing-values-2d-python
+

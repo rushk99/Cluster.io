@@ -1,0 +1,179 @@
+{
+    "datasets": [
+        {
+            "name": "test-dataset",
+            "fileName": "01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx",
+            "description": "test-dataset-description",
+            "url": "https://materialdatasets.s3.amazonaws.com/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx"
+        },
+        {
+            "name": "test-datasest-2",
+            "fileName": "10JUNE He CrossSection Addalloy.xlsx",
+            "description": "test-dataset",
+            "url": "https://materialdatasets.s3.amazonaws.com/10JUNE He CrossSection Addalloy.xlsx"
+        },
+        {
+            "name": "test-dataset-3",
+            "fileName": "test2.xlsx",
+            "description": "test-dataset",
+            "url": "https://materialdatasets.s3.amazonaws.com/test2.xlsx"
+        },
+        {
+            "name": "test-dataset-4",
+            "fileName": "01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx",
+            "description": "asaSAs",
+            "url": "https://materialdatasets.s3.amazonaws.com/01NOV2019_600degF-5min-Austempering_BCS-1444.xlsx"
+        },
+        {
+            "name": "test-dataset-5",
+            "fileName": "19AUG2020_0515-2017-10601_Unprocessed_BCS-2118 MAP.xlsx",
+            "description": "dasdas",
+            "url": "https://materialdatasets.s3.amazonaws.com/19AUG2020_0515-2017-10601_Unprocessed_BCS-2118 MAP.xlsx"
+        },
+        {
+            "name": "Mtest2",
+            "fileName": "test2.xlsx",
+            "description": "sadsad",
+            "url": "https://materialdatasets.s3.amazonaws.com/test2.xlsx"
+        },
+        {
+            "name": "Mtest3",
+            "fileName": "test3.xlsx",
+            "description": "asdas",
+            "url": "https://materialdatasets.s3.amazonaws.com/test3.xlsx"
+        },
+        {
+            "name": "Mtest4",
+            "fileName": "test4.xlsx",
+            "description": "asdasd",
+            "url": "https://materialdatasets.s3.amazonaws.com/test4.xlsx"
+        },
+        {
+            "name": "Mtest1",
+            "fileName": "test1.xlsx",
+            "description": "tesfdsdsd",
+            "url": "https://materialdatasets.s3.amazonaws.com/test1.xlsx"
+        }
+    ],
+    "configData": [
+        {
+            "name": "kmeans3_onMtest1",
+            "parameters": [
+                {
+                    "name": "numClusters",
+                    "value": "3"
+                },
+                {
+                    "name": "randomState",
+                    "value": "0"
+                },
+                {
+                    "name": "clusterDataOn",
+                    "value": "Hardness"
+                }
+            ],
+            "datasetName": "Mtest1",
+            "rawData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmeans3_onMtest1/raw_data.png",
+            "clusteredData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmeans3_onMtest1/clustered_data.png",
+            "clustersFractions": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmeans3_onMtest1/clusters_fractions.png",
+            "clusteredDataset": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmeans3_onMtest1/ClusteredData.xlsx",
+            "label": "Hardness"
+        },
+        {
+            "name": "birch3_onMtest1",
+            "parameters": [
+                {
+                    "name": "numClusters",
+                    "value": "3"
+                },
+                {
+                    "name": "clusterDataOn",
+                    "value": "Hardness"
+                }
+            ],
+            "datasetName": "Mtest1",
+            "rawData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/birch3_onMtest1/raw_data.png",
+            "clusteredData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/birch3_onMtest1/clustered_data.png",
+            "clustersFractions": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/birch3_onMtest1/clusters_fractions.png",
+            "clusteredDataset": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/birch3_onMtest1/ClusteredData.xlsx",
+            "label": "Hardness"
+        },
+        {
+            "name": "agglo3onMtest1",
+            "parameters": [
+                {
+                    "name": "numClusters",
+                    "value": "3"
+                },
+                {
+                    "name": "linkage",
+                    "value": "ward"
+                },
+                {
+                    "name": "clusterDataOn",
+                    "value": "Hardness"
+                }
+            ],
+            "datasetName": "Mtest1",
+            "rawData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/agglo3onMtest1/raw_data.png",
+            "clusteredData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/agglo3onMtest1/clustered_data.png",
+            "clustersFractions": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/agglo3onMtest1/clusters_fractions.png",
+            "clusteredDataset": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/agglo3onMtest1/ClusteredData.xlsx",
+            "label": "Hardness"
+        },
+        {
+            "name": "kmedoids3_onMtest1",
+            "parameters": [
+                {
+                    "name": "numClusters",
+                    "value": "3"
+                },
+                {
+                    "name": "init",
+                    "value": "random"
+                },
+                {
+                    "name": "randomState",
+                    "value": "0"
+                },
+                {
+                    "name": "clusterDataOn",
+                    "value": "Hardness"
+                }
+            ],
+            "datasetName": "Mtest1",
+            "rawData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmedoids3_onMtest1/raw_data.png",
+            "clusteredData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmedoids3_onMtest1/clustered_data.png",
+            "clustersFractions": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmedoids3_onMtest1/clusters_fractions.png",
+            "clusteredDataset": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/kmedoids3_onMtest1/ClusteredData.xlsx",
+            "label": "Hardness"
+        },
+        {
+            "name": "dbscan0.3_50_onMtest1",
+            "parameters": [
+                {
+                    "name": "eps",
+                    "value": "0.3"
+                },
+                {
+                    "name": "minSamples",
+                    "value": "50"
+                },
+                {
+                    "name": "algorithm",
+                    "value": "auto"
+                },
+                {
+                    "name": "clusterDataOn",
+                    "value": "Hardness"
+                }
+            ],
+            "datasetName": "Mtest1",
+            "rawData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/dbscan0.3_50_onMtest1/raw_data.png",
+            "clusteredData": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/dbscan0.3_50_onMtest1/clustered_data.png",
+            "clustersFractions": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/dbscan0.3_50_onMtest1/clusters_fractions.png",
+            "clusteredDataset": "https://materialdatasets.s3.amazonaws.com/clusterConfig/Mtest1/dbscan0.3_50_onMtest1/ClusteredData.xlsx",
+            "label": "Hardness"
+        }
+    ]
+}

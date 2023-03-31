@@ -1,0 +1,476 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>ClusteringHelper &mdash; NanomechanicalBackend V 0.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ContourPlotHelper" href="ContourPlotHelper.html" />
+    <link rel="prev" title="ClusteringComparisonHelper" href="ClusteringComparisonHelper.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> NanomechanicalBackend
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="helpers.html">Helper Files</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="AllClusteringAnalysisEfficientServer.html">AllClusteringAnalysisEfficientServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BinHelper.html">BinHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CHI.html">CHI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ClusteringComparisonHelper.html">ClusteringComparisonHelper</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">ClusteringHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ContourPlotHelper.html">ContourPlotHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DataAnalysisHelper.html">DataAnalysisHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DataCollectionHelper.html">DataCollectionHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DBI.html">DBI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeconHelper.html">DeconHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeconPhaseHelper.html">DeconPhaseHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DirectoryManagerHelper.html">DirectoryManagerHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Errors.html">Errors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExcelFileReaderHelper.html">ExcelFileReaderHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MainCallable.html">MainCallable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MaxAreaRectangle.html">MaxAreaRectangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PDFHelper.html">PDFHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PreProcessingHelper.html">PreProcessingHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RemoveOutliers.html">RemoveOutliers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SilhouetteCoefficient.html">SilhouetteCoefficient</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StringDefinitionsHelper.html">StringDefinitionsHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="server_files.html">Server Files</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NanomechanicalBackend</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="helpers.html">Helper Files</a> &raquo;</li>
+        
+      <li>ClusteringHelper</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/ClusteringHelper.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-ClusteringHelper">
+<span id="clusteringhelper"></span><h1>ClusteringHelper<a class="headerlink" href="#module-ClusteringHelper" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="ClusteringHelper.order_clusters">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">order_clusters</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">clustered_data_df</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.order_clusters" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – A DataFrame representation of all of the raw data we are reading</p></li>
+<li><p><strong>clustered_data_df</strong> – A DataFrame representation of all of the clustered data we are reading</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A new DataFrame which stores the new clustered values along with the original data</p>
+</dd>
+</dl>
+<p>Orders the clusters so they correlate with their original hardness values</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_agglomerative">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_agglomerative</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">num_clusters</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">linkage</span><span class="o">=</span><span class="default_value">'ward'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_agglomerative" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>num_clusters</strong> – The number of clusters we are clustering the data into</p></li>
+<li><p><strong>linkage</strong> – Which linkage criterion to use. The linkage criterion determines which distance to use between sets
+of observation. The algorithm will merge the pairs of cluster that minimize this criterion.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs agglomerative clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_birch">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_birch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">num_clusters</span><span class="o">=</span><span class="default_value">3</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_birch" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>num_clusters</strong> – The number of clusters we are clustering the data into</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs birch clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_clustering">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_clustering</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">clustering_details</span><span class="o">=</span><span class="default_value">{'num_clusters': '3', 'random_state': '0'}</span></em>, <em class="sig-param"><span class="n">clustering_method</span><span class="o">=</span><span class="default_value">'K Means'</span></em>, <em class="sig-param"><span class="n">additional_outlier_clusters</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_clustering" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data we are clustering</p></li>
+<li><p><strong>clustering_details</strong> – The details involving the method of clustering we are doing</p></li>
+<li><p><strong>clustering_method</strong> – The clustering method we are using</p></li>
+<li><p><strong>additional_outlier_clusters</strong> – Whether or not to make any outliers separate clusters, with one cluster
+on either side of the set of clusters</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The clustered data based on the data_df column</p>
+</dd>
+</dl>
+<p>Performs clustering on the data inside the data_df based off of the clustering method and details. It calls
+the necessary clustering method helper to perform it’s clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_dbscan">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_dbscan</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">eps</span><span class="o">=</span><span class="default_value">0.75</span></em>, <em class="sig-param"><span class="n">min_samples</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">algorithm</span><span class="o">=</span><span class="default_value">'auto'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_dbscan" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>eps</strong> – The maximum distance between two samples for one to be considered as in the neighborhood of the other.
+This is not a maximum bound on the distances of points within a cluster.
+This is the most important DBSCAN parameter to choose appropriately for your data set and distance function.</p></li>
+<li><p><strong>min_samples</strong> – The number of samples (or total weight) in a neighborhood for a point to be considered as a
+core point. This includes the point itself.</p></li>
+<li><p><strong>algorithm</strong> – The algorithm to be used by the NearestNeighbors module to compute pointwise distances and find
+nearest neighbors. See NearestNeighbors module documentation for details.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs DBSCAN clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_decon">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_decon</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">m_val</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">max_iter</span><span class="o">=</span><span class="default_value">1500</span></em>, <em class="sig-param"><span class="n">limit</span><span class="o">=</span><span class="default_value">1e-06</span></em>, <em class="sig-param"><span class="n">label</span><span class="o">=</span><span class="default_value">'Hardness'</span></em>, <em class="sig-param"><span class="n">show_plots</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_plots</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_dir</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">cluster_iter</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">cluster_name</span><span class="o">=</span><span class="default_value">''</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_decon" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>m_val</strong> – The number of clusters we are clustering the data into</p></li>
+<li><p><strong>max_iter</strong> – The max number of iterations to run the deconvolution method with, should be an integer,
+1500 by default</p></li>
+<li><p><strong>limit</strong> – The limit or degree of precision we are using, it is a value used in the decon method to check if a
+solution is valid or not</p></li>
+<li><p><strong>label</strong> – The column we are using for analysis, can be ‘Hardness’ for example</p></li>
+<li><p><strong>show_plots</strong> – A boolean of whether or not to show the plots</p></li>
+<li><p><strong>save_plots</strong> – A boolean of whether or not to save the plots</p></li>
+<li><p><strong>save_dir</strong> – The directory to save the plots in</p></li>
+<li><p><strong>cluster_iter</strong> – The iteration of this cluster configuration</p></li>
+<li><p><strong>cluster_name</strong> – The name of this cluster configuration</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs Deconvolution clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_hdbscan">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_hdbscan</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">metric</span><span class="o">=</span><span class="default_value">'euclidean'</span></em>, <em class="sig-param"><span class="n">min_cluster_size</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">min_samples</span><span class="o">=</span><span class="default_value">200</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_hdbscan" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>min_samples</strong> – </p></li>
+<li><p><strong>min_cluster_size</strong> – </p></li>
+<li><p><strong>metric</strong> – </p></li>
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs HDBSCAN clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_k_means">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_k_means</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">num_clusters</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">random_state</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_k_means" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>num_clusters</strong> – The number of clusters we are clustering the data into</p></li>
+<li><p><strong>random_state</strong> – The random seed the environment is set to before clustering. The method uses randomness so
+this allows for reproducibility</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs K Means clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_k_medoids">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_k_medoids</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">num_clusters</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">init</span><span class="o">=</span><span class="default_value">'random'</span></em>, <em class="sig-param"><span class="n">random_state</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_k_medoids" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>num_clusters</strong> – The number of clusters we are clustering the data into</p></li>
+<li><p><strong>init</strong> – Specify medoid initialization method. ‘random’ selects n_clusters elements from the dataset.
+‘heuristic’ picks the n_clusters points with the smallest sum distance to every other point. ‘k-medoids++’
+follows an approach based on k-means++_, and in general, gives initial medoids which are more separated than
+those generated by the other methods. ‘build’ is a greedy initialization of the medoids used in the original PAM
+algorithm. Often ‘build’ is more efficient but slower than other initializations on big datasets and it is
+also very non-robust, if there are outliers in the dataset, use another initialization.</p></li>
+<li><p><strong>random_state</strong> – The random seed the environment is set to before clustering. The method uses randomness so
+this allows for reproducibility</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs K Medoids clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_optics">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_optics</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">eps</span><span class="o">=</span><span class="default_value">inf</span></em>, <em class="sig-param"><span class="n">min_samples</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">algorithm</span><span class="o">=</span><span class="default_value">'auto'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_optics" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>eps</strong> – The maximum distance between two samples for one to be considered as in the neighborhood of the other.
+By default it assumes the same value as max_eps. Used only when cluster_method=’dbscan’.</p></li>
+<li><p><strong>min_samples</strong> – The number of samples in a neighborhood for a point to be considered as a core point.
+Also, up and down steep regions can’t have more than min_samples consecutive non-steep points.
+Expressed as an absolute number or a fraction of the number of samples (rounded to be at least 2).</p></li>
+<li><p><strong>algorithm</strong> – Algorithm used to compute the nearest neighbors</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs OPTICS clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.perform_spectral">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">perform_spectral</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">num_clusters</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">assign_labels</span><span class="o">=</span><span class="default_value">'discretize'</span></em>, <em class="sig-param"><span class="n">affinity</span><span class="o">=</span><span class="default_value">'rbf'</span></em>, <em class="sig-param"><span class="n">random_state</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.perform_spectral" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The data being clustered</p></li>
+<li><p><strong>num_clusters</strong> – The number of clusters we are clustering the data into</p></li>
+<li><p><strong>assign_labels</strong> – The strategy to use to assign labels in the embedding space. There are two ways to assign
+labels after the laplacian embedding. k-means can be applied and is a popular choice. But it can also be
+sensitive to initialization. Discretization is another approach which is less sensitive to random
+initialization.</p></li>
+<li><p><strong>affinity</strong> – How to construct the affinity matrix.</p></li>
+<li><p><strong>random_state</strong> – The random seed the environment is set to before clustering. The method uses randomness so
+this allows for reproducibility</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Clustered data</p>
+</dd>
+</dl>
+<p>Performs Spectral clustering</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="ClusteringHelper.transform_to_df">
+<code class="sig-prename descclassname">ClusteringHelper.</code><code class="sig-name descname">transform_to_df</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ClusteringHelper.transform_to_df" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data_list</strong> – A list representation of the data</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A DataFrame made up of the list taken into the method</p>
+</dd>
+</dl>
+<p>Transforms the list into a DataFrame with the appropriate column name</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ContourPlotHelper.html" class="btn btn-neutral float-right" title="ContourPlotHelper" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ClusteringComparisonHelper.html" class="btn btn-neutral float-left" title="ClusteringComparisonHelper" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Christopher Vieira and Eric Schmid
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

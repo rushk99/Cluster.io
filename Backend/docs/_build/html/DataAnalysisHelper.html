@@ -1,0 +1,374 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>DataAnalysisHelper &mdash; NanomechanicalBackend V 0.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="DataCollectionHelper" href="DataCollectionHelper.html" />
+    <link rel="prev" title="ContourPlotHelper" href="ContourPlotHelper.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> NanomechanicalBackend
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="helpers.html">Helper Files</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="AllClusteringAnalysisEfficientServer.html">AllClusteringAnalysisEfficientServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BinHelper.html">BinHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CHI.html">CHI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ClusteringComparisonHelper.html">ClusteringComparisonHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ClusteringHelper.html">ClusteringHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ContourPlotHelper.html">ContourPlotHelper</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">DataAnalysisHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DataCollectionHelper.html">DataCollectionHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DBI.html">DBI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeconHelper.html">DeconHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeconPhaseHelper.html">DeconPhaseHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DirectoryManagerHelper.html">DirectoryManagerHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Errors.html">Errors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ExcelFileReaderHelper.html">ExcelFileReaderHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MainCallable.html">MainCallable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MaxAreaRectangle.html">MaxAreaRectangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PDFHelper.html">PDFHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PreProcessingHelper.html">PreProcessingHelper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RemoveOutliers.html">RemoveOutliers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SilhouetteCoefficient.html">SilhouetteCoefficient</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StringDefinitionsHelper.html">StringDefinitionsHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="server_files.html">Server Files</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NanomechanicalBackend</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="helpers.html">Helper Files</a> &raquo;</li>
+        
+      <li>DataAnalysisHelper</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/DataAnalysisHelper.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-DataAnalysisHelper">
+<span id="dataanalysishelper"></span><h1>DataAnalysisHelper<a class="headerlink" href="#module-DataAnalysisHelper" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="DataAnalysisHelper.perform_analysis">
+<code class="sig-prename descclassname">DataAnalysisHelper.</code><code class="sig-name descname">perform_analysis</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">x_df</span></em>, <em class="sig-param"><span class="n">y_df</span></em>, <em class="sig-param"><span class="n">clustered_data</span></em>, <em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">show_contour_clustered</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">show_contour_raw</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">show_bar</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">cluster_name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">cluster_iter</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">save_clustered_contour</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_dir</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">give_cluster_report</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">print_to_console</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">print_to_text_file</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">text_file_name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">clusters_save_dir</span><span class="o">=</span><span class="default_value">'/ClusterPlots'</span></em>, <em class="sig-param"><span class="n">cluster_histogram_dir</span><span class="o">=</span><span class="default_value">'/ClusterInfoHistograms'</span></em>, <em class="sig-param"><span class="n">save_cluster_histograms</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_clustered_data</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">clustered_data_dir</span><span class="o">=</span><span class="default_value">'/ClusteredData'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataAnalysisHelper.perform_analysis" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The original data we are clustering off of</p></li>
+<li><p><strong>x_df</strong> – The x values of the dataset</p></li>
+<li><p><strong>y_df</strong> – The y values of the dataset</p></li>
+<li><p><strong>clustered_data</strong> – The clustered data from the original dataset</p></li>
+<li><p><strong>prop</strong> – The property we are showing off, something like Hardness for example</p></li>
+<li><p><strong>show_contour_clustered</strong> – A boolean of whether or not to show the contour plots</p></li>
+<li><p><strong>show_contour_raw</strong> – A boolean of whether or not to show the contour plots</p></li>
+<li><p><strong>show_bar</strong> – A boolean of whether or not to show the bar graphs</p></li>
+<li><p><strong>cluster_name</strong> – The name of the cluster</p></li>
+<li><p><strong>cluster_iter</strong> – The iteration of the cluster</p></li>
+<li><p><strong>save_clustered_contour</strong> – A boolean of whether or not to save the clustered contour plot</p></li>
+<li><p><strong>save_dir</strong> – The directory to save the figures to ######### Deprecated #########</p></li>
+<li><p><strong>give_cluster_report</strong> – A boolean of whether or not to print out a report of the clusters’ details</p></li>
+<li><p><strong>print_to_console</strong> – A boolean of whether or not to print out information to the console</p></li>
+<li><p><strong>print_to_text_file</strong> – A boolean of whether or not to print out information to a text file</p></li>
+<li><p><strong>text_file_name</strong> – The file path to save the text file to</p></li>
+<li><p><strong>clusters_save_dir</strong> – The directory to save the contour plots to</p></li>
+<li><p><strong>cluster_histogram_dir</strong> – The directory to save the histograms which highlight cluster fractions to</p></li>
+<li><p><strong>save_cluster_histograms</strong> – A boolean of whether or not to save the clustered data’s histogram representation</p></li>
+<li><p><strong>save_clustered_data</strong> – A boolean of whether or not to save the clustered data</p></li>
+<li><p><strong>clustered_data_dir</strong> – The directory to store the clustered data inside of</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing at the moment</p>
+</dd>
+</dl>
+<p>Performs the data analysis associated with the given data and clustered results.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="DataAnalysisHelper.plot_clustered_data">
+<code class="sig-prename descclassname">DataAnalysisHelper.</code><code class="sig-name descname">plot_clustered_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x_df</span></em>, <em class="sig-param"><span class="n">y_df</span></em>, <em class="sig-param"><span class="n">clustered_data</span></em>, <em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">cluster_name</span></em>, <em class="sig-param"><span class="n">cluster_iter</span></em>, <em class="sig-param"><span class="n">save_clustered_contour</span></em>, <em class="sig-param"><span class="n">save_dir</span></em>, <em class="sig-param"><span class="n">show_contour_clustered</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">clusters_save_dir</span><span class="o">=</span><span class="default_value">'/ClusterPlots'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataAnalysisHelper.plot_clustered_data" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x_df</strong> – The x values of the data</p></li>
+<li><p><strong>y_df</strong> – The y values of the data</p></li>
+<li><p><strong>clustered_data</strong> – The clustered result of the data</p></li>
+<li><p><strong>prop</strong> – The property we are clustering on</p></li>
+<li><p><strong>cluster_name</strong> – The name of the cluster</p></li>
+<li><p><strong>cluster_iter</strong> – The iteration of the cluster</p></li>
+<li><p><strong>save_clustered_contour</strong> – A boolean of whether or not to save the clustered contour plot</p></li>
+<li><p><strong>save_dir</strong> – The directory to save the figures to ####### DEPRECATED ######</p></li>
+<li><p><strong>show_contour_clustered</strong> – Whether or not to show the contour plot</p></li>
+<li><p><strong>clusters_save_dir</strong> – The directory to save the contour plots to</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing at the moment</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="DataAnalysisHelper.plot_clusters_fractions">
+<code class="sig-prename descclassname">DataAnalysisHelper.</code><code class="sig-name descname">plot_clusters_fractions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_results</span></em>, <em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">show_bar</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">save_cluster_histograms</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">cluster_histogram_dir</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">cluster_name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">cluster_iter</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataAnalysisHelper.plot_clusters_fractions" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cluster_results</strong> – The results of a clustering algorithm, storing the clustered data inside of a
+DataFrame</p></li>
+<li><p><strong>prop</strong> – The property we are clustering</p></li>
+<li><p><strong>show_bar</strong> – A boolean of whether to show the bar graph or not</p></li>
+<li><p><strong>save_cluster_histograms</strong> – A boolean of whether to save the bar graph or not</p></li>
+<li><p><strong>cluster_histogram_dir</strong> – A directory to save the file to if we are saving it</p></li>
+<li><p><strong>cluster_name</strong> – The name of the clustering configuration we are using</p></li>
+<li><p><strong>cluster_iter</strong> – The iteration of the clustering configuration we are using</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing</p>
+</dd>
+</dl>
+<p>Plots the fraction of data inside of each cluster in the cluster_results DataFrame</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="DataAnalysisHelper.plot_raw_data">
+<code class="sig-prename descclassname">DataAnalysisHelper.</code><code class="sig-name descname">plot_raw_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">x_df</span></em>, <em class="sig-param"><span class="n">y_df</span></em>, <em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataAnalysisHelper.plot_raw_data" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – The DataFrame of data we are clustering</p></li>
+<li><p><strong>x_df</strong> – The x values of the data</p></li>
+<li><p><strong>y_df</strong> – The y values of the data</p></li>
+<li><p><strong>prop</strong> – The property we are actually clustering</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing at the moment</p>
+</dd>
+</dl>
+<p>Plots the raw data we read in as a contour plot</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="DataAnalysisHelper.print_cluster_details">
+<code class="sig-prename descclassname">DataAnalysisHelper.</code><code class="sig-name descname">print_cluster_details</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_df</span></em>, <em class="sig-param"><span class="n">clustered_data_df</span></em>, <em class="sig-param"><span class="n">cluster_name</span></em>, <em class="sig-param"><span class="n">print_to_console</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">print_to_text_file</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">text_file_name</span><span class="o">=</span><span class="default_value">''</span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataAnalysisHelper.print_cluster_details" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_df</strong> – A DataFrame representation of all of the raw data we are reading</p></li>
+<li><p><strong>clustered_data_df</strong> – A DataFrame representation of all of the clustered data we are reading</p></li>
+<li><p><strong>cluster_name</strong> – The name of the clustering configuration we are running</p></li>
+<li><p><strong>print_to_console</strong> – A boolean of whether or not to print out information to the console</p></li>
+<li><p><strong>print_to_text_file</strong> – A boolean of whether or not to print out information to a text file</p></li>
+<li><p><strong>text_file_name</strong> – The file path to save the text file to</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing</p>
+</dd>
+</dl>
+<p>Print the mean, fractions, and standard deviations of each cluster
+Mean - Mean value of all elements in a cluster
+Standard Deviation - Standard deviation of all elements in a cluster
+Fraction - The fraction of the whole data set which is in this cluster</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="DataAnalysisHelper.save_data">
+<code class="sig-prename descclassname">DataAnalysisHelper.</code><code class="sig-name descname">save_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">clustered_data</span></em>, <em class="sig-param"><span class="n">clustered_data_dir</span></em>, <em class="sig-param"><span class="n">cluster_name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">cluster_iteration</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#DataAnalysisHelper.save_data" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>clustered_data</strong> – The clustered data DataFrame we are saving</p></li>
+<li><p><strong>clustered_data_dir</strong> – The directory we are saving the clustered data to</p></li>
+<li><p><strong>cluster_name</strong> – The name of the clustering configuration we are running</p></li>
+<li><p><strong>cluster_iteration</strong> – The iteration of the current clustering configuration</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nothing</p>
+</dd>
+</dl>
+<p>A helper method that is used for saving the data to a certain directory in a .xlsx file</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="DataCollectionHelper.html" class="btn btn-neutral float-right" title="DataCollectionHelper" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ContourPlotHelper.html" class="btn btn-neutral float-left" title="ContourPlotHelper" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Christopher Vieira and Eric Schmid
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+http://127.0.0.1:8000/graphql/
+
+backend server_files directory
+uvicorn server:app
+
+yarn start in the frontend directory
+
+How to see the frontend web page
+http://localhost:3000
+

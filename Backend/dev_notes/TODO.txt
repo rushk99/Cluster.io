@@ -1,0 +1,64 @@
+Preprocessing Helper
+- Always remove nulls or attempt to
+- Optional removal of outliers
+- Storing preprocessed data? Probably not but something to maybe think about
+
+Clustering Helper
+- Takes in the necessary clustering method along with specifications
+- Returns the clustered data
+- Enum class which holds all clustering method identifiers
+    - JSON sends in an integer value
+- Global JSON data structure
+    - One that has all possible options
+    - Another that we read to determine what to do
+- GraphQL
+- Possibility of passing list of configurations in order to run multiple clustering algorithms
+- String library class
+    - JSON is interpreted and built off of this
+- Dictionary for each clustering method
+
+Post Processing / Analysis Helper
+- Plots the contour plots
+- Returns the fractions of data in each cluster
+- Saves the clustered data in a csv?
+
+Progress for this week:
+- Finish entire preprocessing, clustering, and post processing / analysis process
+- Throw together several scripts which test this with several differently formatted data file, clustering methods,
+and variations of those clustering methods to show off at the next meeting
+- Create custom error messages
+
+
+How Classes Interact:
+
+MainCallable.py - main executable to run
+    DataCollectionHelper.py - Uses ExcelFileReaderHelper, provides main callable with necessary data
+    PreProcessingHelper.py - PreProcesses the data for main callable
+    ClusteringHelper.py - Handles all data clustering or calls classes to cluster the data for main callable
+    DataAnalysisHelper.py - Analyzes all of the data gathered through clustering for main callable
+
+Error Codes:
+    -50 - You input an invalid clustering name or a name that is not currently supported
+
+
+
+
+
+6/10/2021
+- Separate everything into directory structure
+    * import os
+    * is_dir
+    * mk_dir
+* Option to show plots and to save them
+    * If save or show then run code
+* Use date / time as a unique identifier
+* Find a way to keep track of the number of trials
+* Rand index visual should be incorporated for all clusters which contain the same clusters
+    * [1, 2, 3] and [1, 2, 3], not [2, 3, 4] or [-1, 0, 1]
+- Option to have outliers be their own cluster
+- Research outlier identification methods
+- Look into Bryer's projects for nanomechanical mapping
+- Add directory responsible for holding the fraction bar graphs
+- Save raw contour plot
+
+
